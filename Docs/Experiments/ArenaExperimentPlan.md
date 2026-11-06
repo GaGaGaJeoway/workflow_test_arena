@@ -181,6 +181,16 @@ Unity 6000.0.31f1 的 Editor 驗證確認場景可重開、Sprite 參照可解�
 
 現有素材足以先搭出可反覆調整的動線。這輪驗證場景幾何與素材引用。玩家能否直覺辨認出口、角色移動及碰撞尚未驗證，Unity Test Runner 執行零項。
 
+## Arena 快速驗證流程改善
+
+歷史日誌可區分三種問題。Bee 仍引用已移除的探針而回報 CS2001。批次匯入後，既有 Ink JSON 仍可能是上一輪的產物。場景卸載後，探針若沿用舊的互動元件會間接引用已銷毀的相機。這些情況各有對應的處理與回報。
+
+跨場景探針固定在 Editor 目錄，透過 SessionState 在完整網域重載後接續。探針明確重編本輪用到的 Ink，檢查結果後進入 PlayMode，切換時從目前場景取得相機與互動元件。PowerShell 啟動器要求退出碼 0 與完成標記。只在非零退出且 C# 診斷全為已消失的 Assets 來源檔時重試一次，保留兩份日誌和 Library。
+
+五份歷史日誌分類與三個替身程序測試通過。真實 Unity 6000.0.31f1 的跨場景檢查在 Editor 模式連續兩輪通過，每輪 4 個驗證標記，涵蓋訊號傳遞、兩條登船路線與重玩。Ferry 單場景另通過場景與兩條原路線共 3 個標記。批次授權錯誤需要另用可正常啟動的 Editor 模式。替身測試只覆蓋啟動器的分流，尚未證明 Bee 在所有工作樹都會自行修復。
+
+完整實驗程式與場景已推至 [私人 UnityTest2DProject 實驗分支](https://github.com/GaGaGaJeoway/UnityTest2DProject/tree/codex/arena-experiments)。此 PR 保留公開 Markdown 記錄。相關進展也記錄於 [設計倉庫 Issue #22](https://github.com/GaGaGaJeoway/Workflow_instruction_for_2D_game/issues/22)。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

@@ -126,7 +126,11 @@ ARENA_GAME_VIEW_FULL PASS: ticket-window, notice-board, ticket-window
 
 階段實驗完成後，從 [Issue #1](https://github.com/GaGaGaJeoway/workflow_test_arena/issues/1) 挑出既有原型的選取規則重跑。驗證使用原型的隔離歷史提交 `a633d92` 與 Unity 6000.6.2f1。首次執行停在 Burst 編譯服務啟動，未產生測試結果。停用 Burst 後重跑，263.69 秒、退出碼 0。Unity Test Runner 共 5 通過、0 失敗、0 跳過。
 
-EXP001-T01–T05 分別通過無碰撞器選取、重疊選最前層、裝飾與停用物件不攔截、最前層超出範圍時不選後方物件，以及透明像素仍屬矩形邊界。T06 的 Editor 場景重開與 PlayMode 滑鼠驗收尚未執行。這批證據適用於歷史原型，可用來決定是否值得在現行實驗場景整合，Issue 保持開啟。
+EXP001-T01–T05 分別通過無碰撞器選取、重疊選最前層、裝飾與停用物件不攔截、最前層超出範圍時不選後方物件，以及透明像素仍屬矩形邊界。
+
+T06 在同一歷史提交與 Unity 6000.6.2f1 的隔離工作樹通過。探針修改場景副本的排序值，儲存、切換場景再重開，確認編輯結果保留。進入 PlayMode 後以 Input System 注入滑鼠點擊，原型只回報 `selected front; Out of interaction range.`。停用 Burst 的成功輪耗時 19.11 秒、退出碼 0，Unity Test Runner 1 通過、0 失敗、0 跳過。前幾輪的摩擦在批次 Game View 焦點及探針的日誌篩選與設定還原。成功輪暫時讓滑鼠事件不受 Game View 焦點限制，結束前恢復設定。
+
+T01–T06 共 6 項歷史原型本機驗收已完成。實體滑鼠、畫面與現行 Arena 整合尚未驗證。保留既有原型作為後續選取方案的依據，等玩法需要無碰撞器熱區時再評估整合。Issue 保持開啟以供追蹤。
 
 ## 請審查
 

@@ -191,6 +191,20 @@ Unity 6000.0.31f1 的 Editor 驗證確認場景可重開、Sprite 參照可解�
 
 完整實驗程式與場景已推至 [私人 UnityTest2DProject 實驗分支](https://github.com/GaGaGaJeoway/UnityTest2DProject/tree/codex/arena-experiments)。此 PR 保留公開 Markdown 記錄。相關進展也記錄於 [設計倉庫 Issue #22](https://github.com/GaGaGaJeoway/Workflow_instruction_for_2D_game/issues/22)。
 
+## EXP-0025　走過林間岔路
+
+**問題**　EXP-0024 的場景能否從可編輯佈景變成可操作的空間。在原場景加入從入口出發的角色和岔路正上方的實體障礙。沿用既有 Input System 的 Move 綁定，使用 Rigidbody2D 移動。左右支路維持原配置。
+
+| PlayMode 檢查 | 結果 |
+| --- | --- |
+| 入口經岔路走到西側電報柱 | 通過 |
+| 入口經岔路走到東側舊屋 | 通過 |
+| 持續向上朝障礙行進 | 通過，角色停在障礙碰撞面前 |
+
+Unity 6000.0.31f1 的隔離 Editor 注入虛擬鍵盤事件，由既有 Move Action、角色 FixedUpdate 及 Physics2D 實際推進。三項檢查通過、零失敗，Unity Test Runner 執行零項。場景配置先另行確認入口位置、兩條路徑避開障礙，以及角色與障礙均有實體碰撞器。前兩次啟動遇到授權服務問題，使用同一隔離工作樹重試後完成。
+
+此結果回應設計倉庫 Issue #21 的小型 Vertical Slice 候選中，場景能否成為可操作空間的問題。出口目前是路標。人工方向辨識、實體鍵盤與出口轉場未驗證。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

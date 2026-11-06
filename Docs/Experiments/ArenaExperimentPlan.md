@@ -109,6 +109,19 @@ ARENA_GAME_VIEW_FULL PASS: ticket-window, notice-board, ticket-window
 
 結果屬 Unity 6000.0.31f1 的 Codex 本地回報，執行提交 `6906565`。本輪支持兩場景、單旗標流程的可行性，主要返工是測試啟動環境。Unity Test Runner 執行零項，獨立 Player 與存檔恢復未驗證。
 
+## EXP-0020　獨立 Windows Player
+
+**問題**　EXP-0019 的跨場景交接能否在 Unity Editor 之外成立，首次打包需要多少等待。
+
+只打包訊號亭與夜渡候船室，並給實驗 Player 獨立的產品名稱。以 Unity 6000.0.31f1 和本機 Windows x64 執行。
+
+| 步驟 | 耗時 | 結果 |
+| --- | --- | --- |
+| 重跑建置 | 452.74 秒，BuildPipeline 324.19 秒 | 退出碼 0，建置報告 0 個錯誤。前一輪中斷於 shader 編譯，這輪的主要等待也在打包與 shader 編譯。 |
+| 執行獨立 Player | 11.18 秒 | 退出碼 0，4 通過、0 失敗。確認啟動場景、首次點擊留在訊號亭、再次點擊切場景並帶入旗標、直接重載夜渡時恢復預設開場。 |
+
+探針透過 Input System 注入滑鼠事件。Player 以無圖形模式執行，日誌出現 URP fallback shader 訊息。這次確認單機兩場景交接的可行性，視覺呈現、存檔、CI 和跨機重跑未驗證。Unity Test Runner 執行零項。日常改稿沿用較快的 Editor 檢查，需要驗證打包邊界時再建置 Player。結果屬 Codex 本地回報，來源提交 `6906565`。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

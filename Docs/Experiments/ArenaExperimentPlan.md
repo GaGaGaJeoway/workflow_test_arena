@@ -122,6 +122,12 @@ ARENA_GAME_VIEW_FULL PASS: ticket-window, notice-board, ticket-window
 
 探針透過 Input System 注入滑鼠事件。Player 以無圖形模式執行，日誌出現 URP fallback shader 訊息。這次確認單機兩場景交接的可行性，視覺呈現、存檔、CI 和跨機重跑未驗證。Unity Test Runner 執行零項。日常改稿沿用較快的 Editor 檢查，需要驗證打包邊界時再建置 Player。結果屬 Codex 本地回報，來源提交 `6906565`。
 
+## Issue #1　Sprite Bounds 選取回驗
+
+階段實驗完成後，從 [Issue #1](https://github.com/GaGaGaJeoway/workflow_test_arena/issues/1) 挑出既有原型的選取規則重跑。驗證使用原型的隔離歷史提交 `a633d92` 與 Unity 6000.6.2f1。首次執行停在 Burst 編譯服務啟動，未產生測試結果。停用 Burst 後重跑，263.69 秒、退出碼 0。Unity Test Runner 共 5 通過、0 失敗、0 跳過。
+
+EXP001-T01–T05 分別通過無碰撞器選取、重疊選最前層、裝飾與停用物件不攔截、最前層超出範圍時不選後方物件，以及透明像素仍屬矩形邊界。T06 的 Editor 場景重開與 PlayMode 滑鼠驗收尚未執行。這批證據適用於歷史原型，可用來決定是否值得在現行實驗場景整合，Issue 保持開啟。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

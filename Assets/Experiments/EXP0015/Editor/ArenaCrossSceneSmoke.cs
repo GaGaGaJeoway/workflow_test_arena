@@ -99,6 +99,9 @@ public static class ArenaCrossSceneSmoke
         var sourceBridge = sourceCamera.GetComponent<RainyStopInk>();
         Require(interaction != null && sourceBridge != null, "Departure camera is missing its interaction or Ink bridge.");
         oldInputSettings = InputSystem.settings;
+        // Input System destroys transient settings when they are replaced.
+        if (oldInputSettings.hideFlags == HideFlags.HideAndDontSave)
+            oldInputSettings = UnityEngine.Object.Instantiate(oldInputSettings);
         oldRunInBackground = Application.runInBackground;
         inputSettingsChanged = true;
         var settings = UnityEngine.Object.Instantiate(oldInputSettings);
@@ -175,9 +178,9 @@ public static class ArenaCrossSceneSmoke
                         Require(((string)dialogue.GetValue(bridge)).Contains("你踏上浮橋") && directStory.currentChoices.Count == 1, "Notice boarding should show one replay choice.");
                         VerifyEnding(bridge, cam, directInteraction, mouse, dialogue, story);
                         Debug.Log("ARENA_SMOKE PASS direct ticket and boarding");
-                        Debug.Log("ARENA_SMOKE COMPLETE");
                         EditorApplication.update -= CheckDirectEntry;
                         RestoreSettings();
+                        Debug.Log("ARENA_SMOKE COMPLETE");
                         EditorApplication.Exit(0);
                     }
                     catch (Exception error) { EditorApplication.update -= CheckDirectEntry; Fail(error); }
@@ -229,8 +232,8 @@ public static class ArenaCrossSceneSmoke
             SessionState.EraseBool(RestoreOptionsKey);
         }
         if (!inputSettingsChanged) return;
-        InputSystem.settings = oldInputSettings;
-        Application.runInBackground = oldRunInBackground;
         inputSettingsChanged = false;
+        Application.runInBackground = oldRunInBackground;
+        InputSystem.settings = oldInputSettings;
     }
 }

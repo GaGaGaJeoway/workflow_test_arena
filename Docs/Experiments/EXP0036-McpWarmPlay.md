@@ -1,6 +1,6 @@
 # EXP-0036 — original-project warm MCP Play workflow
 
-Status: scoped MCP case passed; final editor/state freshness is BLOCKED_MCP. Executed after EXP-0035 closeout, with no new project or CLI fallback.
+Status: scoped MCP case passed; user-confirmed same-project bridge reconnection restored current fresh readiness. The earlier post-Play stale-state cause remains unconfirmed. Executed after EXP-0035 closeout, with no new project or CLI fallback.
 
 Question: can the designated existing 2D project complete a useful Play check through MCP using its current Editor/cache, without a replacement project or CLI fallback?
 
@@ -38,8 +38,16 @@ Two same-prefix temp directories were seen after the test, with no pre-run direc
 
 A real MCP PlayMode test can run in the designated existing project using its warm Editor/cache. This supports that limited execution path, not retrospective MCP acceptance of the delivered Arena scenes (the selected case exercises the original project's existing clinic/Ink flow). GitHub can inspect this record; execution remains local reported evidence, not GitHub CI or independent reproduction.
 
-The post-Play stale resource is a concrete workflow blocker. Under the implementation guide, no further Unity commands were sent after the one allowed instance/ping recovery attempt failed to produce a fresh state. Reconnect the bridge in the same original Editor, then verify project identity plus a fresh ready snapshot before another experiment. Do not reinstall/upgrade the plugin, restart into a different project, clear caches or switch to CLI to hide the stale state.
+The post-Play stale resource was a concrete workflow blocker. Under the implementation guide, no further Unity commands were sent after the one allowed instance/ping recovery attempt failed to produce a fresh state, until the user confirmed reconnecting the original project bridge. Reconnect the bridge in the same original Editor, then verify project identity plus a fresh ready snapshot before another experiment. Do not reinstall/upgrade the plugin, restart into a different project, clear caches or switch to CLI to hide the stale state.
 
 The first attempt to read broad reflection metadata through execute_code returned failure without diagnostics; simpler fixed-type/script reads succeeded via the same MCP connection. A single tool failure was not treated as evidence that all MCP operations were unavailable.
 
-This experiment is complete as a narrow baseline measurement with an explicit remaining freshness blocker. No full-game/manual UI acceptance, player-save migration, new gameplay feature or formal policy change is claimed.
+This experiment is complete as a narrow baseline measurement; current readiness has recovered, with the post-Play freshness cause still open. No full-game/manual UI acceptance, player-save migration, new gameplay feature or formal policy change is claimed.
+
+## Same-project reconnection verification — 2026-11-07
+
+After the user reported Disconnect → Connect in the original Editor, read-only MCP checks confirmed the same exact project/Unity/instance and clean04_WoodsPursuit scene. Three state snapshots had advancing observation timestamps over approximately109.6s, with stale=false and ready_for_tools=true (ages310/102/300ms). The latest state was idle, non-Play, not compiling/reloading/updating and with no running test. An initial external_changes_dirty flag cleared in later snapshots; no refresh or compilation was requested by this verification. A domain reload occurred between the first two snapshots, so the sequence reset19→4 is not used as a monotonic freshness claim.
+
+Git HEAD remained96f4520d672394e57bcee5532dca7cbed29f6258 and the26 default status rows still matched the audit. Evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/reconnect-check.json`.
+
+Current operational label: **MCP_CONNECTED_READY**. No tests were rerun, scenes modified or caches cleared. This verifies recovery now, not a permanent root-cause repair or stability after another Play cycle.

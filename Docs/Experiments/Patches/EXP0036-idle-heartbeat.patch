@@ -1,9 +1,6 @@
 --- a/Editor/Services/EditorStateCache.cs
 +++ b/Editor/Services/EditorStateCache.cs
-@@ -377,10 +377,11 @@
-                 || _lastTrackedActivityPhase != activityPhase;
- 
-             if (!hasChanges)
+@@ -380,4 +380,5 @@
              {
 -                // No state change - skip the expensive BuildSnapshot entirely.
 -                // This is the key optimization that prevents the 28ms GC spikes.
@@ -11,6 +8,3 @@
 +                _lastUpdateTimeSinceStartup = now;
 +                ForceUpdate("heartbeat");
                  return;
-             }
- 
-             // Update tracked state

@@ -340,7 +340,7 @@ Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同
 
 目標為 `K:/Game/Unity/Dave/UnityTest2DProject`、Unity6000.0.31f1、MCP10.3.0、HEAD `96f4520d672394e57bcee5532dca7cbed29f6258`／codex/scene-entry-safety＋既有dirty。只執行原有 `SceneUiIntegrationTests.NewGameLoadsClinicAndPresentsInkDialogue`；job `31a3c491912e4108ad91881373796fd8` 實跑1項通過、0失敗／跳過，case7.82秒、job wall19.655秒，Console error0。原場景04_WoodsPursuit仍active且clean，SaveService override回null，Git status26列前後相同；沒有逐檔byte比對或清理既有資料。
 
-**測後狀態與恢復**　測後editor/state在重選instance及一次telemetry ping後仍過期（age93s、ready=false），曾按指引標BLOCKED_MCP並停止後續Unity指令。使用者確認在同一原Editor重連後，3次唯讀快照的觀測時間持續前進、均fresh且ready=true，原場景clean、Git26列仍相同，目前為MCP_CONNECTED_READY。未重跑測試；過期根因及再次Play後穩定性仍未驗證。完整隔離、證據與未驗證範圍見 [EXP0036-McpWarmPlay.md](EXP0036-McpWarmPlay.md)。沒有新專案、CLI替代、正式規範修改或重要PR合併。
+**測後狀態與恢復**　測後editor/state在重選instance及一次telemetry ping後仍過期（age93s、ready=false），曾按指引標BLOCKED_MCP並停止後續Unity指令。使用者確認在同一原Editor重連後，3次唯讀快照的觀測時間持續前進、均fresh且ready=true，原場景clean、Git26列仍相同，該次重連核對為MCP_CONNECTED_READY。未重跑測試；過期根因及再次Play後穩定性仍未驗證。完整隔離、證據與未驗證範圍見 [EXP0036-McpWarmPlay.md](EXP0036-McpWarmPlay.md)。 再次單一Play追蹤1/1通過（case3.923秒／job19.003秒），但聚焦閒置快照再度過期；已回到BLOCKED_MCP。唯讀源碼核對顯示「無狀態變更不更新時間」與server兩秒過期門檻衝突，已提供未套用的單檔修補及焦點驗證選項，待使用者選擇。沒有新專案、CLI替代、正式規範修改或重要PR合併。
 
 ## 請審查
 

@@ -1,6 +1,6 @@
 # EXP-0036 — original-project warm MCP Play workflow
 
-Status: scoped MCP case passed; user-confirmed same-project bridge reconnection restored current fresh readiness. The earlier post-Play stale-state cause remains unconfirmed. Executed after EXP-0035 closeout, with no new project or CLI fallback.
+Status: gameplay cases passed, but a controlled post-reconnect Play cycle reproduced stale readiness. Current BLOCKED_MCP; installed-code diagnosis/proposed repair is documented below. Executed after EXP-0035 closeout, with no new project or CLI fallback.
 
 Question: can the designated existing 2D project complete a useful Play check through MCP using its current Editor/cache, without a replacement project or CLI fallback?
 
@@ -42,7 +42,7 @@ The post-Play stale resource was a concrete workflow blocker. Under the implemen
 
 The first attempt to read broad reflection metadata through execute_code returned failure without diagnostics; simpler fixed-type/script reads succeeded via the same MCP connection. A single tool failure was not treated as evidence that all MCP operations were unavailable.
 
-This experiment is complete as a narrow baseline measurement; current readiness has recovered, with the post-Play freshness cause still open. No full-game/manual UI acceptance, player-save migration, new gameplay feature or formal policy change is claimed.
+This narrow baseline has mixed results: reconnection temporarily restored readiness, but the later Play follow-up reproduced the stale-state blocker. No full-game/manual UI acceptance, player-save migration, new gameplay feature or formal policy change is claimed.
 
 ## Same-project reconnection verification — 2026-11-07
 
@@ -50,4 +50,20 @@ After the user reported Disconnect → Connect in the original Editor, read-only
 
 Git HEAD remained96f4520d672394e57bcee5532dca7cbed29f6258 and the26 default status rows still matched the audit. Evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/reconnect-check.json`.
 
-Current operational label: **MCP_CONNECTED_READY**. No tests were rerun, scenes modified or caches cleared. This verifies recovery now, not a permanent root-cause repair or stability after another Play cycle.
+Operational label at that reconnection check: **MCP_CONNECTED_READY**; see the later follow-up for the current blocked state. No tests were rerun, scenes modified or caches cleared. This verifies recovery now, not a permanent root-cause repair or stability after another Play cycle.
+
+## Follow-up 1 — one Play cycle after reconnection
+
+Status: one case passed; freshness failure reproduced and BLOCKED_MCP reinstated. This is a targeted check of the unresolved post-Play freshness concern, using the same existing case as a stimulus rather than adding another gameplay feature or repeating the whole suite.
+
+Predeclared observations: fresh target/idle state before the run; one exact-case MCP job; editor/state immediately after completion and near30s/90s; direct post-run Play/scene/save-override check; original Git status comparison. Record observed timestamps, stale/ready/age, sequence and any domain reload. If a checkpoint is stale, preserve it before the single allowed instances/reselect/ping recovery; if still stale, stop with BLOCKED_MCP rather than forcing more samples or switching to CLI.
+
+Current preflight confirmed the original project/version, fresh readiness, external_changes_dirty=false and the preserved26-row source state. No new project, Editor process or Library is planned. One successful cycle would support that cycle only, not prove the underlying stale-resource defect permanently repaired.
+
+### Follow-up 1 result
+
+Job `3b59af3fcd5e47f1bfd59c665fc7ceb6`:1 passed,0 failed/skipped; case3.923s, job wall19.003s. Pre-run state was fresh (age306ms, focused=false). Immediately after terminal result the cached state was focused=true, sequence15, observed1794065825581, age21.244s, stale=true/ready=false. The one permitted instances/reselect/ping recovery retained the same observation timestamp and sequence, with age50.891s. This reproduces the post-Play false-readiness/staleness concern; direct post-run MCP readings still found original scene clean and no Play/compile/import/override, with Console errors0 and matching26 Git-status rows.
+
+The30s/90s checkpoints were skipped under the stop-on-stale policy; no further Unity calls, CLI fallback or new Editor followed. A pre-run set of two existing test-temp directories was recorded and preserved; no post-run cleanup conclusion is inferred. Source fixture SHA256:591f2ae73a5ef6834cc4dfe13023d1bdefd318e8b9b4450a92c50a7e00af8a46.
+
+Evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/followup-1/summary.md` and `snapshots.json`. Read-only installed-code diagnosis and an unapplied patch proposal are in [EXP0036-StateFreshnessDiagnosis.md](EXP0036-StateFreshnessDiagnosis.md). Current operational status is **BLOCKED_MCP**; the earlier reconnect recovery is historical, not a permanent repair.

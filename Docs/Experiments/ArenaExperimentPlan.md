@@ -342,6 +342,14 @@ Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同
 
 **測後狀態與恢復**　測後editor/state在重選instance及一次telemetry ping後仍過期（age93s、ready=false），曾按指引標BLOCKED_MCP並停止後續Unity指令。使用者確認在同一原Editor重連後，3次唯讀快照的觀測時間持續前進、均fresh且ready=true，原場景clean、Git26列仍相同，該次重連核對為MCP_CONNECTED_READY。未重跑測試；過期根因及再次Play後穩定性仍未驗證。完整隔離、證據與未驗證範圍見 [EXP0036-McpWarmPlay.md](EXP0036-McpWarmPlay.md)。 再次單一Play追蹤1/1通過（case3.923秒／job19.003秒），但聚焦閒置快照再度過期；已回到BLOCKED_MCP。唯讀源碼核對顯示「無狀態變更不更新時間」與server兩秒過期門檻衝突，已提供未套用的單檔修補及焦點驗證選項，待使用者選擇。 後續被動觀察讀到失焦時fresh／ready，原插件與Git未變；視窗切換授權逾時，且connected_at也前進，故不宣稱受控焦點A/B或永久修復。 其後依單檔修補續行範圍實際套用並保留原檔備份；新編譯碼已驗證。首次編譯後job初始化逾時並正常取消，單次暖重試1/1通過（case5.114秒／job9.913秒），測後自然快照超過181秒持續fresh，插件同getter與snapshot焦點值均true。當前為MCP_CONNECTED_READY＋本機暫存修補；GC配置計數未通過正控制，配置量Unknown。完整失敗、恢復、微量測與PackageCache覆寫風險見診斷文件，不代表正式套件修復或整體QA。沒有新專案、CLI替代、正式規範修改或重要PR合併。
 
+## EXP-0037　短演出與玩家控制交接
+
+依使用者指示結束焦點／失焦反覆測試，改問短2D演出能否暫停移動、結束後交還控制並重播。重用原專案 K:/Game/Unity/Dave/UnityTest2DProject、Unity6000.0.31f1、MCP10.3.0＋已記錄本機heartbeat修補、HEAD96f4520＋既有dirty，新增獨立場景、69行Runtime元件及Animator/clip，重用Ruby圖像；未加入正式場景表或Build Settings。
+
+MCP單次Play＋記憶體observer以暫時合成鍵盤持續按D，直接呼叫BeginArrival：演出中Player位移0且Visitor前進、完成後同一輸入帶動Player、重播重設並再次完成，3項通過、0失敗。首版observer動態編譯失敗後修正，沒有執行玩法；成功observer區間約2.745 editor秒，不作精準演出時間證據。清除observer與合成裝置、正常停Play，原04_WoodsPursuit場景還原clean，MCP fresh-ready／Console error0。沒有CLI、新專案或焦點實驗。
+
+12個新增資產以獨立Git index推送private codex/arena-exp0037／3b67b575，保留原工作分支、HEAD與staged entries。公開PR提供結果、C#快照與雜湊manifest，實際測試仍是本機dirty專案；未做GitHub乾淨重建、實體Space／按鈕、Player或主流程整合。詳見 [EXP0037-ArrivalControl.md](EXP0037-ArrivalControl.md)。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

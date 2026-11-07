@@ -1,6 +1,6 @@
 # EXP-0036 — original-project warm MCP Play workflow
 
-Status: gameplay cases passed, but a controlled post-reconnect Play cycle reproduced stale readiness. Current BLOCKED_MCP; installed-code diagnosis/proposed repair is documented below. Executed after EXP-0035 closeout, with no new project or CLI fallback.
+Status: gameplay cases passed, but a controlled post-reconnect Play cycle reproduced stale readiness. Focused-idle readiness remains defective; latest passive unfocused reads are fresh. Installed-code diagnosis/proposed repair is documented below. Executed after EXP-0035 closeout, with no new project or CLI fallback.
 
 Question: can the designated existing 2D project complete a useful Play check through MCP using its current Editor/cache, without a replacement project or CLI fallback?
 
@@ -67,3 +67,7 @@ Job `3b59af3fcd5e47f1bfd59c665fc7ceb6`:1 passed,0 failed/skipped; case3.923s, jo
 The30s/90s checkpoints were skipped under the stop-on-stale policy; no further Unity calls, CLI fallback or new Editor followed. A pre-run set of two existing test-temp directories was recorded and preserved; no post-run cleanup conclusion is inferred. Source fixture SHA256:591f2ae73a5ef6834cc4dfe13023d1bdefd318e8b9b4450a92c50a7e00af8a46.
 
 Evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/followup-1/summary.md` and `snapshots.json`. Read-only installed-code diagnosis and an unapplied patch proposal are in [EXP0036-StateFreshnessDiagnosis.md](EXP0036-StateFreshnessDiagnosis.md). Current operational status is **BLOCKED_MCP**; the earlier reconnect recovery is historical, not a permanent repair.
+
+### Passive focus observation
+
+Without a new Play run or installed changes, a later focused state was still stale(age2,880.596s); two later unfocused reads were fresh/ready(age295/301ms) with advancing observed time and unchanged sequence16. A Computer Use app-approval timeout prevented a confirmed controlled window activation. Reported session ID matched but connected_at changed, so focus causality and full transport history are not established. Original scene stayed clean; plugin hash/HEAD/status were unchanged. See the diagnosis document and local focus-observation.json. Current sampled readiness is fresh when unfocused, not a verified repair of the focused-idle issue.

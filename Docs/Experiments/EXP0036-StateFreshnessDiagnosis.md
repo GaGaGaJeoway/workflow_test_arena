@@ -1,6 +1,6 @@
 # EXP-0036 — focused-idle snapshot freshness diagnosis
 
-Status: read-only diagnosis complete enough for a repair proposal; **no installed plugin/server files modified**, no permanent fix verified. Current BLOCKED_MCP. This does not change formal design policy.
+Status: read-only diagnosis complete enough for a repair proposal; **no installed plugin/server files modified**, no permanent fix verified. The latest passive observation is fresh while Unity is unfocused; the focused-idle defect remains unrepaired. This does not change formal design policy.
 
 ## Reproduction and evidence
 
@@ -33,3 +33,15 @@ This would be a temporary local edit to an installed PackageCache file, potentia
 - **Retain diagnosis without a plugin change:** leave BLOCKED_MCP and preserve all evidence. Do not repeatedly request reconnection as if it were a permanent repair.
 
 Issue23 retains approval for changes to the designated environment. No option has been silently selected, and no patch has been applied. This proposal and result are local evidence, not GitHub CI or an upstream acceptance.
+
+## Passive focus comparison (no installed changes)
+
+A later read-only continuation first returned the same focused snapshot(sequence15, observed1794065825581), now stale by2,880,596ms. Original HEAD/status rows and installed plugin source hash still matched their pins.
+
+Computer Use was attempted only to select an existing Unity Hub window and make the Editor lose focus. App approval timed out; no successful controlled activation is claimed, and no retry bypass was attempted. Subsequent MCP reads nevertheless reported focused=false and fresh readiness: sequence16, observed1794069101249/1794070431422, ages295/301ms. The original04_WoodsPursuit scene was directly read as clean. No Play, explicit reconnect, refresh, code edit or cache cleanup was requested in this continuation.
+
+The reported instance/session ID stayed the same, but instances.connected_at advanced; full connection-event history and the actual cause of focus change were not captured. The domain-reload timestamp did not change. Treat this as a **passive association**, not a controlled A/B or proof that no transport reconnection occurred.
+
+This is consistent with the installed GetSnapshot background branch, which can restamp an old clone on read. Freshness while unfocused is therefore not evidence of a permanent fix or of every cached field being resampled. external_changes_dirty remained true, and no refresh was requested. Full-snapshot/readiness correctness and the patch's GC cost remain unverified.
+
+Local evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/focus-observation.json`. Current sampled readiness is READY while unfocused; do not treat the focused-idle problem as repaired. Installed-plugin repair still requires an explicit user choice under Issue23; generic continuation has not been treated as patch approval.

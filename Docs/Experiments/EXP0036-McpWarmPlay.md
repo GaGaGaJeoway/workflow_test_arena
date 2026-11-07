@@ -1,6 +1,6 @@
 # EXP-0036 — original-project warm MCP Play workflow
 
-Status: gameplay cases passed, but a controlled post-reconnect Play cycle reproduced stale readiness. Focused-idle readiness remains defective; latest passive unfocused reads are fresh. Installed-code diagnosis/proposed repair is documented below. Executed after EXP-0035 closeout, with no new project or CLI fallback.
+Status: temporary local heartbeat repair verified in a scoped warm Play/freshness check. The first post-compile initialization timeout remains recorded; durable packaging and long-term GC/FPS are not validated.
 
 Question: can the designated existing 2D project complete a useful Play check through MCP using its current Editor/cache, without a replacement project or CLI fallback?
 
@@ -71,3 +71,11 @@ Evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/followup-1/summary.md` and `sna
 ### Passive focus observation
 
 Without a new Play run or installed changes, a later focused state was still stale(age2,880.596s); two later unfocused reads were fresh/ready(age295/301ms) with advancing observed time and unchanged sequence16. A Computer Use app-approval timeout prevented a confirmed controlled window activation. Reported session ID matched but connected_at changed, so focus causality and full transport history are not established. Original scene stayed clean; plugin hash/HEAD/status were unchanged. See the diagnosis document and local focus-observation.json. Current sampled readiness is fresh when unfocused, not a verified repair of the focused-idle issue.
+
+## Temporary repair result
+
+The reviewed single-file patch was applied with an original-byte backup and hash guard; live IL and fresh compilation were verified. First post-compile job82745f3250dd46ab94b74ce81c9de18b initialized unsuccessfully and was normally cancelled using its actual Unity run GUID, then confirmed inactive. One warm retry1440452db7354ee2a73c0599debd343d passed1/1 (case5.1135148s/job9.913s), with a new matching XML. It did not erase the failed-job record.
+
+Natural snapshots stayed fresh over181.834s; later same-call source-getter/snapshot focus checks were both true. Original scene clean, save override null, native runner inactive, source Git status rows matched. Environment is now MCP10.3.0 plus local sourceSHA f06af60c7bed9a2273f6f27fe48cb173ad3c6845860623addd16f88a766a692f; no package upgrade or cache purge occurred.
+
+The10-call snapshot microcheck took1.4837ms total. Allocation is Unknown: the thread counter also returned0 for a65536-byte positive control. No allocation-free/FPS claim is made. See [the consolidated verification](EXP0036-StateFreshnessDiagnosis.md) for source pins, both jobs, cancellation and remaining package-lifetime/initialization limits. Historical blocked/unapplied sections above describe earlier checkpoints, not the latest installation state.

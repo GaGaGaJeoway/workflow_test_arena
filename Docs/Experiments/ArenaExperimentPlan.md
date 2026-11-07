@@ -334,6 +334,14 @@ Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同
 
 **收尾界線**　最低原始資產重建與短流程執行具有本機可行性證據；暖輪啟動器未保留Process handle，OS退出碼Unknown，因此不列符合exit0+COMPLETE門檻的整輪PASS。研究階段以這項限制收尾，PR6保持Draft，未合併。日常後續回到原專案MCP；不為補這項退出碼自行重啟CLI。
 
+## EXP-0036　指定原專案的 MCP 暖 Play 流程
+
+**問題**　在既有2D專案、同一Editor／暖快取內，是否能真正透過MCP執行一個有存檔隔離的玩法檢查並恢復環境。不是替前輪CLI補成MCP通過，也不搬入歷史Arena資產。
+
+目標為 `K:/Game/Unity/Dave/UnityTest2DProject`、Unity6000.0.31f1、MCP10.3.0、HEAD `96f4520d672394e57bcee5532dca7cbed29f6258`／codex/scene-entry-safety＋既有dirty。只執行原有 `SceneUiIntegrationTests.NewGameLoadsClinicAndPresentsInkDialogue`；job `31a3c491912e4108ad91881373796fd8` 實跑1項通過、0失敗／跳過，case7.82秒、job wall19.655秒，Console error0。原場景04_WoodsPursuit仍active且clean，SaveService override回null，Git status26列前後相同；沒有逐檔byte比對或清理既有資料。
+
+**剩餘阻擋**　測後editor/state在重選instance及一次telemetry ping後仍過期（age93s、ready=false），雖直接MCP讀取可用，仍按指引標BLOCKED_MCP並停止後續Unity指令，需在同一原Editor重連橋接。完整隔離、證據與未驗證範圍見 [EXP0036-McpWarmPlay.md](EXP0036-McpWarmPlay.md)。沒有新專案、CLI替代、正式規範修改或重要PR合併。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

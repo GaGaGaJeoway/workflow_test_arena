@@ -4,1283 +4,1283 @@
   "files": [
     {
       "path": "Assets/Experiments.meta",
-      "sha256": "9fdf4202535057666b10c9a12d7d8b6fb39ff0ab2fab60f324201a2f9f79fb3b"
+      "sourceGitBlobSha1": "baa7d14f1318945d040d429044ea704b0f392031"
     },
     {
       "path": "Assets/Experiments/EXP0015.meta",
-      "sha256": "55b399a1ef52af105745779a6a2076d3c5eac93076fa8742eeaeafa9f01b74af"
+      "sourceGitBlobSha1": "49391c0570a5a22aa877fcbabf7226fb5892d00e"
     },
     {
       "path": "Assets/Experiments/EXP0015/Art.meta",
-      "sha256": "8d9378c0c041b86cdecc88088e6ccc8c480307940763be36665c02a2b813f0c8"
+      "sourceGitBlobSha1": "7faf83a11f1fe9b241556c89b529bae7ac8156a4"
     },
     {
       "path": "Assets/Experiments/EXP0015/Art/EXP0015_Block.png",
-      "sha256": "7ca6926af4ddc7b1441223eaf323b20350540e208c9910f77f0d2b6307b48c9d"
+      "sourceGitBlobSha1": "62c43d6cd3bdf408d9128b130abfab9829fcecd2"
     },
     {
       "path": "Assets/Experiments/EXP0015/Art/EXP0015_Block.png.meta",
-      "sha256": "e4a3f90565d9f9e003cb0f949272f881089cd34e34d673fe4423103f28e3cd9f"
+      "sourceGitBlobSha1": "bc9c8b76dfda1b5fe2ed6c8afff72652adfabb90"
     },
     {
       "path": "Assets/Experiments/EXP0015/Editor.meta",
-      "sha256": "8f36d47469f16714436e5c45eb1b86c3cd084c933209f9fe9b9f4e8d1a54b40f"
+      "sourceGitBlobSha1": "b88aa3acf79d397e042747c9fadc9cc71bad46c3"
     },
     {
       "path": "Assets/Experiments/EXP0015/Editor/ArenaCrossSceneSmoke.cs",
-      "sha256": "c2a8321302962204b38322c7bf2780f1bcb9e8c330d48bd5a9fd1cb03c10c568"
+      "sourceGitBlobSha1": "4e769be3d274fe1832d1e11ca234ecf8bd060de7"
     },
     {
       "path": "Assets/Experiments/EXP0015/Editor/ArenaCrossSceneSmoke.cs.meta",
-      "sha256": "b30b66c4dc47f48c14336c7d11f9f91bceca753f700e49f1b1ebd73afbe3e62a"
+      "sourceGitBlobSha1": "33e66e1a78bd8364dcbf39e6cf84694f82d4ee52"
     },
     {
       "path": "Assets/Experiments/EXP0015/RainyStopInk.cs",
-      "sha256": "bca3d1e4fb498a8322b0e7b50f7118a418aca6d92350458c0534c90e76db54c1"
+      "sourceGitBlobSha1": "99c09e6ffb245dc2488d92bb7a170acc25bc2a72"
     },
     {
       "path": "Assets/Experiments/EXP0015/RainyStopInk.cs.meta",
-      "sha256": "bfafead475b02fffa27fa73022224a65e4cd2c39b07ea94dd15c34295d6c10e3"
+      "sourceGitBlobSha1": "c19492a04bce0c2f200de6dc8a7bc37ecdc91f88"
     },
     {
       "path": "Assets/Experiments/EXP0015/RainyStopInteraction.cs",
-      "sha256": "f503a0f19cd48e8efee4a5b6ec47105cf4deb6e25c42f41a1eabbd5a354f547b"
+      "sourceGitBlobSha1": "3f0bb5ee9ec6b50012fbc58fb4ceaef7522d0ee6"
     },
     {
       "path": "Assets/Experiments/EXP0015/RainyStopInteraction.cs.meta",
-      "sha256": "cf57cdcc38cd3550b15c287de6706e3b367fdb4e0cce775ce40d70b6e9a75d1c"
+      "sourceGitBlobSha1": "56acf12fa15ec262f5f12270dfda1c4ae86aab1d"
     },
     {
       "path": "Assets/Experiments/EXP0017.meta",
-      "sha256": "7135892230b73bc38d1be45e497ead01f751dd438eafeddc7b34212256ce5cce"
+      "sourceGitBlobSha1": "35d0883e21415dc9a99e0878fd2678ced0111263"
     },
     {
       "path": "Assets/Experiments/EXP0017/Story.meta",
-      "sha256": "c59997c0067c8a3287421dc1615b7bb70281a974909f4bce58eb1cfd2582fcd0"
+      "sourceGitBlobSha1": "c6a376be61b63776094555247f480cb7a6148371"
     },
     {
       "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.ink",
-      "sha256": "e32f401a7c26361556cc894b27ce0f00b484f737d63c82c8dadd8f9413859b9d"
+      "sourceGitBlobSha1": "d16e12e6eced616167d45846aad1fd9f9cff6a66"
     },
     {
       "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.ink.meta",
-      "sha256": "29d0567e607bdbe37c11b2bea7257a6f47d706e161005a0d8210ddefd89648d1"
+      "sourceGitBlobSha1": "301a18bb22e80e497330f81cdfa37c6a993d2311"
     },
     {
       "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.json",
-      "sha256": "f2e3fef315aab3e3b31c6400d6b036d5c375f3b2f52e7baade357ea740005a0a"
+      "sourceGitBlobSha1": "7e8d915b432d980ae81827f790fc5e2b2f85f47e"
     },
     {
       "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.json.meta",
-      "sha256": "427837d1c2d214ad12cd4e58c60dfb49770531b11903d8d55fd82658260c62af"
+      "sourceGitBlobSha1": "a284458f3ce0c3758b47ff98c659e0a767703a30"
     },
     {
       "path": "Assets/Experiments/EXP0019.meta",
-      "sha256": "f4dee18fe0c3532fa3332a3801f845efc05813b09a5db97207d2e4a337f402d6"
+      "sourceGitBlobSha1": "54dd1e9e39e3617c20e5b6902cb5ffd351fcaf06"
     },
     {
       "path": "Assets/Experiments/EXP0019/SignalFerryTransfer.cs",
-      "sha256": "38dd1e974cfd8aeef79b51f483163b2cd5c2cd188389135f7625ac4b497f0f58"
+      "sourceGitBlobSha1": "9a38ef0ff7082f2f290bcb58fa9ed485b29f050b"
     },
     {
       "path": "Assets/Experiments/EXP0019/SignalFerryTransfer.cs.meta",
-      "sha256": "917110d902288a732eb84aa157458b5510ad9d78d5a7e1ee47d790bd19e0631d"
+      "sourceGitBlobSha1": "fad77113a32fe90054b41290ed6fb31cf777109f"
     },
     {
       "path": "Assets/Experiments/EXP0019/Story.meta",
-      "sha256": "b14011935f75c7c4f06a043f141505c752cc5205b66a61c1d531b6cd4e040113"
+      "sourceGitBlobSha1": "e823c7ef4816114e940f065ce3ad8eb6337b0f1c"
     },
     {
       "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.ink",
-      "sha256": "bee7e611a6a3d91524e1ca1709642569c5c9ed6e2975db0285d44e3332656446"
+      "sourceGitBlobSha1": "f7f8337023f7a240c23019c67ce8ebce5768c15b"
     },
     {
       "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.ink.meta",
-      "sha256": "ef854bdda2fd99be71eacc2f226c3bc8b33c188eb9a973c7301a123c94362e8d"
+      "sourceGitBlobSha1": "adb80d407ca42fd6b4d6ff7a76782dd88d0c839a"
     },
     {
       "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.json",
-      "sha256": "4eaa5ae0f01c39d2055736c60449e584561c05287e36e7eff14bc2e9c9663538"
+      "sourceGitBlobSha1": "a60b7870a14582af539b5e3230bc183df0071304"
     },
     {
       "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.json.meta",
-      "sha256": "fec4c742debd02d18cc0d7c025a972b80884cee7126a5da4194d1d21b619a9ae"
+      "sourceGitBlobSha1": "9479aa2ff5cedb44f84b6ff627036651ccd2fe01"
     },
     {
       "path": "Assets/Ink.meta",
-      "sha256": "b3ea6e9bf5ed673d269ad78cbf5e608746c458c59c24699a27c384cec50a865a"
+      "sourceGitBlobSha1": "ad990440b9900e09a2b0b888000b8f7f8a1970e3"
     },
     {
       "path": "Assets/Ink/Editor.meta",
-      "sha256": "f7e7099ac0b30f31422c4814666bf3c98c1d7f3a2b5a9bf35872d499ca96e757"
+      "sourceGitBlobSha1": "24acc542b96a3f9fc385cc0d811a1f89d60977dd"
     },
     {
       "path": "Assets/Ink/Editor/Core.meta",
-      "sha256": "8cf7b5e4626dc6af3edcd21a944697d09eb34839f5d5cdb15ce1464fa63cb353"
+      "sourceGitBlobSha1": "e16946ecbf25766ac76ceb159c05a3bda05812a2"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler.meta",
-      "sha256": "185ad05fd197729d0047b4e8346489c9ed073afa2c2dd53626a99fb0cc6c1f87"
+      "sourceGitBlobSha1": "3fec76db32c6a4c5dbfbb5b6c5dbe8661d6262ea"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler.meta",
-      "sha256": "9ebf6bc1a1159b2193e219298bc593c435e493a47f26e890b838ca5dbd4fda7b"
+      "sourceGitBlobSha1": "6bf1061ae865ba9fd07b08e9231b53e5402dbe14"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs",
-      "sha256": "1d49c4c5b473ed92b319b92178a69bfc61d9362cd433b71b4148a33489425de0"
+      "sourceGitBlobSha1": "1d7f2f65c0c977e91a710f3f9aa1f9b82ac3ba9b"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs.meta",
-      "sha256": "65d6c2b71ad0dfc787deb33650c254dcc0c30fb4366865b01c6a0067f2894498"
+      "sourceGitBlobSha1": "7d8eabd6f94da9d8453c06a5157a3fb01d2b43e0"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/InkCompiler.cs",
-      "sha256": "c87ee6ba08d548bb32a27b1bf129f562596757e8b26ad7e8224bf021cd3a34a6"
+      "sourceGitBlobSha1": "d31ba5bb378882625f1f42d83ed04a80ed7417f8"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/InkCompiler.cs.meta",
-      "sha256": "0e2ab33dc10dced78ad6239a93851ce975bb40f32c6ffabdc1a2d0c145834108"
+      "sourceGitBlobSha1": "ade5e8a07432b69581204cda18d6cdc1f24b0481"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs",
-      "sha256": "7fcc76dc83d7b735e8324478f34a94815ff7fcf346bbb2ef3293048b30ba56c8"
+      "sourceGitBlobSha1": "96e07fb38e8d2433042fa12047e868b4919ce230"
     },
     {
       "path": "Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs.meta",
-      "sha256": "173b890bc1cd1c7d00f9892bcd0b98ee5cc13081d46b9a4f000ac1143861bdf7"
+      "sourceGitBlobSha1": "726972c9fb239e2c23c8e0f86ef68deaa375b4c3"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library.meta",
-      "sha256": "b71fac428dce615dea2a58306aed6bea66ef9013e586a6917022b37d819d4a14"
+      "sourceGitBlobSha1": "4cd990857f365b802767243650f79883c0052566"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs",
-      "sha256": "eba36c0a4fcc5d56b11c96046a863c9920798273fe07f26671d80f290d04d3af"
+      "sourceGitBlobSha1": "bd3b7a4bdaa7fc30ca7003e6ac1522e5b1583158"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs.meta",
-      "sha256": "11b5700f26f70ba947f0e25216e75af10ac8f7c7afcaa32507f5b1e371ee5aad"
+      "sourceGitBlobSha1": "a601326ff94c9d93cb0db91f291881102d31d203"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkFile.cs",
-      "sha256": "2d396d08b9f88b43f224b622d34ade8f35dc546097aa23507ee4e47765cae92a"
+      "sourceGitBlobSha1": "f82af4d4b678c1f3eb4f180f6202af43f1d3bbc8"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkFile.cs.meta",
-      "sha256": "83ca43782f90616121005d47092893c03d12d2e4d8dced6e6b9a55a902b49b40"
+      "sourceGitBlobSha1": "b77f34d82fcc074b02fc31cf793bdfbb8ad75cc7"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs",
-      "sha256": "48f1f61632a2befa9ae3743f5c0a9290194c0735bf8c7d7fa077fc25ef2113fb"
+      "sourceGitBlobSha1": "8b49921c87b05df6fa540addd1fe8dafbeb7028a"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs.meta",
-      "sha256": "d10171c2d9db52cd5fab3f23086d07b3eaa8a5d84b6955d7245ef17c76311637"
+      "sourceGitBlobSha1": "29c9779d06477a61cf6d2213259966e751ecf11e"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Settings.meta",
-      "sha256": "c124940f6094d5f26c2e091d39bb4a44b932c5054c9c735c3cd5d240fe4ed054"
+      "sourceGitBlobSha1": "354eae3a0e4cd6a7b8dcb30f0bfcbbe42189e1bd"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs",
-      "sha256": "d6261792b592fce65e494e1a1b6689a9ae145b076fb2b9e2ba6055acae9142d5"
+      "sourceGitBlobSha1": "624bdb610176d7e36886ab3f685e2e5ea742f8b2"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs.meta",
-      "sha256": "b435fefa648cc14819571da16407aeef6865bf16a583c8f95ef840b7d2fe4c2a"
+      "sourceGitBlobSha1": "d3dd3420ca411473dae8edcd15ae0ccdc2e0246b"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs",
-      "sha256": "99a10aedaf4780656532bfcc1a25e3b80912c62ac219b1eefc60152600540295"
+      "sourceGitBlobSha1": "f5f1b7490b0a014144fd7ae7013a67dc7c9a25be"
     },
     {
       "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs.meta",
-      "sha256": "deba1e0403be406bc7bf1b1966bea232fe5f4f4de883addb7e01809cac381d94"
+      "sourceGitBlobSha1": "f040a4af6e3f5dff83c4ab61c689c2530896e01f"
     },
     {
       "path": "Assets/Ink/Editor/Core/InkEditorUtils.cs",
-      "sha256": "19a90023ffb5e63722bc46ca030ec82b918015adda173f35f3a0b60471c237b2"
+      "sourceGitBlobSha1": "eb02eaf410d2edddea0c373dcc4a33e85b7b2cef"
     },
     {
       "path": "Assets/Ink/Editor/Core/InkEditorUtils.cs.meta",
-      "sha256": "ed848430815643a1730116afc6459ba80b9c3d7cbcb837d3a7e3287bf9fced61"
+      "sourceGitBlobSha1": "24efcc69bfc09bdfee247f62c3ee9191c151d64d"
     },
     {
       "path": "Assets/Ink/Editor/InkEditor.asmdef",
-      "sha256": "3ccff24b998921f4ebee8c77f03314c95de545c55aeef8e8e1c0ed43c4421973"
+      "sourceGitBlobSha1": "c4d7d6d016914bfa8607210c757694edb5dc08ad"
     },
     {
       "path": "Assets/Ink/Editor/InkEditor.asmdef.meta",
-      "sha256": "6b2338f131c7cc833c377b4fe807f69e35adcc9b696667be32d8a7c222d61f95"
+      "sourceGitBlobSha1": "a75447daf3d9022e03765ef7d926cd55f276aa72"
     },
     {
       "path": "Assets/Ink/Editor/Tools.meta",
-      "sha256": "c951f717002211eb2f61aa0f63abd133f5de5591faf94c3932caf68cba7eac77"
+      "sourceGitBlobSha1": "3fe7875211dbddf1152a64dd77604e2c6f82ea5c"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Build Validation.meta",
-      "sha256": "4e0c71c9cfde5c43235f0a750b52e59be09ed8b0dc174ba849f8426f75311fd0"
+      "sourceGitBlobSha1": "39e1ebbf38befeba005b32400b45802ca15ac52b"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs",
-      "sha256": "39f2de764f14636ceaaa0d6109c6c84b89f7675fc87e5975fd3ce1045b18b870"
+      "sourceGitBlobSha1": "30e0cf81456cac728c26d600f12e20a8b8e83b5b"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs.meta",
-      "sha256": "d7e708299f1724605c01a689bec4b2a84a439caa56a49ef979ef9d6561959ad8"
+      "sourceGitBlobSha1": "1f30931ec130fa8074190b8b1a88579c2a4f0867"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons.meta",
-      "sha256": "6300f29bb4a4785d32ed588710e2d88401468adcaec3474bc80f613a1dc9fcc2"
+      "sourceGitBlobSha1": "321fc4d109d9fc380c503e07eeab693cdbefb8b4"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs",
-      "sha256": "92e71c575cc142facf77f2829cf058db778fcae486e6da2fd33a46c9d402971c"
+      "sourceGitBlobSha1": "9cfe82a0efa649a9e72e507a209a2063821a8d90"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs.meta",
-      "sha256": "154817696f02fd7f810b680ab04a7d888929c3d7dd7563bb65bb556a65be76ba"
+      "sourceGitBlobSha1": "ed1aad7bd8678faaecc8a8bfe3960d8743d3c1f4"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources.meta",
-      "sha256": "7fc684ae89b3b7b2680092de1058f1e90338718d17d24344c4dabab5a5c733d9"
+      "sourceGitBlobSha1": "7914e43bdaf945c01b6e86d6dac8d6f66cb24adf"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd",
-      "sha256": "8fd610044df3d917e89f7996a6704fe111848a3f339dd03f1a89aaabf0a1f14b"
+      "sourceGitBlobSha1": "a3c63c392db1665bfb7d7f708a6b93cb7c0617e7"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd.meta",
-      "sha256": "0ae90a6eb5ee362d3f62cf0ec96ebf6b045fc577aae5cbe1d12ca367b6847cd8"
+      "sourceGitBlobSha1": "b9bc503e0fb38b74c7822f2c7a4fc259b576180d"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd",
-      "sha256": "362701572e3181b5dcfd21aae40cf6d9f9f58cf4e2e096bbaec6b11fb0a614f7"
+      "sourceGitBlobSha1": "c31c8bc9cc6f4d9863e4e04914f668c5ab3bb135"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd.meta",
-      "sha256": "7a64fb8b823213fc328c97238bdcf36e96702e849c1f976d92462fbcc08bf27e"
+      "sourceGitBlobSha1": "110ac7509c23961d2c8a6eceaa74ee7ba5640139"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd",
-      "sha256": "dc50553a3f939c71460acefe7ba720b8561a055a39723c69a8e8f0654922f21c"
+      "sourceGitBlobSha1": "fcc4ce904eeddf9af9b6ff8c972099f4c2bc07d5"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd.meta",
-      "sha256": "a3ba0811979245d6e778ff4a012ab122c67c0ddf6771035b26d6a20c6930949d"
+      "sourceGitBlobSha1": "a3d15795624de3166883bde8e2ca38d71fe8477e"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt",
-      "sha256": "791aceb605b483dc64eb1479cd94235ad1f054c68f2894bcca222506b721b175"
+      "sourceGitBlobSha1": "4e1a12eb1388e232843cb4ac8d48baa75d24d6f2"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt.meta",
-      "sha256": "1de6325569d2f5549b74f4235f2351787952861f56662297fcfa179fbcdc82aa"
+      "sourceGitBlobSha1": "b0257d192ba7033eba5a25c7e1b97272e0367570"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd",
-      "sha256": "24c4f1278f1be311100dd66b96d00238e012e0227b25d81e60247a5ea9453b9e"
+      "sourceGitBlobSha1": "14bea85d6705c2b1bbfa8565ffd0a0d1131236f4"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd.meta",
-      "sha256": "70fc363a114c791042a2cc165e5f3c4c69dee3e9d3f447a5c23c90249f2af89b"
+      "sourceGitBlobSha1": "26635b2d7782ee63c5c1844f6ae2a7072534c329"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd",
-      "sha256": "bf2e39498a1fb78017993f8d8569c8f43acc6e09407df34c47aac68ec84ad44e"
+      "sourceGitBlobSha1": "372812b2785e8eaa5480cf1af8fb63c02e633e86"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd.meta",
-      "sha256": "0a4404b33af4cbbbda8d6f180bfd119603e8edebefb0f4e9d08651242a10964a"
+      "sourceGitBlobSha1": "6eabd4bd809bb266fa566d8746a0aae3f2b1aea0"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd",
-      "sha256": "2bac32c548ebe40ee117b6312b99e2a6b8bab399713140ce18250dd0e3454677"
+      "sourceGitBlobSha1": "ff7517e03d73e3ee32740fa550d3f60fd91c99ab"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd.meta",
-      "sha256": "4c125dfa39f443496aba1d034e26e42ee1bce3573ed40a34353476f8dfc5cabe"
+      "sourceGitBlobSha1": "7baf1e3ee5366a3a45490022ad90ffaf168718d0"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd",
-      "sha256": "86cc450345c028f4d500e0bf0d76319cb1829bb046099735fea66ae3bcb20267"
+      "sourceGitBlobSha1": "0ca7d971f51caf11e0cc5addb25cd3f077385e92"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd.meta",
-      "sha256": "9a8c0629c7d8cbc5f83318beb94c383d707228a45f7124c13709fe3b7332a618"
+      "sourceGitBlobSha1": "5b2678b03bce7ed32c057f8a7506dc36f66b4390"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd",
-      "sha256": "185f4d3d11ad50f253684f2df2450f3f956ef06d6e3d5c54a95bc67e8a9d63d7"
+      "sourceGitBlobSha1": "bb5d8a7bfad4a831a539a43ddd896e6a4fc179e6"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd.meta",
-      "sha256": "80f235d4033c327c4c1d4ead7304bd05d190ceda158372043ade8f058e7db677"
+      "sourceGitBlobSha1": "8813359d7bc5c95847939863b44165753d5c168a"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd",
-      "sha256": "5a6771a1c283db1f508083853c487eb4431b2c9cfa60530fd3e2f1436b34d95a"
+      "sourceGitBlobSha1": "17c620c66ca3fbe31dc81939118b62908aff2ffc"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd.meta",
-      "sha256": "250950479a6d032bcf1c84ac204d5e927222850bf198cad3d803bad985b3981d"
+      "sourceGitBlobSha1": "0072a2457883d03c758834c9b01c74c4ee8582a6"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd",
-      "sha256": "e6dae2af1da1b1353d4d320162beb62885050e3e10f307f826d05d366de892d8"
+      "sourceGitBlobSha1": "f01ac785642892997c25befde9b57b2c78c9fc34"
     },
     {
       "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd.meta",
-      "sha256": "8d77181637f1d85d609c2759445e216b8c8d40e78400429dfb89b1b5218216d1"
+      "sourceGitBlobSha1": "4db050892bb68bc9fc68f35c6d091e52efcc891f"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector.meta",
-      "sha256": "2d6c6e50aa19985ae935562b2bae25afa8f2fb811ec9d8da01affbec941440b2"
+      "sourceGitBlobSha1": "281b0e7cc9706a21aaa03ce493479a2a6904e1ba"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs",
-      "sha256": "68dd501cefc06741b24088adaa8481821d59cf776957b1bf5e55c10f34611d45"
+      "sourceGitBlobSha1": "528927126401207c210619f2ee5757376f7abe52"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs.meta",
-      "sha256": "2a6c12b94b15fdba2a836b61f6be8d76cd08e7202722470a998ee177a10f9440"
+      "sourceGitBlobSha1": "94c4840ca25a82ba48e627ab94a15fe9c81cce9a"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs",
-      "sha256": "331f0e1ca618f5687ce4247812a6b1592bd88473efabeb41bd7d46633fcde50a"
+      "sourceGitBlobSha1": "70816a0bfe2b2cb5527860c3d184460a4f13fd47"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs.meta",
-      "sha256": "5adb97416de424156e4b1dfc51f18bce8a970f4f27dd60e92d21c8aebb77ee9e"
+      "sourceGitBlobSha1": "ad985505bf63c1e346e460b759841e31e6e784f5"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs",
-      "sha256": "f7fa56a14937f58db4307f8b5ab59d16bd336ee4527a7202768ab62296b5c439"
+      "sourceGitBlobSha1": "b8f0a4d1782bd9489f9174ea8547c0cca4c5e8b7"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs.meta",
-      "sha256": "87f59b5474f3cb0a3a73029a26383810396e1f8885b708afe376c17a51e1048e"
+      "sourceGitBlobSha1": "81423e49fd9568b8ceb7b59e967a1f0a94c82446"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Player Window.meta",
-      "sha256": "d2e9eb7c6574b328968ecb7481b6938e0cae874b11b0338ca8b1f1d973e2fa0b"
+      "sourceGitBlobSha1": "2183835900708d73564761f8b141d9a22441f947"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs",
-      "sha256": "7004f6126d09dedc54a1d1dad13c54f5ef486040570f6a62e0422f244f57d1e7"
+      "sourceGitBlobSha1": "29e2033b7b0eabac8d6d97700ca8863b1a98da76"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs.meta",
-      "sha256": "e1712acf824ca034ac916ac73bccfd77d30f883be92d3bce66765f00b245ba5c"
+      "sourceGitBlobSha1": "b0c8276c782a48fac4ece912968bcb2596433590"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs",
-      "sha256": "d9009465f9b3bbc826188df2ef02bd673f83a6ac50d2377cab727a1c7e0c0dfe"
+      "sourceGitBlobSha1": "bc1a15225e9524cf897f11e7b931b693d3f2e970"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs.meta",
-      "sha256": "8a7edd3ec74f69b418080232f00c250aeb5193a1d93e6650adf43f024cd867bb"
+      "sourceGitBlobSha1": "fcb644b7e99679a0a4341f0909659d76cfe463cf"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window.meta",
-      "sha256": "efb4413780712a94d2f7d6e6cb03eb4108dd2aeac99f029fadbe3ab0ac7e0d08"
+      "sourceGitBlobSha1": "d1d4b08cc7dbaadd231cfc2e649b6695ae65a70e"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs",
-      "sha256": "dff13dec05ffe523ee01f2553aa4d98e974b05e5df4c9a1c3286075f11645011"
+      "sourceGitBlobSha1": "4e6eb6c601e2cd6fb6495402d6ee8e49083509af"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs.meta",
-      "sha256": "bebd785e24d718b14b186c26e6e82620d244235f2087798e34d17cee95306c5d"
+      "sourceGitBlobSha1": "7af01c032f545478e08a55500ff17d650b5419ef"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window/Resources.meta",
-      "sha256": "05b9f8a721b74fc9c860df538e8926ba2f2180ffb643e0f6dd61720a119b39c6"
+      "sourceGitBlobSha1": "800afb2a3d5a20d4b1c1b7598e45168370a9829d"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png",
-      "sha256": "53ff661a69424f04607a33a1841e0c4157f3668ea166f41f86e677ae6ecdb673"
+      "sourceGitBlobSha1": "b6b8c4f0048669aacf0eb74513b3cf5c5441bb24"
     },
     {
       "path": "Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png.meta",
-      "sha256": "63f2580d7f1a2606c47dbd4dc8c6e6c73da4542f6e8c0f3758c7e50431a9afa7"
+      "sourceGitBlobSha1": "cb151eba8f4dd46880536290c21a8a8c6c8220b9"
     },
     {
       "path": "Assets/Ink/InkLibs.meta",
-      "sha256": "5ab595ac4fa2a766237355fe16087e79d41b38aab1643caca5204e3e0d2ae75b"
+      "sourceGitBlobSha1": "d46d023537c0f30c1f5ff4de8b08965ba204b930"
     },
     {
       "path": "Assets/Ink/InkLibs/Ink-Libraries.asmdef",
-      "sha256": "dcceee0b4c70a90c7011779678a952829b89b76c4b6521bacdf5ac72717cd289"
+      "sourceGitBlobSha1": "988193bbcde79cf44a951b345fde93ecb05235c0"
     },
     {
       "path": "Assets/Ink/InkLibs/Ink-Libraries.asmdef.meta",
-      "sha256": "54fc7c18349797618b726564c19836ef37487443db84f2c9182e318828cb6a03"
+      "sourceGitBlobSha1": "10fb080f0e9036b244ad48afc0e2b6a7ea960cac"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler.meta",
-      "sha256": "d4180192d3802206352cea3beb2f18afb96e8f9d58a8c26876db190d7085c1ff"
+      "sourceGitBlobSha1": "7e04b1cce4aa09da3ac27a19961a9fb5151975c2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs",
-      "sha256": "3b723e6363c64d991928a8dc13449bd66d8127d491da1352b733f7cb206c40bb"
+      "sourceGitBlobSha1": "40ae68930c9f62b54dc25ef4d261a36d0893ce07"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs.meta",
-      "sha256": "52fdf9ad60bef8fdf9b24de8996b0095cad7d6483b56a5f1125de6a413638eee"
+      "sourceGitBlobSha1": "154d4dee213659c740260816d9d7edafc8814b8c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs",
-      "sha256": "547b6a67ff311ea2b038f040a8d5e0f193f6b28f86ddcd7ac00d9e55e9619a3d"
+      "sourceGitBlobSha1": "7e0eef2f62ba2268f9864bdae781f06462b8593a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs.meta",
-      "sha256": "9613fa49d46f947f142027d538aa141c6ab73fb814daf956d9c56ae1cd535cd0"
+      "sourceGitBlobSha1": "593b0987a586a3455afe55b54b14deba4b7441ba"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs",
-      "sha256": "e476aad64203e63cb8b2c77ff00bdb1df1de0fa36b5ae6c4fabd905ef38e7461"
+      "sourceGitBlobSha1": "88f1dfe5796396f38891b23611525431ac532392"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs.meta",
-      "sha256": "70cf48649e0e9fb25cd50f947ba52b012fd47398c5f988881d17aa754d1670ce"
+      "sourceGitBlobSha1": "c047faef98fa3c15a58287d2dd1cc92fdc794da4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Compiler.cs",
-      "sha256": "a53d236299d4fd561c2d0824b4a25b8776e5dd25e3fda576b366bad2aca07ce6"
+      "sourceGitBlobSha1": "dab1ddaabd2cd508a748891e18332b4561397ccf"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Compiler.cs.meta",
-      "sha256": "73a54fd192a55f3a9146a2db003809d350ca9672ab66d61a7453bada5e11e5c6"
+      "sourceGitBlobSha1": "d1bd69ebf95d5bc52aae62fef9748f0d76705d0f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/FileHandler.cs",
-      "sha256": "40becc1eae9c3a6ff5c0b39dff07f4ea4e750f0848aa767b6c6a1af500bee99f"
+      "sourceGitBlobSha1": "51a60bb47deb596ba7d1f48c1d070df41ae189dc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/FileHandler.cs.meta",
-      "sha256": "734f08120a65f3c4c19fd629ba54e577377ccbef6884f17633313e8adeb4038c"
+      "sourceGitBlobSha1": "e28b5df4563d36070498977cc340b8d2974c201d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser.meta",
-      "sha256": "430b5d6a920938bfd3432c811e27405be48a8fd64720278ebb2f24e7167ae562"
+      "sourceGitBlobSha1": "e474a903c293ce4633556c1d20a349e7cba9b0fc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs",
-      "sha256": "c33534e690c391c6efc8fd7bc0cb1898581d53ce7ceeec63d36942187edea8ce"
+      "sourceGitBlobSha1": "9d0cfee5947f70c8e7ead2fe5caf9ce3a2f22102"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs.meta",
-      "sha256": "a92e3c2af65e68a4dbad7f7646021a056bf1e32a8c2badfc3e0ce932e8a4b90a"
+      "sourceGitBlobSha1": "b8fa26a421a8194f0a6f34fdbb60a0ff1c0ddd22"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs",
-      "sha256": "b7fd08a2ec0cbce3399a3bf9f94575224df242a416deb291e26cb3588904ebe1"
+      "sourceGitBlobSha1": "fb53a398352f5f100fca4264511ee34853166465"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs.meta",
-      "sha256": "678e696e9af22bbbd10d992f909a74ca2ec34a5f09b60d1d156c6cfe2434be55"
+      "sourceGitBlobSha1": "383cea8ba374ef253a6056d4383f568fc805e7f5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs",
-      "sha256": "3bad3ab1a034392c05e2bdefc8f2f1a8bbeb71d142105fd581f49b359f25fa55"
+      "sourceGitBlobSha1": "6e73e5972becb8bc39db4338392ce35e796b4c8f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs.meta",
-      "sha256": "ce15ba4e1ceb5a93df1a9aa03bb666cf67c471628f3a86607bb3203d2e16b6e4"
+      "sourceGitBlobSha1": "bac2fe610d9d4bc078f53f3266d51b8be26c9659"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs",
-      "sha256": "e351b95aba34028072ffede4ac446c6194fa995258cc62a99755bcc2a3bf3b82"
+      "sourceGitBlobSha1": "3ac3962b6cb1e0ccf9ee66c9f51bf637e5b7c04a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs.meta",
-      "sha256": "d1cfe4130615e80175e47e99e98c4f41d0fe708e44f76077ba5ee2be142ba072"
+      "sourceGitBlobSha1": "d6c83913a90b73011051a9ab5b1d48d5723d166f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs",
-      "sha256": "c62ce19eaa89a69ab1204cba39acf29688b03ee46f7ff1bd4a73430296c18521"
+      "sourceGitBlobSha1": "3a54834e0722ac9a63c0158fcbe97de54b2bcd1f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs.meta",
-      "sha256": "ef73d248f2c1ab79829a4b55dab5e6ab55d115fa12cb8cc6a06f5f3d97a24d99"
+      "sourceGitBlobSha1": "bd2c64a8232f79ded11461fe27da5b60811ab68d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs",
-      "sha256": "823662590e1e07c439ba6d3882992bcc481a8ff475131f391626ac7f9b474c2a"
+      "sourceGitBlobSha1": "a04ef17663ac26f77895e3d32fca18f7d6509fa2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs.meta",
-      "sha256": "737a1f144de12d239beb851da102f118dc7382ce555f0c861863b98809158d5f"
+      "sourceGitBlobSha1": "52195de4f7b80379af282591e2b035841c768c98"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs",
-      "sha256": "eaa8f8037f4b2440907aa5d59a9a0d196a9daa0293a1c63a05d7e770858a065f"
+      "sourceGitBlobSha1": "c1f60ec5016fe223494906b1027b47db43bec75d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs.meta",
-      "sha256": "f18dac102b8610f3d7b56e85fd41fcb380135dc1da4f19b41d5de0ca0282c69b"
+      "sourceGitBlobSha1": "53f126f92b237a01c4e2c8df6b25a60604901c2d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs",
-      "sha256": "b443a52be4fa0cd00b10b1c6ce59f3841c1945f09e11be2f70b0aff5af89a22e"
+      "sourceGitBlobSha1": "0cc7fd875c6fe86a79075a4f61a9d200fa8864d6"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs.meta",
-      "sha256": "ca7fc4ac5bdf8fb4810296f7afeb7cf209d94fd43bf65d8a47c2ebac839da63f"
+      "sourceGitBlobSha1": "88d21ff2171108800f2d4ef72e471a776d58a0cd"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs",
-      "sha256": "2ae0a925da91f702823564dbdc24e2815e395a07d4d3d74427a8c62cb6891446"
+      "sourceGitBlobSha1": "4ce18318a13f5a68b9e578d936faec5bfc640f18"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs.meta",
-      "sha256": "ec2acbad54264b7fdd145afdb1d2c736fe47e9068f9035b361c245666471a51a"
+      "sourceGitBlobSha1": "e4887f29361cb12115a6b88af8a855d464516986"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs",
-      "sha256": "756ed3bedc6d1d19e2f6e6c61cf7fcbf02ae4cd5aea76a652e33cb991154d49d"
+      "sourceGitBlobSha1": "106f8953e3b51df3400494019170acee7b526617"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs.meta",
-      "sha256": "c8553d82260d3d20c94971558c412e4eae9d3ad727589b9894b52e1be1c6c141"
+      "sourceGitBlobSha1": "bd9b87c0fe6047213a0e42e90cfef388bb2b6646"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs",
-      "sha256": "0907895fa2cc9c16b40fdbc5d98b29fe5f3051418b63bb3ab0a43d55441a72d3"
+      "sourceGitBlobSha1": "9490c2fcaf98fc40731eec2a52a01ec126fe36e4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs.meta",
-      "sha256": "440e91e69686116d289ac97ec4962a0921a1193b9b693271057ba7039ab460bc"
+      "sourceGitBlobSha1": "468349bb1f36967dbe99cc184288b47f6e2b3331"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs",
-      "sha256": "b5d187beab11bfff4f2f7863f8a7543c960f5493ec5498f14fdc510c5012798a"
+      "sourceGitBlobSha1": "d1242437a24b948c937bbee8fa038143ea995d93"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs.meta",
-      "sha256": "9b7de9bf7b9416e90c517ff33fec2adfb38be67166e8ade2ee0864ee7d03fa8b"
+      "sourceGitBlobSha1": "8b372c922059a08c4e95a20a6d046a9dee1d7f25"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs",
-      "sha256": "cf3ce38d9db6893e7c0885a7bddd8f61e508060d8ccedcebea30e607e40da3a6"
+      "sourceGitBlobSha1": "df8b04fdf1d5c089ef57ec062b1a902fbb9f1bcc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs.meta",
-      "sha256": "b0a7c6ce626ff5030ee25405e0bbf7bdad3a413fc77d9eb125ea75202180f062"
+      "sourceGitBlobSha1": "d7fe9158685d875122b204cdb580f5beeee0b6da"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs",
-      "sha256": "5bbecf6534493ee2df9f3d682ef63dcff5c324050b33010cc8920656a632a917"
+      "sourceGitBlobSha1": "b9156e8617df32ca9bd66c6c29e36fd6644ec7c5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs.meta",
-      "sha256": "0cef9ee68b36f2ac34d8702f1abba73d341666c160e9382a48bdc6baebcb6fa2"
+      "sourceGitBlobSha1": "5fabe1d09968749857fc1b936d069477fecd8a84"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs",
-      "sha256": "b185cd677b50ea5abc1cee263cf5799d52700265ae462093c3b9fca3f9b7a566"
+      "sourceGitBlobSha1": "0b622f20c6bdfeb4adc7f886cb3cc18434949833"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs.meta",
-      "sha256": "ab3cea48be67a07d7f2d7dde402dea1326ac9599baf51b01215cd17df1720d47"
+      "sourceGitBlobSha1": "d9e1ca5bf067974fb3ca6fa0936a8bd6c67c3959"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs",
-      "sha256": "dabf362fe02f67c4b21dec119f2f5f1cdd09d322458e61c3b43eb68caefebdfe"
+      "sourceGitBlobSha1": "4046b8bc96fad8f548566ed8f105c924be34118c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs.meta",
-      "sha256": "9ab7ab6fd226bd4151aa2626cbfafa9aa1dd7601b7c856724592fb76af8be037"
+      "sourceGitBlobSha1": "05f175189b9a52970d2519a761e464f673baa347"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs",
-      "sha256": "4ab2972f191797a5d47a0b1b05c13d66686c9084694e9a339268d0b51c547406"
+      "sourceGitBlobSha1": "96031e7a0d301a19a6f538f19abad026cd8657d2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs.meta",
-      "sha256": "ec2b8c43d7557f19fc0f12bb92d884e43492830f01a350d84caf7b851d40bb2f"
+      "sourceGitBlobSha1": "f2aed6a011a7f78ec225969884df01180dc17373"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs",
-      "sha256": "1ebe065fe61d124d717659d111c2f83f508fafdf3de3f3399355ac4c448f0d7f"
+      "sourceGitBlobSha1": "47f07b8158ad77b838fea7bde4587044efef3d0a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs.meta",
-      "sha256": "3e0f3f1172e13a7b8daba9a769cbdb037448344720ba700bd5f27c847279c535"
+      "sourceGitBlobSha1": "f4478a2a1bce8e339c77667afc4d041047ad9b59"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy.meta",
-      "sha256": "5074743b4f416373a015b7e1b94cbdb11b5bc4a9d5ae486723bdca42bcadf007"
+      "sourceGitBlobSha1": "2fd81f1dfa594799a1168e1c3f1769538a5bc657"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs",
-      "sha256": "fc096f46a3886f17cd99b8fbe6c2569dc0499b05612711d121b2bc3301d5b86c"
+      "sourceGitBlobSha1": "e61805b0d9386a7be985a808251d40f8c4c68b49"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs.meta",
-      "sha256": "639640c2227c5199df45e1a69c26116f260567069f4cc29261ba0384d84c836a"
+      "sourceGitBlobSha1": "d3aa88ce0a5379830a456b1e0b9ae5bfb7a51f4b"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs",
-      "sha256": "2eee679e053815d3e23f351bd08964df199e875d2342f3b4da140493a28a8c67"
+      "sourceGitBlobSha1": "4b2934fbc313acb55085a3147826a79fcff69db5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs.meta",
-      "sha256": "36d74246e5e7861bdf50d9ec257541cbdd2a83fca76dcbc7496d7ec84bb65d71"
+      "sourceGitBlobSha1": "0705521dad808d2e062245ee0af90d9213a809d2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs",
-      "sha256": "3cf81e02f066f7d2b098ffc92973329e6c9f3c25fbc4e749d2aa4e530c142586"
+      "sourceGitBlobSha1": "2343df2ead21eb815bba03978ed7d7c67497330d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs.meta",
-      "sha256": "7481ce8da41f31d3bfecd72498914974cf9a8c992b5bf694d9dadf3950e2eeb8"
+      "sourceGitBlobSha1": "d1fff0fc170420cefe54a2854662d1a3cdb6523a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs",
-      "sha256": "968a8ab953b2c24e2205a1bb975da2cb41dbc04b4804d397bdddc46169cbcad5"
+      "sourceGitBlobSha1": "3f6663687ddd0d52a746795727c749d99c66c12a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs.meta",
-      "sha256": "2af0589fd378e95f3348cdbd2bb2f0a16a4cb386cab01d08733527d1fc43c4c7"
+      "sourceGitBlobSha1": "8dc5b77aafe78cbd80c51824b7c67da7552cfab9"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs",
-      "sha256": "5003ad2ca3edd66ba990ddacc02e66c2df1fdf43612a0c8a8521c740664ca7d1"
+      "sourceGitBlobSha1": "3852bcdb7cf7e3ba99c9472901efae62477b91db"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs.meta",
-      "sha256": "2808c970d4a2afe2af13903469d33396280c4e4c34dd6e0a3eb3122c4662ef21"
+      "sourceGitBlobSha1": "825374700ab7fa8984b7f4d4d73c46b23547b8b7"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs",
-      "sha256": "5d91802f369f70a18ef25267ec3ab01237a5d144a63a1b38a8d02be5dd29c52c"
+      "sourceGitBlobSha1": "737875ebbb91f0a91419ed3dc91f49597af7a60a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs.meta",
-      "sha256": "2a99083ffdfc67716e8eba675b09fd4c0d2c5803b1a36d68f88a4e325d032369"
+      "sourceGitBlobSha1": "8620a3c1d289059ac22357808ef6107c443abee4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs",
-      "sha256": "648c860b1de3b641a63fcc03249c77448598c2b387401c12b463145e11a1c5e9"
+      "sourceGitBlobSha1": "f87ce8dff590a7f1c24729fe90ac47ba4a64a39b"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs.meta",
-      "sha256": "d4358a4f503f09f59081f815a7ece1654b01e72b56292428d390ef984719c5e6"
+      "sourceGitBlobSha1": "9ba1b6eac9d6a0ef21b82f26220cc8632a9a8246"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs",
-      "sha256": "7623f2d522d9676c787cbe4612bbeffc692a5db27cb6d46db02a906fce5347fd"
+      "sourceGitBlobSha1": "c1223a496c02e9e1396400faf014525912984e7a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs.meta",
-      "sha256": "87403d3c45be53c7839ec825cd173caada03a66be57ae7d526ec70da3e45a0d1"
+      "sourceGitBlobSha1": "4ab83740fc80dc8b332339ddaba25d937de92306"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs",
-      "sha256": "d54fd16ff8e82283832f4170355528fb431a65c9b1086af968334120be02023c"
+      "sourceGitBlobSha1": "ad752021d3eb863c0aef3fb894273670e900b6a5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs.meta",
-      "sha256": "87c162e9f948f697d455053c7a29ca5da15d2de63ebe9f8c6946f80260588f36"
+      "sourceGitBlobSha1": "cc0a43f7ac176697d5298fbadbe310ec92b6d687"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs",
-      "sha256": "29732bdbbfc5b022c68c1827025ade3e7b424cc7c1fbb0a693a02b75b337b3e4"
+      "sourceGitBlobSha1": "9094500556a05ad43213ce28af64a4bf2166cebc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs.meta",
-      "sha256": "f37cd9ade266e0f1156750e35a8f5acc9a122cd3fdfa6adcce021ebe20ec066f"
+      "sourceGitBlobSha1": "5c22861a51a520f7ba95153aa24a9ed0564ab426"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs",
-      "sha256": "90f4ad85c175a3f5d9a97588db7e2aaa8b370de76071218ea1afa4761285fa9c"
+      "sourceGitBlobSha1": "17aca4209ebb03ae97944a406a5dc5a37bc95096"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs.meta",
-      "sha256": "adb93d793f4d638b2c38d58c1a7143edebb1923b5549145aab179014c0bd8a41"
+      "sourceGitBlobSha1": "63f404349a45ec6e8ed8919fc3c65467d44aad8b"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs",
-      "sha256": "3a6281e2cefde373fd64e563633140ff00af5897c22d2ecbc99457601978319a"
+      "sourceGitBlobSha1": "5bbdce00b190a8261f5da8c02feee3de6429c6f4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs.meta",
-      "sha256": "c934cb8764535e423fbe1a0f81251bd689cf9ae041d5277e8445d529ee1e6046"
+      "sourceGitBlobSha1": "0d17736098b8fa23912294661059218758c92e94"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs",
-      "sha256": "cef8d87ceca275e8d3896f49887ed04c891fdbcf44d64f6dcff0851fc24248db"
+      "sourceGitBlobSha1": "d3d40f5ca674c440f9064c30a0274e53ed671dc7"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs.meta",
-      "sha256": "584a2dc571d918d0aab3413d2d0a8acc894873de2f39d76e9b97864e7cf415f0"
+      "sourceGitBlobSha1": "9b01eb69f1d53b80b6bcc19a01578403e5cacc5e"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs",
-      "sha256": "88afd5b88d165c77b496374e3dabe22cb99769ff2aef96dfddfe2dda13d7173c"
+      "sourceGitBlobSha1": "ca86acf5221af703a04cb5aa569b7e5f3af97cc8"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs.meta",
-      "sha256": "6c21a0bcf6e1942777b20b8e3e50d16cb780ae03abc2b958effbb3dd602e3bbd"
+      "sourceGitBlobSha1": "f350416bb0023e23a8869b532acad3204a7fbdeb"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs",
-      "sha256": "6a61bfc90593b153cc2ca097cb28ca6df554e6feb402021b6549c80804fb9275"
+      "sourceGitBlobSha1": "fa1444905cd6f059249444b572b6448ec2d966b4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs.meta",
-      "sha256": "16be6fe62607070a9380582dab47ea5ea2baba9cb7e7d6236357a768a08414ee"
+      "sourceGitBlobSha1": "d972388d53f5f3502bf5058e99953c9f3eef4f4e"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs",
-      "sha256": "5333735b912f6dd0f00f761b90c2cb41ec4a6b11d06eceeced9960958af80a1f"
+      "sourceGitBlobSha1": "4155823f3fc5f8538514741389daaa6c5817d339"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs.meta",
-      "sha256": "562f2e5368dad27df5f795bb7be16289af05cfb1ff490bf0b62e7c1f47f01cbe"
+      "sourceGitBlobSha1": "d6ca35ce68b268cb38a74d16e8c69717f350a40f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs",
-      "sha256": "8acada6ef357436ace83a2fd22a7e13585febb90d694b8c379a0139a85eef32d"
+      "sourceGitBlobSha1": "5f76529a6ee15419dbb5c4d73b43a32a06eaff06"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs.meta",
-      "sha256": "dd791cd4c79a4bdd06ff67cb44cded96e7d6614c7ed8ed525e72ca76329d7241"
+      "sourceGitBlobSha1": "9049a156be0be37b5a67a6b3ee32d5881e9d588b"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs",
-      "sha256": "bf6e167df2c357d511de9b010ff0d815e576f42d116d3cb57bdd87e6d591c4df"
+      "sourceGitBlobSha1": "5eee99b38e0e4c0b49ee161b044f530917ff4285"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs.meta",
-      "sha256": "488ca9bf7c5a4d57c329103b9ef39505ecfde78f68fd6ce9b4871d969a545439"
+      "sourceGitBlobSha1": "100254d3a23f080886e4fe1ad18e2df963f3d458"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs",
-      "sha256": "a6b1dfcbcc53b7d472434791eae0101b2d27f1fc9c37fe25c0ed18a863fa5f5d"
+      "sourceGitBlobSha1": "a39a44cb30ea1fdc9dc414ae8b7fa969fd28b9ac"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs.meta",
-      "sha256": "913c925b8f79b8fa75bd29904a267fdbf7263e0241da9c8f933e692488818006"
+      "sourceGitBlobSha1": "dd098449b528e1808c8750944d442dfde3d08cb7"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs",
-      "sha256": "ec17bf5cd690e90d69916ec23222777b30373e03a8e9f5d7f7655c6717eaf334"
+      "sourceGitBlobSha1": "db48d8505f281e2b7d81891cc5f6d561ad7efadd"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs.meta",
-      "sha256": "112fb16fdbd4562e210a11c0fc510d5142269744b8d845c7f332a3839fef730a"
+      "sourceGitBlobSha1": "55fc8360d652fd05e414d6cdbd37a0e936cf27ae"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs",
-      "sha256": "2b78838ed539190b16d7e6733bc591e62d19c2928b568a349e88b2f3eda81ea7"
+      "sourceGitBlobSha1": "2010d1a0b7f32e2abe500aa01370b2d6ef7e65de"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs.meta",
-      "sha256": "f9f19ebcbe22ae1ae7dfe8f485c96351cc654f9740650f44268675958b59602c"
+      "sourceGitBlobSha1": "77052e8744b1f1835dad8caa67892ad125607085"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs",
-      "sha256": "5c85f8b74dcf85c1c471a0783e719c512917a39c2ead0c36ee4990f43642a64e"
+      "sourceGitBlobSha1": "be67bfd945e267a39517dc0e3f5658ee67abeec3"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs.meta",
-      "sha256": "12a3cd82953644a97f2eb0e85918a7252bd6b2c6ed9e8bc87629faa4a722e8e8"
+      "sourceGitBlobSha1": "f4ea3673bfb1d97e819255591fef5e60c25b2d38"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs",
-      "sha256": "3de726b232249db70b8dfabe58f6d9aa32f12619567d2e68094efdb2751e5315"
+      "sourceGitBlobSha1": "381a11e0452b9db35ad67f0da39bebb53aa9a46c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs.meta",
-      "sha256": "d934cf7aecc3ef597e374f67ee31b61b44fc96ba718022c68b9d86bb3043de4a"
+      "sourceGitBlobSha1": "48c120953e13f8bffdcd6a67260b16c3dbd4d4dc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs",
-      "sha256": "1476b6d7125b4ed5da1d57bdcb640debd9a35f0540b8523438f832c56ff27abd"
+      "sourceGitBlobSha1": "7a17bd3584fc1e030eb87c2df2b4087e0652b5ee"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs.meta",
-      "sha256": "aaaf208dd98a54a998805bf8e9d58b0c847a8cf5d9a2d8b5a014d501e880ea1b"
+      "sourceGitBlobSha1": "1b273cde77dcbf2330f9ebd5cc2bcdc50ad15ef5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs",
-      "sha256": "92452de3d32325d839adf331e41112aa596e15867b30d6baf0ebead90d172b44"
+      "sourceGitBlobSha1": "2acb78d653cf0efac9c07e50ed5a10d4f73b48f3"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs.meta",
-      "sha256": "ec97bae24274273d540576c15a791a95618cec79bc627ce6f2d3411fe8863a76"
+      "sourceGitBlobSha1": "1008cdf610aa53e54a722c7639b9938b0661e66d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs",
-      "sha256": "aabf9e461bb83993ad15cdab5ed081818c6977eebc3888ce06bb13e17799e023"
+      "sourceGitBlobSha1": "b6282808ccf1d9f7cf3012c94f456b0c747dc7c8"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs.meta",
-      "sha256": "c80d3caaf0a739c52b7523792e34a69a1dd2be8297b83af3295a7dd69ad86a33"
+      "sourceGitBlobSha1": "4870be519db7f8ece558437d42345ddc997cec63"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs",
-      "sha256": "cb0da069c35ca504b386e44cfad8127060e5f19e8d17559777122810930ea1da"
+      "sourceGitBlobSha1": "a4ac723c12d4a18705fcd0acfa22883095992f67"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs.meta",
-      "sha256": "e43920ebfdfd56b4db5a405a698efc014d05989bf95565efacab6d32ca1ed4eb"
+      "sourceGitBlobSha1": "cf503cd947e0e57ea44025264f7c4363b5f468c8"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs",
-      "sha256": "ad5d1beea9da37bb80dd656ab85e0c808a83213e7dd28967049e757bc93faf46"
+      "sourceGitBlobSha1": "cca1b5e97c43ca261f9bc2e167e3f7889b50c7bb"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs.meta",
-      "sha256": "a4abb3b5bf93820847e97c2bbaee3dd7e525849218fdf36cdbdaba305902037c"
+      "sourceGitBlobSha1": "fa04f880d6cc901fe02fb3ce10ffb1d22c0588f5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs",
-      "sha256": "9ef87d3909c9d6e51521059fa379918219669c8ca41659f758d7707edbcf8376"
+      "sourceGitBlobSha1": "189222d2da9fe668b701708b1a95b5dcfba900d2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs.meta",
-      "sha256": "9b4386b29a410679da6edda0f3e975f4fc684cd9796021dfb55e740a6c0bf408"
+      "sourceGitBlobSha1": "0cb29af6a95c343e7f28753d7b1c31267c6153ba"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs",
-      "sha256": "ab53496cd0960ce959d976ffd8272abdbad913255049f9bf4ec54c4012f84b7e"
+      "sourceGitBlobSha1": "c37a4ae2c08437af6327e0e4306139b879be4434"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs.meta",
-      "sha256": "8afca02908475dbed9bbb3481c1be5a7fb14b715c992a81369ebf75497e376c7"
+      "sourceGitBlobSha1": "8a82fbbe38f9f6a6c17c4ab7eac64b548b1d637c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs",
-      "sha256": "d75deecd8e6d9987cc6c319ec8f65b33ad9255983bf9759c253078733249a16c"
+      "sourceGitBlobSha1": "f1b59bcae497efcbe3d2960edaa454b548290c12"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs.meta",
-      "sha256": "8810ce72f6cb3197539ef33cf5009340b0cbd2229cea05a4b6996efb1c966856"
+      "sourceGitBlobSha1": "146edea1cf19b5b4dba865505e4206ede13b31c4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs",
-      "sha256": "6d7141217992769d1422302dcc86bb0c6617340b31dcfc7985b922434f1f842b"
+      "sourceGitBlobSha1": "ba68685b49e52e3bb6e3b981afe699bc2f60d797"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs.meta",
-      "sha256": "d82c79e6307fcc75928dcf3fe5413a2728ed826d960280ed32e1803698b9d540"
+      "sourceGitBlobSha1": "ecc4800d9602db5fba55dcd1b855fa45f6020c9c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs",
-      "sha256": "bb64426b3ca6c76a8e87500ea447059e186e7f7af21056157a9f57df17832f5c"
+      "sourceGitBlobSha1": "34e281e2e4051133b3037ecf4bbeabba78a131f3"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs.meta",
-      "sha256": "c706c0c4ed9629b617e89caaf9565e060bb9ad11b3855b2d221f32e35698c491"
+      "sourceGitBlobSha1": "0807a2e3ed5c0457150cbf1fc377a25dae6815ed"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs",
-      "sha256": "f91ccbb94b43a1f5ef042f54d72f68b3f3412363d4aa2b100aa5683ffa01ed2e"
+      "sourceGitBlobSha1": "f0359aa541b9f95b6d92636a418f1f6123194ce0"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs.meta",
-      "sha256": "60aca6a5ec8fcc560418b72304447da32931e397d8e1a1342d90006280ea95e3"
+      "sourceGitBlobSha1": "b4d987d0343917fca44bba27fad7e2834e3b0dbc"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs",
-      "sha256": "f673477bdc0406f1a5279af63f0bb3ef0434571642895c6dd0492e2a45021ce5"
+      "sourceGitBlobSha1": "42048e1fcfc1a4ddc38e0e906ecf1055564db3d6"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs.meta",
-      "sha256": "d61125700276a0245a21825fb22564634c26d1aa452a95aa06605a368ee06b5d"
+      "sourceGitBlobSha1": "1333ead40a07e195c140ee156ba7d9b980dbb766"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs",
-      "sha256": "2c9b29ca5b0b7a7576d3fc8c2db539b8e0934a653b7b0ea83ae44f28ee8e1964"
+      "sourceGitBlobSha1": "8b9b2b567c6b724a154e836eee436ef0967cbac7"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs.meta",
-      "sha256": "26a20a29c4f7fd92fbec9f1137f97a22022a068b99bd721408cbbe5f31fc7ffb"
+      "sourceGitBlobSha1": "e3780c831b66b32b2474d458bd96ac5272b3604f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Plugins.meta",
-      "sha256": "12812303561646bc3d249448cb46d208fe701ccfbaa5fc637ae879d31be35f55"
+      "sourceGitBlobSha1": "1b0987b0f06757f44228c7075f7498ca6a815f22"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs",
-      "sha256": "43acf20c2e49eef6db219f62f9ded29c8e1a52a4aa34f9b90ee0219e840c23a6"
+      "sourceGitBlobSha1": "0a54e57de8ea2ef73a08a85f1a5b67628eb78ac4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs.meta",
-      "sha256": "214ef6c2560332157bff2e1ffee04240d2eaa5a63cfb7df80ee97ef25bda951b"
+      "sourceGitBlobSha1": "b8cfed2db2647ab97569c6a5175144f7cbb6c787"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs",
-      "sha256": "362a6bd8ce672f930e0ec31216b3ef7b767232006803d797355bdb306a849342"
+      "sourceGitBlobSha1": "fa3f42eaceb1e1993e9d1cf1239206216c1fd595"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs.meta",
-      "sha256": "24c24396b86eeeb82bfdf6fbca18a17474eb477271f8da0dbdda0b9343b5129f"
+      "sourceGitBlobSha1": "63494adc5fdb2c922d11190f592f46a2a92e7f5d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Stats.cs",
-      "sha256": "4141b0c52e9e5bd82db27dcc83f0c4c71ec3ca766ac2057eb281a9510b2c625d"
+      "sourceGitBlobSha1": "2f5d56689c8e19b61a8ad6b14e58ff335a02a398"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/Stats.cs.meta",
-      "sha256": "4736411233a764f85efa584fbd3e7a187acece71c20422ffa4051e8ab3b09f63"
+      "sourceGitBlobSha1": "1b4e881129e55c4567455a5b94d81f17310e2fff"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/StringParser.meta",
-      "sha256": "1554b744360a8f85f56a5b34fe756dce6792b2267c11824a065fc5cc4d4da1c1"
+      "sourceGitBlobSha1": "7e81fe5ea52a5b53499812c40ea43422ee1a0dfe"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs",
-      "sha256": "0d5e5d0a7ad278845c30eb2f3d4ce8356d59477469128ac6d4799211702feee4"
+      "sourceGitBlobSha1": "6feed54ccbf334f67cb761690ae2bcf01232b566"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs.meta",
-      "sha256": "9890b9925b9d720a8123ba11429c33f2847cb971a5efb628d89aab018a49e5be"
+      "sourceGitBlobSha1": "8d42d4306478cde9ca24c3deb7147e9ae25f5a94"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs",
-      "sha256": "291d16b44d1bcea2aff7e9b8fd925f9f9411febe0dc9a0618bbc3c47fb454cf3"
+      "sourceGitBlobSha1": "44cfbfa08f1a689a322254ca0f2ba0d094e25ddd"
     },
     {
       "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs.meta",
-      "sha256": "41d5fe839b9ef4e9ebedf42219e640b648f071f5d1b95531d174589af96556fb"
+      "sourceGitBlobSha1": "c886fd882e03a70b223aa9156aefd088360b9381"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime.meta",
-      "sha256": "554ebfe71ccf07b6b554828b62d3e423d2d497e1637eb0b99b4c1b85e0803535"
+      "sourceGitBlobSha1": "f0dc4b18f4f2b751bcfea989c200eb73c31b7b2e"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/CallStack.cs",
-      "sha256": "5427920265c308b3cdad59c9ab68314258fdfaa817447fc017e4b663774b029b"
+      "sourceGitBlobSha1": "06b5e66d15f27c92845cc3866d411934c543dd63"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/CallStack.cs.meta",
-      "sha256": "b5844c74ce6f4ef376f4610d43ea03c9e6b1a572faa272a00e7edbb04cb74fbb"
+      "sourceGitBlobSha1": "9ea72e8a40a8901a1f582e8a6e5414ff46a528d0"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Choice.cs",
-      "sha256": "46e77855c08f4cbca0e462fff7d2b51d92279be3cd9a51ef82e8368a0e51b0fb"
+      "sourceGitBlobSha1": "bc97b78fab66cc2ae44f204467f58355e853d8bf"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Choice.cs.meta",
-      "sha256": "08fb1941a3db2dcc0aee34ba89f6610c3e5c86102645cc204d8cc5320998377a"
+      "sourceGitBlobSha1": "22434627f8f5cab0a5a4bfa064ebe2e5e81453bf"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs",
-      "sha256": "bd4db9763badd260d71e1976f8197d5c1454098c25383c96123117d77bbbc4d5"
+      "sourceGitBlobSha1": "d212dea5ecef2fb50c36e9d7bc29d2f4677445bb"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs.meta",
-      "sha256": "f2cb3d7e3456a22d87108d8d4ac342c6161570529574cc5278b65bbaed82a3f5"
+      "sourceGitBlobSha1": "a025be162f24635a0885f16816bc6d50d514d567"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Container.cs",
-      "sha256": "3f40767980b8112881cee241bbff2513ac7230f39999e1a5464b36703de7cfe0"
+      "sourceGitBlobSha1": "a8a122b927d3435721aeae589bc0ae9f9a68110f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Container.cs.meta",
-      "sha256": "7ab4f0c3dab1df3dca65a37a3bad5aa7341f06c9c00fbc461bdec55df34bc010"
+      "sourceGitBlobSha1": "8720410e11a3362e96b2bfa341a3bde3015ef738"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs",
-      "sha256": "6b2d7b953d223950dba48b15cdee6f52eeb045e999cf597555e45dbbb2444808"
+      "sourceGitBlobSha1": "a4e59d451bf4e762ff14d7558d44c526a9a0a0e8"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs.meta",
-      "sha256": "9374065bbe9699ac8d2aed912015f44111724951552d7828def73f5f250cf935"
+      "sourceGitBlobSha1": "9a3f23f21068645d258bd7a369b703ffae0e2ec6"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs",
-      "sha256": "5102ccd77d764ed9487b9d15f72d26036670a4e5e8dd6ab7d8f53ec0bb97cdf5"
+      "sourceGitBlobSha1": "1d06f309601be1aa8be9db5af2721a4119bffc27"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs.meta",
-      "sha256": "6a0e28030105ac5085607dea93b18bc05f3066139a665c2cfafc904783f587b9"
+      "sourceGitBlobSha1": "97c9a1b751606aad78b43a77437988d7cdb3e06a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Divert.cs",
-      "sha256": "9cedc9451b03996c1a16c09918cf9cb0fbcae49adbeef2271275ccd5035588da"
+      "sourceGitBlobSha1": "5c15a6822fc948affdbd3fe110d325169e21177c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Divert.cs.meta",
-      "sha256": "2295baf627bc353c835345499589518dc79b5f35588ea6025d5305d12ea5c113"
+      "sourceGitBlobSha1": "0806cc05dcfb55e0779c33148415a29b1fe6e55a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Error.cs",
-      "sha256": "edb9c92283e0aa50729b21de094dd7d63ed3b5a7921c1f4aa3f95ce846647794"
+      "sourceGitBlobSha1": "38a5dc54e1c00168d8463cb60efa9292ecfa3300"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Error.cs.meta",
-      "sha256": "a0e25b4b67678554c823ba2075b276ac1c126c6687c0feb0a1569fa5a511739b"
+      "sourceGitBlobSha1": "af1be545a9eb224c8b22eb650c1ab042c2d6a581"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Flow.cs",
-      "sha256": "6f1116a9da65109f525c7918642190e038d40e8a9844b4aca434aa43644ce548"
+      "sourceGitBlobSha1": "37da8ec26378afaebf5a6f2d21349fce46bcb6d2"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Flow.cs.meta",
-      "sha256": "7ae387d53c8d7156f312457c749705e144d51b81679e9257a6556684511ab3a5"
+      "sourceGitBlobSha1": "e5e9149364adf7b876c698107b0e9ce520fb986f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Glue.cs",
-      "sha256": "13134d4eac82918f3364ed54cc119608a61d78243c8a043551bacb850a9fbb0d"
+      "sourceGitBlobSha1": "cfdfb2553c2841d5ac27fc152e659a4f0895df4a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Glue.cs.meta",
-      "sha256": "b1b22587861b24a7854809eb46109d9601d00db7f75b70082f1436896c2e261f"
+      "sourceGitBlobSha1": "5eb3c407936d8b060de5cfdc438852094d2e8e60"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/INamedContent.cs",
-      "sha256": "a04798e6733bb5e87c1dd6fcf6f0320eb1e3de9540f0c0d0766356da4439e707"
+      "sourceGitBlobSha1": "3e45199585c094d0b8d1c5a4175d40d124cba87d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/INamedContent.cs.meta",
-      "sha256": "d8a08ea6c860fb6a92d8a506f834f5bdddbec93497606de0d7062d12885920d3"
+      "sourceGitBlobSha1": "15a539c398f067274be440e70cffdb62cba06b32"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/InkList.cs",
-      "sha256": "475bde966c5c93a9b6b87b3a8de2879cce6d402411fb512ada0ee6c3e8494450"
+      "sourceGitBlobSha1": "fd1efa3e80e61773b05d1f5593ff2cc176b8b9af"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/InkList.cs.meta",
-      "sha256": "e2fe607700927eabf22327731612da414bf7c2650e92a1c06ad9e3994329695f"
+      "sourceGitBlobSha1": "2f03d2692e695f295dd6a4b06e5ede9f6d20cafe"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs",
-      "sha256": "f1ff0c0a9a33adcd46afd7f8a66b6bf25c5f10253fdef4c3fb002cdc43b8708c"
+      "sourceGitBlobSha1": "8dbf847e3f0f3e2c20a971975e59b47058e59340"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs.meta",
-      "sha256": "542856a6ca1b86425d88ce79f793b3532ff9174071142e4490ad5bcbc61664bb"
+      "sourceGitBlobSha1": "7f22647f930f7590c77ff8d23d6ac0098314383a"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs",
-      "sha256": "21a7ad25e8e2821a5bb95a03ccd6ca8892d4d653d494b9e25605d8fc35ee9c16"
+      "sourceGitBlobSha1": "94370bd254217a72b7cae5ab151fad68b33f040f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs.meta",
-      "sha256": "3d9a9c56562b302281b2abc8e0cdda78a59f9a444a2313eaa080348641d39073"
+      "sourceGitBlobSha1": "649bb21f611cae020c418f56c501779995c713f5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs",
-      "sha256": "802938019d6fef797d78fe02671b93b5060077752f6f8071fa43094981f524a0"
+      "sourceGitBlobSha1": "9fc33894f3004827f14bf40950291ea210a95680"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs.meta",
-      "sha256": "5b7c68d1329805fab9093abcb9ad212ff350a4d77c5ffd768c837790031ce257"
+      "sourceGitBlobSha1": "a8d7ecd7a60bb9cf1c6d34fbc6abcd22d87ad5f6"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs",
-      "sha256": "f529e1a6356288be0709d77f2cf71ddd9bb7ac3dba20a16cf36c4f575a4142a5"
+      "sourceGitBlobSha1": "b610651a3adcef202d854621c0c68f9d62da993d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs.meta",
-      "sha256": "669c0d484474f436b474aa38144b9c3c7033ba46892d8d557f30efec30a57034"
+      "sourceGitBlobSha1": "9c442b84a73b3b47785c32bcf5cee17db9636bc0"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Object.cs",
-      "sha256": "9315a7682a006383c5c8c9611dde4143cfc75a8e72ad8845f86f5e306a6faf36"
+      "sourceGitBlobSha1": "8a5c41bd8a07f4e99105baf461c85eb4c7a1af58"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Object.cs.meta",
-      "sha256": "364391dffd42114f6998cdf89bb7ea166b9023ba33bd449615f30a64aea27240"
+      "sourceGitBlobSha1": "126c40641308d7997fde50ab688b2d81724d735c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Path.cs",
-      "sha256": "768a2b6a351d160916c84de3c44b5219721d85268812e26a2e397f3635ef713e"
+      "sourceGitBlobSha1": "428b2fc763076aa18dabefbdb6a352133e4382c5"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Path.cs.meta",
-      "sha256": "6bfa5e71b2dc222228fb9dcb166aac682d32943bbf65adb0df11b44dffe9b6d3"
+      "sourceGitBlobSha1": "36593795ab4c5bfa5cbdee0731c8f51b125bc527"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Pointer.cs",
-      "sha256": "07adddf7af17234128686155be3069154b14942e9c16400cbce38a93c77825ec"
+      "sourceGitBlobSha1": "66fec9a73a1a505f88c8aa846096f64ba6bb966c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Pointer.cs.meta",
-      "sha256": "bc26f09ee9748a9443c76667baab797ad9293dae1db38e7813f7f3757d6ab3ee"
+      "sourceGitBlobSha1": "695331030df76da253ed71cda6e2cc3169e35bc9"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Profiler.cs",
-      "sha256": "601a46f9f85e877b826ef1564ec12dfea96cbab232e9be6f6c431bf7f0d0f5e1"
+      "sourceGitBlobSha1": "5de70a1440f141226d317cec575e9a36b91716cd"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Profiler.cs.meta",
-      "sha256": "71b71775cb7a94597e0080bcda678b2e0ed8058f21a376ecdb73aafcd955b882"
+      "sourceGitBlobSha1": "32aed9b9595c9eccf6bd95f2eca7599e0e7cef25"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/PushPop.cs",
-      "sha256": "4869de206b6bcdfba3be523cf5e737fbfe99d06117464a57f717a51432a2d685"
+      "sourceGitBlobSha1": "42a29bfbda15d80bf44e7a0092ffbe4b4cd7603c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/PushPop.cs.meta",
-      "sha256": "72cf7d41def4e955d99b26438f0e03f51218d6059c0077d5db57bafab83cb0ea"
+      "sourceGitBlobSha1": "533154b5fec9de6931e687f27234963f3b23a06f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/SearchResult.cs",
-      "sha256": "833ef827ffbfbc6ef9de4eca9d0c224f4b6da1f093c767f9a433e0e672cdc9f9"
+      "sourceGitBlobSha1": "e3a8c24686ade8eef6c066af37d86c1f8039e63d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/SearchResult.cs.meta",
-      "sha256": "148855c40c3d11abdac656eaeb89da404ec202abca0a6843fdf56e877576e63e"
+      "sourceGitBlobSha1": "bcb3d97a1c68613c3b7a006a5a5fd6697c8f7175"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs",
-      "sha256": "7dee92027980a7099aaf1cbf5a832c302bdd9225b7a0aa8da230c9bdffc908aa"
+      "sourceGitBlobSha1": "7494410c3a4d0913e1fc1ea86cd355b13d71ff79"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs.meta",
-      "sha256": "5be8c7c8b4db35214e2f9c32bafab2d6cb3d7ca5c6c54749a8d040d51e9f49bf"
+      "sourceGitBlobSha1": "42ae2fc06ff456b980cfe23ae173a765421e6530"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StatePatch.cs",
-      "sha256": "0e574a20dc22813bb56c490aa78f0988448860100d5be7162c06ae3de79a57d0"
+      "sourceGitBlobSha1": "2cc56403a88de6731bbdab266ff7e8bcc5153967"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StatePatch.cs.meta",
-      "sha256": "d8b5ac38fa55a82ffcdd025bc28d69241fa7444ce9d9625a52ea63086b25711f"
+      "sourceGitBlobSha1": "f805598b8eabda1efa6f94b3a6b54d8455014c63"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Story.cs",
-      "sha256": "ebf490b66a9f3a060b0b686f817d4665b71efa936cd14f6cd37ab27ab713d515"
+      "sourceGitBlobSha1": "81ead7aa6bfa16ef77e1411f5cdff9da39f15920"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Story.cs.meta",
-      "sha256": "16b4c09293de88e82d2523a4532c504bcfd9b4a59c5a1b843f360a10a0792b50"
+      "sourceGitBlobSha1": "a61645615728eddd1c9b8bd896562aa20e559929"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StoryException.cs",
-      "sha256": "c0014ec11a1d6b4800b59602a46ac35f33682508424a7e131033fb971a10150c"
+      "sourceGitBlobSha1": "5b0a20fb5a09e086d127c0027874f428b8cdb921"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StoryException.cs.meta",
-      "sha256": "7b6a4c3e6ebab10538f75fcf9b150d19be2da80f5c9867793a6cf4f893c6398f"
+      "sourceGitBlobSha1": "24386149f1c243e40a31f7816dc569eb814c4290"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StoryState.cs",
-      "sha256": "fca2fc650df373db80b16c4d3516b0a9269c95802a1fa4d28184e0283a8b3fd7"
+      "sourceGitBlobSha1": "36fd1b2ab3644d79b9ac29e8687c3eb7ec125144"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StoryState.cs.meta",
-      "sha256": "b19554d22af7bc5845cc9dc007652fb603c5b9f90f8e52d52c5190af642d70ef"
+      "sourceGitBlobSha1": "023d1b0cea33f34c08ae9f851774fdccc62dd280"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs",
-      "sha256": "658fab83b94f339a3c9919967af1d0546ae5094cbb11e9541c7888fff742908c"
+      "sourceGitBlobSha1": "d650fae6bc69eb5449b5a218235a184d6123dfa1"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs.meta",
-      "sha256": "95f8a76009b85ca387385b2a106186580f1c7589590e5c2b875ce7683d18ea3b"
+      "sourceGitBlobSha1": "c436d20ea7281fc3bbbae476b3acc7c1ab619faf"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Tag.cs",
-      "sha256": "5d94ddbcac5e83a082dc6626befa378575a474c9d619d1f28a9bfccca41810ce"
+      "sourceGitBlobSha1": "14f904d9e36db3f956224bd988daf3fdee0d9ac3"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Tag.cs.meta",
-      "sha256": "a7ab2343b3856ce5d98042fb190de4715441b6de745a71f438113db9840f31aa"
+      "sourceGitBlobSha1": "a1a1fece5df4617d2025fe4559477eb7517688d3"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Value.cs",
-      "sha256": "6705bc0b7eeba8a90d3ae417eae45749224f7b7efc7224a67ccc71d4c57f76ab"
+      "sourceGitBlobSha1": "f870dffac5eb5f5d6a5967aa76397fdb86b8bba6"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Value.cs.meta",
-      "sha256": "8f060ebdd3ba348358f745cc6c68a94f9930f64b65c3e55e1abf7b422d127553"
+      "sourceGitBlobSha1": "da36de1ee74e3c35e9b5b9a80c3754fcfe0477af"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs",
-      "sha256": "ea679daa8590050fe33f2153c8fe9344dc37c844ffa1c337b94480a8ac54aed3"
+      "sourceGitBlobSha1": "1c3a433ec1164006c0cc2eeb131591d5a49ca19f"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs.meta",
-      "sha256": "e1d4394c533aa2131dd8662a5c9e936be164281e4ea5f725244cc78de0455d3f"
+      "sourceGitBlobSha1": "8fdee20aa8452d7a76b312d57d4bea2439cdee0d"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariableReference.cs",
-      "sha256": "2467eedffd1a9e1339640b9af4cda7c4af6d9e636a6a59cf1a2ba810dd359417"
+      "sourceGitBlobSha1": "74033127a69a4dbc6a107e696bc34474e5d974ff"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariableReference.cs.meta",
-      "sha256": "b4bb2ad4804d8149cc62517b560dafb0db6b8d734a717f6ed11fab37df487bee"
+      "sourceGitBlobSha1": "239cd7382b9731231993411881e47a512445d6b4"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariablesState.cs",
-      "sha256": "3c3c15a62d4ff76286525ac42176defe44ddfe87cae03e7569a3e632c22314cc"
+      "sourceGitBlobSha1": "7ddab78ff3eb4a2f4faa35bc9d54f5d1c54c4535"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/VariablesState.cs.meta",
-      "sha256": "e0ac43818e11e0a6ad4af79bd29d9bf82898695af7b3f5f092994c84193ce01b"
+      "sourceGitBlobSha1": "adb93f1a5541d857a1e0a588bcbb495abb78369c"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Void.cs",
-      "sha256": "65e80fcb94271170a2a77902a6e126931d69b94b2c3166950b7547aa4ee53d7a"
+      "sourceGitBlobSha1": "340570d9d343b34e25ded0c1331a4aa2ced6b032"
     },
     {
       "path": "Assets/Ink/InkLibs/InkRuntime/Void.cs.meta",
-      "sha256": "6480c3e83671342a321e73da8f9f58efc8b509fa86b0f01c57589a309228a8be"
+      "sourceGitBlobSha1": "02d68b6d937816f71e9f7c535e9444f5ca660e6a"
     },
     {
       "path": "Assets/Ink/LICENCE.md",
-      "sha256": "eb48137423b656b4b9b08967a3c64e38942d93c13df31279aa257b0924736551"
+      "sourceGitBlobSha1": "81452924100f31ec1f85d99f6bada8abe06ff4f0"
     },
     {
       "path": "Assets/Ink/LICENCE.md.meta",
-      "sha256": "7bc0d2eecbd1ffe17a4c0b64ee5f8ee415536216ab6888da8d70881220f0b341"
+      "sourceGitBlobSha1": "06de614df080869fdeb4e334a5541c01e5ee4650"
     },
     {
       "path": "Assets/Scenes/Experiments.meta",
-      "sha256": "611eb55dbf0005810d3fd6897db42bdbaabb45964439444c8f7c79f20c589bcc"
+      "sourceGitBlobSha1": "d479366fb0495731dad8d7248e2f09978828aa69"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0017.meta",
-      "sha256": "3d0ecd389acac5e3f0833a3998911b53ad1fa5bcc6b07c073a54c6def98a0259"
+      "sourceGitBlobSha1": "1096cad3ece601ffa09af5ec553401fee53f3c53"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0017/EXP0017_NightFerry.unity",
-      "sha256": "6390fc736760424b2b198951f90130cabc1c0f82814262d4495d2525d1055fa2"
+      "sourceGitBlobSha1": "27b441684ca0ddfa1d5c1fd0b91e10a77c79a19c"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0017/EXP0017_NightFerry.unity.meta",
-      "sha256": "a0a2058433305d45cc5a4109d9bade9263dedd4c4e33100ebc23d89edcf8853f"
+      "sourceGitBlobSha1": "53834d6ae24fb4e88816dac295b71408f1b2dc3c"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0019.meta",
-      "sha256": "59fc1152ca7f635bafe24df641ab71e2e77524918df8fe1206f22104fea47fb5"
+      "sourceGitBlobSha1": "caa15fa2272b7b12076a49d7f76e198bf5646f1c"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0019/EXP0019_SignalDeparture.unity",
-      "sha256": "a65306ea5dcefd7a8e12fe8c1ef7f7d1f3847680475f1a28df012adb63a94e67"
+      "sourceGitBlobSha1": "c18e2bfae97d16c6a7d237454b33cfb52787e8cf"
     },
     {
       "path": "Assets/Scenes/Experiments/EXP0019/EXP0019_SignalDeparture.unity.meta",
-      "sha256": "05bdceb6601bb64a3150421a04ad2167690a7a646846295862debe7ee307ca04"
+      "sourceGitBlobSha1": "3151674d8ac60d4dd7481d0a77a160bdf4c4df19"
     },
     {
       "path": "Assets/TextMesh Pro.meta",
-      "sha256": "01c98712be33191460d4eba7720f3b157d163deba149053aade1400d8197d8f9"
+      "sourceGitBlobSha1": "f9da8b5e3a1204a3ff0f6062a2684ab860b46b9b"
     },
     {
       "path": "Assets/TextMesh Pro/Resources.meta",
-      "sha256": "4bc87da5a85b45fb3252482a603b56e3d34b2174973c527940b225e0b6d9f062"
+      "sourceGitBlobSha1": "cfc142f381009bb7bedb4f471eb629feed200563"
     },
     {
       "path": "Assets/TextMesh Pro/Resources/Fonts & Materials.meta",
-      "sha256": "124f26d6401f350502d4ea38e1b27353dfbd9905ebf50a1b813cd695c2c4eefe"
+      "sourceGitBlobSha1": "8a0111247037f38979f43e70462465dd806d1170"
     },
     {
       "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/NotoSansTC-Regular.ttf",
-      "sha256": "add35d53f70727657b4509531677c4e3712b67df3d54661efdee5d3a0c16d954"
+      "sourceGitBlobSha1": "807c2af1e727d296c4099064b68cfb18b22a65b4"
     },
     {
       "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/NotoSansTC-Regular.ttf.meta",
-      "sha256": "d9189d68ae87da304ca76137e041831983236ab41a6a8f8493e02185fe0e4d4f"
+      "sourceGitBlobSha1": "77caf1f12b18ee26852e832e9d0eaeea525d975e"
     }
   ]
 }

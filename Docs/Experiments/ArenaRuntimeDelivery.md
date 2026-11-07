@@ -20,10 +20,18 @@ Research scope: one short flow, imported from private `UnityTest2DProject` commi
 | Packages/settings | Public main's existing locked packages, URP settings and Input System; Editor version now explicit. No private manifest copied, no MCP dependency added |
 | Verification | Existing ArenaCrossSceneSmoke plus missing-component assertions in both loaded scenes |
 
-`ArenaRuntimeSourceManifest.json` lists original file SHA-256 values at the private source commit. The only copied source changed for this delivery is `ArenaCrossSceneSmoke.cs` (two missing-component checks); existing public `Assets/Scenes.meta` is preserved. This is provenance, not a runtime manifest. Dependencies resolved by Unity packages include URP `UniversalAdditionalLightData` and `Sprite-Unlit-Default` material; existing public graphics settings supply the pipeline.
+`ArenaRuntimeSourceManifest.json` lists original Git blob SHA-1 identifiers at the private source commit. Two copied sources change for this delivery: `ArenaCrossSceneSmoke.cs` (two missing-component checks) and `InkEditorUtils.cs` (Unity 6000.6 asset-creation callback API compatibility); existing public `Assets/Scenes.meta` is preserved. A Git-tree comparison confirms 318 unchanged blobs and two deliberately modified Editor scripts. This is provenance, not a runtime manifest. Dependencies resolved by Unity packages include URP `UniversalAdditionalLightData` and `Sprite-Unlit-Default` material; existing public graphics settings supply the pipeline.
+
+The slice directly uses Input System, URP, Physics2D and IMGUI plus the vendored Ink runtime/compiler. Unused packages already present in the public template are retained to keep this PR focused; this is a minimum added content set, not a claim that the entire template package list is irreducible.
 
 Noto Sans TC is redistributed under SIL OFL: `../NotoSansTC-OFL.txt`, retrieved from `google/fonts` commit `86aced91de05cd4f96a06838124cca45be337b2b` (`ofl/notosanstc/OFL.txt`). No other private project art is included.
 
 ## Evidence status
 
-Before this PR, public main contained the Unity template and experiment reports, not this playable slice. GitHub can inspect the scenes, scripts, stories, GUIDs, package lock and provenance. Fresh-checkout import/Play results will be recorded after execution; until then they are **Not Tested**. No GitHub CI, Player build, save/reload or full product QA is claimed. Existing local experiments remain
+Before this PR, public main contained the Unity template and experiment reports, not this playable slice. GitHub can inspect the scenes, scripts, stories, GUIDs, package lock and provenance. Fresh-checkout import/Play results will be recorded after execution; until then they are **Not Tested**. No GitHub CI, Player build, save/reload or full product QA is claimed. Existing local experiments remain untouched.
+
+## Import failure and repair
+
+The first fresh GitHub checkout (`8b7bb56`, no Library, default shared UPM cache) failed during initial C# compilation, before either Ink JSON regenerated or any smoke ran. Unique failure: `CS0619`, Ink editor integration inherited obsolete `EndNameEditAction`. Unity 6000.6 requires `AssetCreationEndAction` and `EntityId` instead. The repair changes the callback base/signature and passes `EntityId.None` to its caller; no runtime gameplay changes. Reference: [Unity AssetCreationEndAction.Action API](https://docs.unity.com/en-us/engine/6000.6/script-reference/unityeditor/projectwindowcallback/assetcreationendaction/action), also confirmed in installed 6000.6.2f1 `UnityEditor.CoreModule.xml`.
+
+Initial compile took 110.98 seconds according to AssetDatabase; launch to diagnosis was about 7m19s. The Editor stayed open after compile failure and was stopped only after verifying its exact project command line. Log and failed clone are preserved locally. Earlier licensing/signature and Burst named-pipe messages did not explain this concrete compiler error. Fresh-cache rerun pending.

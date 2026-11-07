@@ -324,6 +324,14 @@ Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同
 
 結果回應設計 Issue #21 候選 09。探針直接呼叫既有互動與選項處理器，實體點擊、畫面布局、持久化結局及獨立 Player 未驗證。
 
+## EXP-0035　最小 Runtime GitHub 交付
+
+**問題與決策**　採納設計 Issue #21 候選 16。前階段已回答局部玩法可行性，本輪改問「GitHub 原始資產能否在沒有原專案 Library／未提交資產的隔離專案重建」。選擇訊號亭 → 夜渡船 → 登船結尾／重玩；不搬入森林素材、泵站等其餘歷史實驗。原實驗環境保留。
+
+公開主線 `2706cfa` 仍只有 Unity 範本與研究紀錄。交付分支 `runtime/arena-exp0035`／Draft PR #6 首次加入這段實際 Runtime：兩場景、三支既有 Runtime C#、兩份 Ink 原始碼與編譯 JSON、GUID meta、方塊圖、中文字型、既有 Ink 編譯器與 Runtime。保留公開主線的套件鎖定與 URP／Input System 設定，補明確 Editor 版本 6000.6.2f1，Build Settings 僅啟用這兩場景。沒有新玩法邏輯。套件／素材／來源追溯與重建步驟見 [ArenaRuntimeDelivery.md](ArenaRuntimeDelivery.md)。
+
+**驗證與證據界線**　GitHub 可核對來源、引用、套件與來源 blob；隔離 clone 的 import／Play 為 Codex 本機測試，不是 CI。固定提交 `2706cfa...8b7bb56` 的 Standards 審查 0 項；Spec 審查要求完成後補上耗時、快取、編譯及返工表。實測結果待補。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

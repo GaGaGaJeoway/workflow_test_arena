@@ -28,7 +28,7 @@ Noto Sans TC is redistributed under SIL OFL: `../NotoSansTC-OFL.txt`, retrieved 
 
 ## Evidence status
 
-Before this PR, public main contained the Unity template and experiment reports, not this playable slice. GitHub can inspect the scenes, scripts, stories, GUIDs, package lock and provenance. Fresh-checkout import/Play results will be recorded after execution; until then they are **Not Tested**. No GitHub CI, Player build, save/reload or full product QA is claimed. Existing local experiments remain untouched.
+Before this PR, public main contained the Unity template and experiment reports, not this playable slice. GitHub can inspect the scenes, scripts, stories, GUIDs, package lock and provenance. Local cold import and gameplay evidence, followed by the authorized warm repair check below, supports the minimum feasibility of reconstructing and executing this slice. **No complete CLI acceptance under the exit-0-plus-COMPLETE rule is claimed**, because the final OS exit code was not captured. No GitHub CI, new Player build, save/reload or full product QA is claimed. Existing local experiments remain untouched.
 
 ## Import failure and repair
 
@@ -38,8 +38,23 @@ Initial compile took 110.98 seconds according to AssetDatabase; launch to diagno
 
 For the new clone, Package Manager caches are isolated with process-only `UPM_CACHE_ROOT` / `UPM_NPM_CACHE_PATH` / `UPM_GIT_LFS_CACHE_PATH` under its ignored Logs directory. Existing user cache/configuration is preserved. This follows [Unity's cache customization documentation](https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/package-manager-caches/upm-config-cache). The installed Editor/licence and operating system are shared; this is not an independent computer or offline-install test. The cold clone regenerated both JSON files with their original GUIDs and reported no C# errors (82.62s compilation). It logged four gameplay PASS markers and COMPLETE, then FAIL during RestoreSettings: ArgumentNullException at InputSystem.settings. No reliable process exit code was collected, so this run is not accepted. Logs and caches are retained; the failure is recorded in Design Issue #23.
 
-## Closeout repair (verification pending)
+## Closeout repair and authorized warm check
 
 Input System 1.20's InputManager.settings setter destroys the previous settings object when its hideFlags equal HideAndDontSave. The smoke kept that transient object as its restore target; replacement destroyed it. The repair snapshots only transient settings before replacement, makes teardown non-reentrant, and writes COMPLETE only after successful restoration. No Runtime gameplay logic changes.
 
-A proposed final check reuses the existing arena-exp0035-cold clone and Library, with no new clone/cache deletion. It is a delivery-only CLI exception, estimated 1–3 minutes and up to 0.2GiB incremental disk use (unmeasured planning estimates). Explicit user approval is required under Design Issue #23 before launch; it cannot count as original-project MCP acceptance. No final successful run is claimed until exit0, COMPLETE and absence of FAIL are all captured.
+The user explicitly approved one warm CLI exception under Design Issue #23. The existing clone was fast-forwarded to `233569201104bd1c53b904972f7ebe2cb4e28439`; existing generated scene/settings changes, Library and UPM cache were retained, with before/after records. No new clone, cache deletion or original-project operation occurred.
+
+| Field | Observed result |
+| --- | --- |
+| Project | `K:/Game/Unity/Dave/Arena/arena-exp0035-cold` |
+| Method/version | Hidden Editor CLI/Probe, Unity6000.6.2f1; MCP absent for this delivery check |
+| Gameplay checks | 4 PASS markers, 0 FAIL; COMPLETE emitted after successful RestoreSettings |
+| Compilation | C#47.489s; no C# error; both Ink files compiled, JSON GUIDs unchanged |
+| Time | About201s launch to final log write, versus planning estimate1–3min |
+| OS exit status | **Unknown**; the launch shell did not retain its Process handle for WaitForExit/ExitCode. No inference of exit0 |
+| Shutdown | PID no longer running; log contains clean shutdown/Mono cleanup |
+| Other diagnostics | Burst named-pipe errors occurred; they did not prevent these smoke checks from completing |
+| Disk | Existing cache reused;0.2GiB was an estimated incremental budget, not measured consumption |
+| Log | `Logs/EXP0035-warm-final.log` in the clone; patch/status snapshots alongside it |
+
+Phase closeout: minimum source/dependency reconstruction and gameplay feasibility have local evidence. The transient-settings fix completed its regression path. Reliable OS-exit capture remains an unverified harness criterion, so the whole CLI run is not labelled PASS and the PR remains Draft for user review. Do not launch another CLI attempt without separate approval. Future daily experiments return to the designated existing project/MCP workflow. This warm check is not a fresh checkout of the final commit and does not replace MCP acceptance.

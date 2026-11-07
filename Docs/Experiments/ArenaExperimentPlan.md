@@ -330,7 +330,9 @@ Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同
 
 公開主線 `2706cfa` 仍只有 Unity 範本與研究紀錄。交付分支 `runtime/arena-exp0035`／Draft PR #6 首次加入這段實際 Runtime：兩場景、三支既有 Runtime C#、兩份 Ink 原始碼與編譯 JSON、GUID meta、方塊圖、中文字型、既有 Ink 編譯器與 Runtime。保留公開主線的套件鎖定與 URP／Input System 設定，補明確 Editor 版本 6000.6.2f1，Build Settings 僅啟用這兩場景。沒有新玩法邏輯。套件／素材／來源追溯與重建步驟見 [ArenaRuntimeDelivery.md](ArenaRuntimeDelivery.md)。
 
-**驗證與證據界線**　GitHub 可核對來源、引用、套件與來源 blob；隔離 clone 的 import／Play 為 Codex 本機測試，不是 CI。固定提交 `2706cfa...8b7bb56` 的 Standards 審查 0 項；Spec 審查要求完成後補上耗時、快取、編譯及返工表。實測結果待補。
+**驗證與證據界線**　GitHub 可核對來源、引用、套件與來源 blob；隔離 clone 的 import／Play 為 Codex 本機測試，不是 CI。固定提交 `2706cfa...8b7bb56` 的 Standards 審查 0 項；Spec 審查要求的耗時、快取、編譯及返工表已補入交付文件。首輪冷匯入因舊Ink Editor API編譯失敗；修正後冷輪4個玩法PASS，但還原InputSettings失敗。局部修正2335692經增量Standards/Spec審查各0finding；使用者核准一次既有clone暖CLI重測，約201秒、C#編譯47.489秒，4個玩法PASS、無FAIL，COMPLETE晚於設定還原，兩故事GUID不變。原專案未動、未新增clone／Library。
+
+**收尾界線**　最低原始資產重建與短流程執行具有本機可行性證據；暖輪啟動器未保留Process handle，OS退出碼Unknown，因此不列符合exit0+COMPLETE門檻的整輪PASS。研究階段以這項限制收尾，PR6保持Draft，未合併。日常後續回到原專案MCP；不為補這項退出碼自行重啟CLI。
 
 ## 請審查
 

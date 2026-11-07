@@ -1,0 +1,1286 @@
+{
+  "sourceRepository": "GaGaGaJeoway/UnityTest2DProject",
+  "sourceCommit": "62668d6c649ab143260370f700e25e32b2e539fb",
+  "files": [
+    {
+      "path": "Assets/Experiments.meta",
+      "sha256": "9fdf4202535057666b10c9a12d7d8b6fb39ff0ab2fab60f324201a2f9f79fb3b"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015.meta",
+      "sha256": "55b399a1ef52af105745779a6a2076d3c5eac93076fa8742eeaeafa9f01b74af"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Art.meta",
+      "sha256": "8d9378c0c041b86cdecc88088e6ccc8c480307940763be36665c02a2b813f0c8"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Art/EXP0015_Block.png",
+      "sha256": "7ca6926af4ddc7b1441223eaf323b20350540e208c9910f77f0d2b6307b48c9d"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Art/EXP0015_Block.png.meta",
+      "sha256": "e4a3f90565d9f9e003cb0f949272f881089cd34e34d673fe4423103f28e3cd9f"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Editor.meta",
+      "sha256": "8f36d47469f16714436e5c45eb1b86c3cd084c933209f9fe9b9f4e8d1a54b40f"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Editor/ArenaCrossSceneSmoke.cs",
+      "sha256": "c2a8321302962204b38322c7bf2780f1bcb9e8c330d48bd5a9fd1cb03c10c568"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/Editor/ArenaCrossSceneSmoke.cs.meta",
+      "sha256": "b30b66c4dc47f48c14336c7d11f9f91bceca753f700e49f1b1ebd73afbe3e62a"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/RainyStopInk.cs",
+      "sha256": "bca3d1e4fb498a8322b0e7b50f7118a418aca6d92350458c0534c90e76db54c1"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/RainyStopInk.cs.meta",
+      "sha256": "bfafead475b02fffa27fa73022224a65e4cd2c39b07ea94dd15c34295d6c10e3"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/RainyStopInteraction.cs",
+      "sha256": "f503a0f19cd48e8efee4a5b6ec47105cf4deb6e25c42f41a1eabbd5a354f547b"
+    },
+    {
+      "path": "Assets/Experiments/EXP0015/RainyStopInteraction.cs.meta",
+      "sha256": "cf57cdcc38cd3550b15c287de6706e3b367fdb4e0cce775ce40d70b6e9a75d1c"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017.meta",
+      "sha256": "7135892230b73bc38d1be45e497ead01f751dd438eafeddc7b34212256ce5cce"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017/Story.meta",
+      "sha256": "c59997c0067c8a3287421dc1615b7bb70281a974909f4bce58eb1cfd2582fcd0"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.ink",
+      "sha256": "e32f401a7c26361556cc894b27ce0f00b484f737d63c82c8dadd8f9413859b9d"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.ink.meta",
+      "sha256": "29d0567e607bdbe37c11b2bea7257a6f47d706e161005a0d8210ddefd89648d1"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.json",
+      "sha256": "f2e3fef315aab3e3b31c6400d6b036d5c375f3b2f52e7baade357ea740005a0a"
+    },
+    {
+      "path": "Assets/Experiments/EXP0017/Story/EXP0017_NightFerry.json.meta",
+      "sha256": "427837d1c2d214ad12cd4e58c60dfb49770531b11903d8d55fd82658260c62af"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019.meta",
+      "sha256": "f4dee18fe0c3532fa3332a3801f845efc05813b09a5db97207d2e4a337f402d6"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/SignalFerryTransfer.cs",
+      "sha256": "38dd1e974cfd8aeef79b51f483163b2cd5c2cd188389135f7625ac4b497f0f58"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/SignalFerryTransfer.cs.meta",
+      "sha256": "917110d902288a732eb84aa157458b5510ad9d78d5a7e1ee47d790bd19e0631d"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/Story.meta",
+      "sha256": "b14011935f75c7c4f06a043f141505c752cc5205b66a61c1d531b6cd4e040113"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.ink",
+      "sha256": "bee7e611a6a3d91524e1ca1709642569c5c9ed6e2975db0285d44e3332656446"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.ink.meta",
+      "sha256": "ef854bdda2fd99be71eacc2f226c3bc8b33c188eb9a973c7301a123c94362e8d"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.json",
+      "sha256": "4eaa5ae0f01c39d2055736c60449e584561c05287e36e7eff14bc2e9c9663538"
+    },
+    {
+      "path": "Assets/Experiments/EXP0019/Story/EXP0019_SignalDeparture.json.meta",
+      "sha256": "fec4c742debd02d18cc0d7c025a972b80884cee7126a5da4194d1d21b619a9ae"
+    },
+    {
+      "path": "Assets/Ink.meta",
+      "sha256": "b3ea6e9bf5ed673d269ad78cbf5e608746c458c59c24699a27c384cec50a865a"
+    },
+    {
+      "path": "Assets/Ink/Editor.meta",
+      "sha256": "f7e7099ac0b30f31422c4814666bf3c98c1d7f3a2b5a9bf35872d499ca96e757"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core.meta",
+      "sha256": "8cf7b5e4626dc6af3edcd21a944697d09eb34839f5d5cdb15ce1464fa63cb353"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler.meta",
+      "sha256": "185ad05fd197729d0047b4e8346489c9ed073afa2c2dd53626a99fb0cc6c1f87"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler.meta",
+      "sha256": "9ebf6bc1a1159b2193e219298bc593c435e493a47f26e890b838ca5dbd4fda7b"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs",
+      "sha256": "1d49c4c5b473ed92b319b92178a69bfc61d9362cd433b71b4148a33489425de0"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs.meta",
+      "sha256": "65d6c2b71ad0dfc787deb33650c254dcc0c30fb4366865b01c6a0067f2894498"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/InkCompiler.cs",
+      "sha256": "c87ee6ba08d548bb32a27b1bf129f562596757e8b26ad7e8224bf021cd3a34a6"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/InkCompiler.cs.meta",
+      "sha256": "0e2ab33dc10dced78ad6239a93851ce975bb40f32c6ffabdc1a2d0c145834108"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs",
+      "sha256": "7fcc76dc83d7b735e8324478f34a94815ff7fcf346bbb2ef3293048b30ba56c8"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs.meta",
+      "sha256": "173b890bc1cd1c7d00f9892bcd0b98ee5cc13081d46b9a4f000ac1143861bdf7"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library.meta",
+      "sha256": "b71fac428dce615dea2a58306aed6bea66ef9013e586a6917022b37d819d4a14"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs",
+      "sha256": "eba36c0a4fcc5d56b11c96046a863c9920798273fe07f26671d80f290d04d3af"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs.meta",
+      "sha256": "11b5700f26f70ba947f0e25216e75af10ac8f7c7afcaa32507f5b1e371ee5aad"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkFile.cs",
+      "sha256": "2d396d08b9f88b43f224b622d34ade8f35dc546097aa23507ee4e47765cae92a"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkFile.cs.meta",
+      "sha256": "83ca43782f90616121005d47092893c03d12d2e4d8dced6e6b9a55a902b49b40"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs",
+      "sha256": "48f1f61632a2befa9ae3743f5c0a9290194c0735bf8c7d7fa077fc25ef2113fb"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs.meta",
+      "sha256": "d10171c2d9db52cd5fab3f23086d07b3eaa8a5d84b6955d7245ef17c76311637"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Settings.meta",
+      "sha256": "c124940f6094d5f26c2e091d39bb4a44b932c5054c9c735c3cd5d240fe4ed054"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs",
+      "sha256": "d6261792b592fce65e494e1a1b6689a9ae145b076fb2b9e2ba6055acae9142d5"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs.meta",
+      "sha256": "b435fefa648cc14819571da16407aeef6865bf16a583c8f95ef840b7d2fe4c2a"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs",
+      "sha256": "99a10aedaf4780656532bfcc1a25e3b80912c62ac219b1eefc60152600540295"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs.meta",
+      "sha256": "deba1e0403be406bc7bf1b1966bea232fe5f4f4de883addb7e01809cac381d94"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/InkEditorUtils.cs",
+      "sha256": "19a90023ffb5e63722bc46ca030ec82b918015adda173f35f3a0b60471c237b2"
+    },
+    {
+      "path": "Assets/Ink/Editor/Core/InkEditorUtils.cs.meta",
+      "sha256": "ed848430815643a1730116afc6459ba80b9c3d7cbcb837d3a7e3287bf9fced61"
+    },
+    {
+      "path": "Assets/Ink/Editor/InkEditor.asmdef",
+      "sha256": "3ccff24b998921f4ebee8c77f03314c95de545c55aeef8e8e1c0ed43c4421973"
+    },
+    {
+      "path": "Assets/Ink/Editor/InkEditor.asmdef.meta",
+      "sha256": "6b2338f131c7cc833c377b4fe807f69e35adcc9b696667be32d8a7c222d61f95"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools.meta",
+      "sha256": "c951f717002211eb2f61aa0f63abd133f5de5591faf94c3932caf68cba7eac77"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Build Validation.meta",
+      "sha256": "4e0c71c9cfde5c43235f0a750b52e59be09ed8b0dc174ba849f8426f75311fd0"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs",
+      "sha256": "39f2de764f14636ceaaa0d6109c6c84b89f7675fc87e5975fd3ce1045b18b870"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs.meta",
+      "sha256": "d7e708299f1724605c01a689bec4b2a84a439caa56a49ef979ef9d6561959ad8"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons.meta",
+      "sha256": "6300f29bb4a4785d32ed588710e2d88401468adcaec3474bc80f613a1dc9fcc2"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs",
+      "sha256": "92e71c575cc142facf77f2829cf058db778fcae486e6da2fd33a46c9d402971c"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs.meta",
+      "sha256": "154817696f02fd7f810b680ab04a7d888929c3d7dd7563bb65bb556a65be76ba"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources.meta",
+      "sha256": "7fc684ae89b3b7b2680092de1058f1e90338718d17d24344c4dabab5a5c733d9"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd",
+      "sha256": "8fd610044df3d917e89f7996a6704fe111848a3f339dd03f1a89aaabf0a1f14b"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd.meta",
+      "sha256": "0ae90a6eb5ee362d3f62cf0ec96ebf6b045fc577aae5cbe1d12ca367b6847cd8"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd",
+      "sha256": "362701572e3181b5dcfd21aae40cf6d9f9f58cf4e2e096bbaec6b11fb0a614f7"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd.meta",
+      "sha256": "7a64fb8b823213fc328c97238bdcf36e96702e849c1f976d92462fbcc08bf27e"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd",
+      "sha256": "dc50553a3f939c71460acefe7ba720b8561a055a39723c69a8e8f0654922f21c"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd.meta",
+      "sha256": "a3ba0811979245d6e778ff4a012ab122c67c0ddf6771035b26d6a20c6930949d"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt",
+      "sha256": "791aceb605b483dc64eb1479cd94235ad1f054c68f2894bcca222506b721b175"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt.meta",
+      "sha256": "1de6325569d2f5549b74f4235f2351787952861f56662297fcfa179fbcdc82aa"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd",
+      "sha256": "24c4f1278f1be311100dd66b96d00238e012e0227b25d81e60247a5ea9453b9e"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd.meta",
+      "sha256": "70fc363a114c791042a2cc165e5f3c4c69dee3e9d3f447a5c23c90249f2af89b"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd",
+      "sha256": "bf2e39498a1fb78017993f8d8569c8f43acc6e09407df34c47aac68ec84ad44e"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd.meta",
+      "sha256": "0a4404b33af4cbbbda8d6f180bfd119603e8edebefb0f4e9d08651242a10964a"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd",
+      "sha256": "2bac32c548ebe40ee117b6312b99e2a6b8bab399713140ce18250dd0e3454677"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd.meta",
+      "sha256": "4c125dfa39f443496aba1d034e26e42ee1bce3573ed40a34353476f8dfc5cabe"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd",
+      "sha256": "86cc450345c028f4d500e0bf0d76319cb1829bb046099735fea66ae3bcb20267"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd.meta",
+      "sha256": "9a8c0629c7d8cbc5f83318beb94c383d707228a45f7124c13709fe3b7332a618"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd",
+      "sha256": "185f4d3d11ad50f253684f2df2450f3f956ef06d6e3d5c54a95bc67e8a9d63d7"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd.meta",
+      "sha256": "80f235d4033c327c4c1d4ead7304bd05d190ceda158372043ade8f058e7db677"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd",
+      "sha256": "5a6771a1c283db1f508083853c487eb4431b2c9cfa60530fd3e2f1436b34d95a"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd.meta",
+      "sha256": "250950479a6d032bcf1c84ac204d5e927222850bf198cad3d803bad985b3981d"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd",
+      "sha256": "e6dae2af1da1b1353d4d320162beb62885050e3e10f307f826d05d366de892d8"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd.meta",
+      "sha256": "8d77181637f1d85d609c2759445e216b8c8d40e78400429dfb89b1b5218216d1"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector.meta",
+      "sha256": "2d6c6e50aa19985ae935562b2bae25afa8f2fb811ec9d8da01affbec941440b2"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs",
+      "sha256": "68dd501cefc06741b24088adaa8481821d59cf776957b1bf5e55c10f34611d45"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs.meta",
+      "sha256": "2a6c12b94b15fdba2a836b61f6be8d76cd08e7202722470a998ee177a10f9440"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs",
+      "sha256": "331f0e1ca618f5687ce4247812a6b1592bd88473efabeb41bd7d46633fcde50a"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs.meta",
+      "sha256": "5adb97416de424156e4b1dfc51f18bce8a970f4f27dd60e92d21c8aebb77ee9e"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs",
+      "sha256": "f7fa56a14937f58db4307f8b5ab59d16bd336ee4527a7202768ab62296b5c439"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs.meta",
+      "sha256": "87f59b5474f3cb0a3a73029a26383810396e1f8885b708afe376c17a51e1048e"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Player Window.meta",
+      "sha256": "d2e9eb7c6574b328968ecb7481b6938e0cae874b11b0338ca8b1f1d973e2fa0b"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs",
+      "sha256": "7004f6126d09dedc54a1d1dad13c54f5ef486040570f6a62e0422f244f57d1e7"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs.meta",
+      "sha256": "e1712acf824ca034ac916ac73bccfd77d30f883be92d3bce66765f00b245ba5c"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs",
+      "sha256": "d9009465f9b3bbc826188df2ef02bd673f83a6ac50d2377cab727a1c7e0c0dfe"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs.meta",
+      "sha256": "8a7edd3ec74f69b418080232f00c250aeb5193a1d93e6650adf43f024cd867bb"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window.meta",
+      "sha256": "efb4413780712a94d2f7d6e6cb03eb4108dd2aeac99f029fadbe3ab0ac7e0d08"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs",
+      "sha256": "dff13dec05ffe523ee01f2553aa4d98e974b05e5df4c9a1c3286075f11645011"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs.meta",
+      "sha256": "bebd785e24d718b14b186c26e6e82620d244235f2087798e34d17cee95306c5d"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window/Resources.meta",
+      "sha256": "05b9f8a721b74fc9c860df538e8926ba2f2180ffb643e0f6dd61720a119b39c6"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png",
+      "sha256": "53ff661a69424f04607a33a1841e0c4157f3668ea166f41f86e677ae6ecdb673"
+    },
+    {
+      "path": "Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png.meta",
+      "sha256": "63f2580d7f1a2606c47dbd4dc8c6e6c73da4542f6e8c0f3758c7e50431a9afa7"
+    },
+    {
+      "path": "Assets/Ink/InkLibs.meta",
+      "sha256": "5ab595ac4fa2a766237355fe16087e79d41b38aab1643caca5204e3e0d2ae75b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/Ink-Libraries.asmdef",
+      "sha256": "dcceee0b4c70a90c7011779678a952829b89b76c4b6521bacdf5ac72717cd289"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/Ink-Libraries.asmdef.meta",
+      "sha256": "54fc7c18349797618b726564c19836ef37487443db84f2c9182e318828cb6a03"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler.meta",
+      "sha256": "d4180192d3802206352cea3beb2f18afb96e8f9d58a8c26876db190d7085c1ff"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs",
+      "sha256": "3b723e6363c64d991928a8dc13449bd66d8127d491da1352b733f7cb206c40bb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs.meta",
+      "sha256": "52fdf9ad60bef8fdf9b24de8996b0095cad7d6483b56a5f1125de6a413638eee"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs",
+      "sha256": "547b6a67ff311ea2b038f040a8d5e0f193f6b28f86ddcd7ac00d9e55e9619a3d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs.meta",
+      "sha256": "9613fa49d46f947f142027d538aa141c6ab73fb814daf956d9c56ae1cd535cd0"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs",
+      "sha256": "e476aad64203e63cb8b2c77ff00bdb1df1de0fa36b5ae6c4fabd905ef38e7461"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs.meta",
+      "sha256": "70cf48649e0e9fb25cd50f947ba52b012fd47398c5f988881d17aa754d1670ce"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Compiler.cs",
+      "sha256": "a53d236299d4fd561c2d0824b4a25b8776e5dd25e3fda576b366bad2aca07ce6"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Compiler.cs.meta",
+      "sha256": "73a54fd192a55f3a9146a2db003809d350ca9672ab66d61a7453bada5e11e5c6"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/FileHandler.cs",
+      "sha256": "40becc1eae9c3a6ff5c0b39dff07f4ea4e750f0848aa767b6c6a1af500bee99f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/FileHandler.cs.meta",
+      "sha256": "734f08120a65f3c4c19fd629ba54e577377ccbef6884f17633313e8adeb4038c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser.meta",
+      "sha256": "430b5d6a920938bfd3432c811e27405be48a8fd64720278ebb2f24e7167ae562"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs",
+      "sha256": "c33534e690c391c6efc8fd7bc0cb1898581d53ce7ceeec63d36942187edea8ce"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs.meta",
+      "sha256": "a92e3c2af65e68a4dbad7f7646021a056bf1e32a8c2badfc3e0ce932e8a4b90a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs",
+      "sha256": "b7fd08a2ec0cbce3399a3bf9f94575224df242a416deb291e26cb3588904ebe1"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs.meta",
+      "sha256": "678e696e9af22bbbd10d992f909a74ca2ec34a5f09b60d1d156c6cfe2434be55"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs",
+      "sha256": "3bad3ab1a034392c05e2bdefc8f2f1a8bbeb71d142105fd581f49b359f25fa55"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs.meta",
+      "sha256": "ce15ba4e1ceb5a93df1a9aa03bb666cf67c471628f3a86607bb3203d2e16b6e4"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs",
+      "sha256": "e351b95aba34028072ffede4ac446c6194fa995258cc62a99755bcc2a3bf3b82"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs.meta",
+      "sha256": "d1cfe4130615e80175e47e99e98c4f41d0fe708e44f76077ba5ee2be142ba072"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs",
+      "sha256": "c62ce19eaa89a69ab1204cba39acf29688b03ee46f7ff1bd4a73430296c18521"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs.meta",
+      "sha256": "ef73d248f2c1ab79829a4b55dab5e6ab55d115fa12cb8cc6a06f5f3d97a24d99"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs",
+      "sha256": "823662590e1e07c439ba6d3882992bcc481a8ff475131f391626ac7f9b474c2a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs.meta",
+      "sha256": "737a1f144de12d239beb851da102f118dc7382ce555f0c861863b98809158d5f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs",
+      "sha256": "eaa8f8037f4b2440907aa5d59a9a0d196a9daa0293a1c63a05d7e770858a065f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs.meta",
+      "sha256": "f18dac102b8610f3d7b56e85fd41fcb380135dc1da4f19b41d5de0ca0282c69b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs",
+      "sha256": "b443a52be4fa0cd00b10b1c6ce59f3841c1945f09e11be2f70b0aff5af89a22e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs.meta",
+      "sha256": "ca7fc4ac5bdf8fb4810296f7afeb7cf209d94fd43bf65d8a47c2ebac839da63f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs",
+      "sha256": "2ae0a925da91f702823564dbdc24e2815e395a07d4d3d74427a8c62cb6891446"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs.meta",
+      "sha256": "ec2acbad54264b7fdd145afdb1d2c736fe47e9068f9035b361c245666471a51a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs",
+      "sha256": "756ed3bedc6d1d19e2f6e6c61cf7fcbf02ae4cd5aea76a652e33cb991154d49d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs.meta",
+      "sha256": "c8553d82260d3d20c94971558c412e4eae9d3ad727589b9894b52e1be1c6c141"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs",
+      "sha256": "0907895fa2cc9c16b40fdbc5d98b29fe5f3051418b63bb3ab0a43d55441a72d3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs.meta",
+      "sha256": "440e91e69686116d289ac97ec4962a0921a1193b9b693271057ba7039ab460bc"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs",
+      "sha256": "b5d187beab11bfff4f2f7863f8a7543c960f5493ec5498f14fdc510c5012798a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs.meta",
+      "sha256": "9b7de9bf7b9416e90c517ff33fec2adfb38be67166e8ade2ee0864ee7d03fa8b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs",
+      "sha256": "cf3ce38d9db6893e7c0885a7bddd8f61e508060d8ccedcebea30e607e40da3a6"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs.meta",
+      "sha256": "b0a7c6ce626ff5030ee25405e0bbf7bdad3a413fc77d9eb125ea75202180f062"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs",
+      "sha256": "5bbecf6534493ee2df9f3d682ef63dcff5c324050b33010cc8920656a632a917"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs.meta",
+      "sha256": "0cef9ee68b36f2ac34d8702f1abba73d341666c160e9382a48bdc6baebcb6fa2"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs",
+      "sha256": "b185cd677b50ea5abc1cee263cf5799d52700265ae462093c3b9fca3f9b7a566"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs.meta",
+      "sha256": "ab3cea48be67a07d7f2d7dde402dea1326ac9599baf51b01215cd17df1720d47"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs",
+      "sha256": "dabf362fe02f67c4b21dec119f2f5f1cdd09d322458e61c3b43eb68caefebdfe"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs.meta",
+      "sha256": "9ab7ab6fd226bd4151aa2626cbfafa9aa1dd7601b7c856724592fb76af8be037"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs",
+      "sha256": "4ab2972f191797a5d47a0b1b05c13d66686c9084694e9a339268d0b51c547406"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs.meta",
+      "sha256": "ec2b8c43d7557f19fc0f12bb92d884e43492830f01a350d84caf7b851d40bb2f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs",
+      "sha256": "1ebe065fe61d124d717659d111c2f83f508fafdf3de3f3399355ac4c448f0d7f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs.meta",
+      "sha256": "3e0f3f1172e13a7b8daba9a769cbdb037448344720ba700bd5f27c847279c535"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy.meta",
+      "sha256": "5074743b4f416373a015b7e1b94cbdb11b5bc4a9d5ae486723bdca42bcadf007"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs",
+      "sha256": "fc096f46a3886f17cd99b8fbe6c2569dc0499b05612711d121b2bc3301d5b86c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs.meta",
+      "sha256": "639640c2227c5199df45e1a69c26116f260567069f4cc29261ba0384d84c836a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs",
+      "sha256": "2eee679e053815d3e23f351bd08964df199e875d2342f3b4da140493a28a8c67"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs.meta",
+      "sha256": "36d74246e5e7861bdf50d9ec257541cbdd2a83fca76dcbc7496d7ec84bb65d71"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs",
+      "sha256": "3cf81e02f066f7d2b098ffc92973329e6c9f3c25fbc4e749d2aa4e530c142586"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs.meta",
+      "sha256": "7481ce8da41f31d3bfecd72498914974cf9a8c992b5bf694d9dadf3950e2eeb8"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs",
+      "sha256": "968a8ab953b2c24e2205a1bb975da2cb41dbc04b4804d397bdddc46169cbcad5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs.meta",
+      "sha256": "2af0589fd378e95f3348cdbd2bb2f0a16a4cb386cab01d08733527d1fc43c4c7"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs",
+      "sha256": "5003ad2ca3edd66ba990ddacc02e66c2df1fdf43612a0c8a8521c740664ca7d1"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs.meta",
+      "sha256": "2808c970d4a2afe2af13903469d33396280c4e4c34dd6e0a3eb3122c4662ef21"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs",
+      "sha256": "5d91802f369f70a18ef25267ec3ab01237a5d144a63a1b38a8d02be5dd29c52c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs.meta",
+      "sha256": "2a99083ffdfc67716e8eba675b09fd4c0d2c5803b1a36d68f88a4e325d032369"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs",
+      "sha256": "648c860b1de3b641a63fcc03249c77448598c2b387401c12b463145e11a1c5e9"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs.meta",
+      "sha256": "d4358a4f503f09f59081f815a7ece1654b01e72b56292428d390ef984719c5e6"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs",
+      "sha256": "7623f2d522d9676c787cbe4612bbeffc692a5db27cb6d46db02a906fce5347fd"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs.meta",
+      "sha256": "87403d3c45be53c7839ec825cd173caada03a66be57ae7d526ec70da3e45a0d1"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs",
+      "sha256": "d54fd16ff8e82283832f4170355528fb431a65c9b1086af968334120be02023c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs.meta",
+      "sha256": "87c162e9f948f697d455053c7a29ca5da15d2de63ebe9f8c6946f80260588f36"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs",
+      "sha256": "29732bdbbfc5b022c68c1827025ade3e7b424cc7c1fbb0a693a02b75b337b3e4"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs.meta",
+      "sha256": "f37cd9ade266e0f1156750e35a8f5acc9a122cd3fdfa6adcce021ebe20ec066f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs",
+      "sha256": "90f4ad85c175a3f5d9a97588db7e2aaa8b370de76071218ea1afa4761285fa9c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs.meta",
+      "sha256": "adb93d793f4d638b2c38d58c1a7143edebb1923b5549145aab179014c0bd8a41"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs",
+      "sha256": "3a6281e2cefde373fd64e563633140ff00af5897c22d2ecbc99457601978319a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs.meta",
+      "sha256": "c934cb8764535e423fbe1a0f81251bd689cf9ae041d5277e8445d529ee1e6046"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs",
+      "sha256": "cef8d87ceca275e8d3896f49887ed04c891fdbcf44d64f6dcff0851fc24248db"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs.meta",
+      "sha256": "584a2dc571d918d0aab3413d2d0a8acc894873de2f39d76e9b97864e7cf415f0"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs",
+      "sha256": "88afd5b88d165c77b496374e3dabe22cb99769ff2aef96dfddfe2dda13d7173c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs.meta",
+      "sha256": "6c21a0bcf6e1942777b20b8e3e50d16cb780ae03abc2b958effbb3dd602e3bbd"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs",
+      "sha256": "6a61bfc90593b153cc2ca097cb28ca6df554e6feb402021b6549c80804fb9275"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs.meta",
+      "sha256": "16be6fe62607070a9380582dab47ea5ea2baba9cb7e7d6236357a768a08414ee"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs",
+      "sha256": "5333735b912f6dd0f00f761b90c2cb41ec4a6b11d06eceeced9960958af80a1f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs.meta",
+      "sha256": "562f2e5368dad27df5f795bb7be16289af05cfb1ff490bf0b62e7c1f47f01cbe"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs",
+      "sha256": "8acada6ef357436ace83a2fd22a7e13585febb90d694b8c379a0139a85eef32d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs.meta",
+      "sha256": "dd791cd4c79a4bdd06ff67cb44cded96e7d6614c7ed8ed525e72ca76329d7241"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs",
+      "sha256": "bf6e167df2c357d511de9b010ff0d815e576f42d116d3cb57bdd87e6d591c4df"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs.meta",
+      "sha256": "488ca9bf7c5a4d57c329103b9ef39505ecfde78f68fd6ce9b4871d969a545439"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs",
+      "sha256": "a6b1dfcbcc53b7d472434791eae0101b2d27f1fc9c37fe25c0ed18a863fa5f5d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs.meta",
+      "sha256": "913c925b8f79b8fa75bd29904a267fdbf7263e0241da9c8f933e692488818006"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs",
+      "sha256": "ec17bf5cd690e90d69916ec23222777b30373e03a8e9f5d7f7655c6717eaf334"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs.meta",
+      "sha256": "112fb16fdbd4562e210a11c0fc510d5142269744b8d845c7f332a3839fef730a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs",
+      "sha256": "2b78838ed539190b16d7e6733bc591e62d19c2928b568a349e88b2f3eda81ea7"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs.meta",
+      "sha256": "f9f19ebcbe22ae1ae7dfe8f485c96351cc654f9740650f44268675958b59602c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs",
+      "sha256": "5c85f8b74dcf85c1c471a0783e719c512917a39c2ead0c36ee4990f43642a64e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs.meta",
+      "sha256": "12a3cd82953644a97f2eb0e85918a7252bd6b2c6ed9e8bc87629faa4a722e8e8"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs",
+      "sha256": "3de726b232249db70b8dfabe58f6d9aa32f12619567d2e68094efdb2751e5315"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs.meta",
+      "sha256": "d934cf7aecc3ef597e374f67ee31b61b44fc96ba718022c68b9d86bb3043de4a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs",
+      "sha256": "1476b6d7125b4ed5da1d57bdcb640debd9a35f0540b8523438f832c56ff27abd"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs.meta",
+      "sha256": "aaaf208dd98a54a998805bf8e9d58b0c847a8cf5d9a2d8b5a014d501e880ea1b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs",
+      "sha256": "92452de3d32325d839adf331e41112aa596e15867b30d6baf0ebead90d172b44"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs.meta",
+      "sha256": "ec97bae24274273d540576c15a791a95618cec79bc627ce6f2d3411fe8863a76"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs",
+      "sha256": "aabf9e461bb83993ad15cdab5ed081818c6977eebc3888ce06bb13e17799e023"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs.meta",
+      "sha256": "c80d3caaf0a739c52b7523792e34a69a1dd2be8297b83af3295a7dd69ad86a33"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs",
+      "sha256": "cb0da069c35ca504b386e44cfad8127060e5f19e8d17559777122810930ea1da"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs.meta",
+      "sha256": "e43920ebfdfd56b4db5a405a698efc014d05989bf95565efacab6d32ca1ed4eb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs",
+      "sha256": "ad5d1beea9da37bb80dd656ab85e0c808a83213e7dd28967049e757bc93faf46"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs.meta",
+      "sha256": "a4abb3b5bf93820847e97c2bbaee3dd7e525849218fdf36cdbdaba305902037c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs",
+      "sha256": "9ef87d3909c9d6e51521059fa379918219669c8ca41659f758d7707edbcf8376"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs.meta",
+      "sha256": "9b4386b29a410679da6edda0f3e975f4fc684cd9796021dfb55e740a6c0bf408"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs",
+      "sha256": "ab53496cd0960ce959d976ffd8272abdbad913255049f9bf4ec54c4012f84b7e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs.meta",
+      "sha256": "8afca02908475dbed9bbb3481c1be5a7fb14b715c992a81369ebf75497e376c7"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs",
+      "sha256": "d75deecd8e6d9987cc6c319ec8f65b33ad9255983bf9759c253078733249a16c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs.meta",
+      "sha256": "8810ce72f6cb3197539ef33cf5009340b0cbd2229cea05a4b6996efb1c966856"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs",
+      "sha256": "6d7141217992769d1422302dcc86bb0c6617340b31dcfc7985b922434f1f842b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs.meta",
+      "sha256": "d82c79e6307fcc75928dcf3fe5413a2728ed826d960280ed32e1803698b9d540"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs",
+      "sha256": "bb64426b3ca6c76a8e87500ea447059e186e7f7af21056157a9f57df17832f5c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs.meta",
+      "sha256": "c706c0c4ed9629b617e89caaf9565e060bb9ad11b3855b2d221f32e35698c491"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs",
+      "sha256": "f91ccbb94b43a1f5ef042f54d72f68b3f3412363d4aa2b100aa5683ffa01ed2e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs.meta",
+      "sha256": "60aca6a5ec8fcc560418b72304447da32931e397d8e1a1342d90006280ea95e3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs",
+      "sha256": "f673477bdc0406f1a5279af63f0bb3ef0434571642895c6dd0492e2a45021ce5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs.meta",
+      "sha256": "d61125700276a0245a21825fb22564634c26d1aa452a95aa06605a368ee06b5d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs",
+      "sha256": "2c9b29ca5b0b7a7576d3fc8c2db539b8e0934a653b7b0ea83ae44f28ee8e1964"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs.meta",
+      "sha256": "26a20a29c4f7fd92fbec9f1137f97a22022a068b99bd721408cbbe5f31fc7ffb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Plugins.meta",
+      "sha256": "12812303561646bc3d249448cb46d208fe701ccfbaa5fc637ae879d31be35f55"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs",
+      "sha256": "43acf20c2e49eef6db219f62f9ded29c8e1a52a4aa34f9b90ee0219e840c23a6"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs.meta",
+      "sha256": "214ef6c2560332157bff2e1ffee04240d2eaa5a63cfb7df80ee97ef25bda951b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs",
+      "sha256": "362a6bd8ce672f930e0ec31216b3ef7b767232006803d797355bdb306a849342"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs.meta",
+      "sha256": "24c24396b86eeeb82bfdf6fbca18a17474eb477271f8da0dbdda0b9343b5129f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Stats.cs",
+      "sha256": "4141b0c52e9e5bd82db27dcc83f0c4c71ec3ca766ac2057eb281a9510b2c625d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/Stats.cs.meta",
+      "sha256": "4736411233a764f85efa584fbd3e7a187acece71c20422ffa4051e8ab3b09f63"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/StringParser.meta",
+      "sha256": "1554b744360a8f85f56a5b34fe756dce6792b2267c11824a065fc5cc4d4da1c1"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs",
+      "sha256": "0d5e5d0a7ad278845c30eb2f3d4ce8356d59477469128ac6d4799211702feee4"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs.meta",
+      "sha256": "9890b9925b9d720a8123ba11429c33f2847cb971a5efb628d89aab018a49e5be"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs",
+      "sha256": "291d16b44d1bcea2aff7e9b8fd925f9f9411febe0dc9a0618bbc3c47fb454cf3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs.meta",
+      "sha256": "41d5fe839b9ef4e9ebedf42219e640b648f071f5d1b95531d174589af96556fb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime.meta",
+      "sha256": "554ebfe71ccf07b6b554828b62d3e423d2d497e1637eb0b99b4c1b85e0803535"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/CallStack.cs",
+      "sha256": "5427920265c308b3cdad59c9ab68314258fdfaa817447fc017e4b663774b029b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/CallStack.cs.meta",
+      "sha256": "b5844c74ce6f4ef376f4610d43ea03c9e6b1a572faa272a00e7edbb04cb74fbb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Choice.cs",
+      "sha256": "46e77855c08f4cbca0e462fff7d2b51d92279be3cd9a51ef82e8368a0e51b0fb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Choice.cs.meta",
+      "sha256": "08fb1941a3db2dcc0aee34ba89f6610c3e5c86102645cc204d8cc5320998377a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs",
+      "sha256": "bd4db9763badd260d71e1976f8197d5c1454098c25383c96123117d77bbbc4d5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs.meta",
+      "sha256": "f2cb3d7e3456a22d87108d8d4ac342c6161570529574cc5278b65bbaed82a3f5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Container.cs",
+      "sha256": "3f40767980b8112881cee241bbff2513ac7230f39999e1a5464b36703de7cfe0"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Container.cs.meta",
+      "sha256": "7ab4f0c3dab1df3dca65a37a3bad5aa7341f06c9c00fbc461bdec55df34bc010"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs",
+      "sha256": "6b2d7b953d223950dba48b15cdee6f52eeb045e999cf597555e45dbbb2444808"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs.meta",
+      "sha256": "9374065bbe9699ac8d2aed912015f44111724951552d7828def73f5f250cf935"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs",
+      "sha256": "5102ccd77d764ed9487b9d15f72d26036670a4e5e8dd6ab7d8f53ec0bb97cdf5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs.meta",
+      "sha256": "6a0e28030105ac5085607dea93b18bc05f3066139a665c2cfafc904783f587b9"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Divert.cs",
+      "sha256": "9cedc9451b03996c1a16c09918cf9cb0fbcae49adbeef2271275ccd5035588da"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Divert.cs.meta",
+      "sha256": "2295baf627bc353c835345499589518dc79b5f35588ea6025d5305d12ea5c113"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Error.cs",
+      "sha256": "edb9c92283e0aa50729b21de094dd7d63ed3b5a7921c1f4aa3f95ce846647794"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Error.cs.meta",
+      "sha256": "a0e25b4b67678554c823ba2075b276ac1c126c6687c0feb0a1569fa5a511739b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Flow.cs",
+      "sha256": "6f1116a9da65109f525c7918642190e038d40e8a9844b4aca434aa43644ce548"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Flow.cs.meta",
+      "sha256": "7ae387d53c8d7156f312457c749705e144d51b81679e9257a6556684511ab3a5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Glue.cs",
+      "sha256": "13134d4eac82918f3364ed54cc119608a61d78243c8a043551bacb850a9fbb0d"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Glue.cs.meta",
+      "sha256": "b1b22587861b24a7854809eb46109d9601d00db7f75b70082f1436896c2e261f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/INamedContent.cs",
+      "sha256": "a04798e6733bb5e87c1dd6fcf6f0320eb1e3de9540f0c0d0766356da4439e707"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/INamedContent.cs.meta",
+      "sha256": "d8a08ea6c860fb6a92d8a506f834f5bdddbec93497606de0d7062d12885920d3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/InkList.cs",
+      "sha256": "475bde966c5c93a9b6b87b3a8de2879cce6d402411fb512ada0ee6c3e8494450"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/InkList.cs.meta",
+      "sha256": "e2fe607700927eabf22327731612da414bf7c2650e92a1c06ad9e3994329695f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs",
+      "sha256": "f1ff0c0a9a33adcd46afd7f8a66b6bf25c5f10253fdef4c3fb002cdc43b8708c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs.meta",
+      "sha256": "542856a6ca1b86425d88ce79f793b3532ff9174071142e4490ad5bcbc61664bb"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs",
+      "sha256": "21a7ad25e8e2821a5bb95a03ccd6ca8892d4d653d494b9e25605d8fc35ee9c16"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs.meta",
+      "sha256": "3d9a9c56562b302281b2abc8e0cdda78a59f9a444a2313eaa080348641d39073"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs",
+      "sha256": "802938019d6fef797d78fe02671b93b5060077752f6f8071fa43094981f524a0"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs.meta",
+      "sha256": "5b7c68d1329805fab9093abcb9ad212ff350a4d77c5ffd768c837790031ce257"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs",
+      "sha256": "f529e1a6356288be0709d77f2cf71ddd9bb7ac3dba20a16cf36c4f575a4142a5"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs.meta",
+      "sha256": "669c0d484474f436b474aa38144b9c3c7033ba46892d8d557f30efec30a57034"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Object.cs",
+      "sha256": "9315a7682a006383c5c8c9611dde4143cfc75a8e72ad8845f86f5e306a6faf36"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Object.cs.meta",
+      "sha256": "364391dffd42114f6998cdf89bb7ea166b9023ba33bd449615f30a64aea27240"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Path.cs",
+      "sha256": "768a2b6a351d160916c84de3c44b5219721d85268812e26a2e397f3635ef713e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Path.cs.meta",
+      "sha256": "6bfa5e71b2dc222228fb9dcb166aac682d32943bbf65adb0df11b44dffe9b6d3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Pointer.cs",
+      "sha256": "07adddf7af17234128686155be3069154b14942e9c16400cbce38a93c77825ec"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Pointer.cs.meta",
+      "sha256": "bc26f09ee9748a9443c76667baab797ad9293dae1db38e7813f7f3757d6ab3ee"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Profiler.cs",
+      "sha256": "601a46f9f85e877b826ef1564ec12dfea96cbab232e9be6f6c431bf7f0d0f5e1"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Profiler.cs.meta",
+      "sha256": "71b71775cb7a94597e0080bcda678b2e0ed8058f21a376ecdb73aafcd955b882"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/PushPop.cs",
+      "sha256": "4869de206b6bcdfba3be523cf5e737fbfe99d06117464a57f717a51432a2d685"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/PushPop.cs.meta",
+      "sha256": "72cf7d41def4e955d99b26438f0e03f51218d6059c0077d5db57bafab83cb0ea"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/SearchResult.cs",
+      "sha256": "833ef827ffbfbc6ef9de4eca9d0c224f4b6da1f093c767f9a433e0e672cdc9f9"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/SearchResult.cs.meta",
+      "sha256": "148855c40c3d11abdac656eaeb89da404ec202abca0a6843fdf56e877576e63e"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs",
+      "sha256": "7dee92027980a7099aaf1cbf5a832c302bdd9225b7a0aa8da230c9bdffc908aa"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs.meta",
+      "sha256": "5be8c7c8b4db35214e2f9c32bafab2d6cb3d7ca5c6c54749a8d040d51e9f49bf"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StatePatch.cs",
+      "sha256": "0e574a20dc22813bb56c490aa78f0988448860100d5be7162c06ae3de79a57d0"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StatePatch.cs.meta",
+      "sha256": "d8b5ac38fa55a82ffcdd025bc28d69241fa7444ce9d9625a52ea63086b25711f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Story.cs",
+      "sha256": "ebf490b66a9f3a060b0b686f817d4665b71efa936cd14f6cd37ab27ab713d515"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Story.cs.meta",
+      "sha256": "16b4c09293de88e82d2523a4532c504bcfd9b4a59c5a1b843f360a10a0792b50"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StoryException.cs",
+      "sha256": "c0014ec11a1d6b4800b59602a46ac35f33682508424a7e131033fb971a10150c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StoryException.cs.meta",
+      "sha256": "7b6a4c3e6ebab10538f75fcf9b150d19be2da80f5c9867793a6cf4f893c6398f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StoryState.cs",
+      "sha256": "fca2fc650df373db80b16c4d3516b0a9269c95802a1fa4d28184e0283a8b3fd7"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StoryState.cs.meta",
+      "sha256": "b19554d22af7bc5845cc9dc007652fb603c5b9f90f8e52d52c5190af642d70ef"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs",
+      "sha256": "658fab83b94f339a3c9919967af1d0546ae5094cbb11e9541c7888fff742908c"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs.meta",
+      "sha256": "95f8a76009b85ca387385b2a106186580f1c7589590e5c2b875ce7683d18ea3b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Tag.cs",
+      "sha256": "5d94ddbcac5e83a082dc6626befa378575a474c9d619d1f28a9bfccca41810ce"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Tag.cs.meta",
+      "sha256": "a7ab2343b3856ce5d98042fb190de4715441b6de745a71f438113db9840f31aa"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Value.cs",
+      "sha256": "6705bc0b7eeba8a90d3ae417eae45749224f7b7efc7224a67ccc71d4c57f76ab"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Value.cs.meta",
+      "sha256": "8f060ebdd3ba348358f745cc6c68a94f9930f64b65c3e55e1abf7b422d127553"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs",
+      "sha256": "ea679daa8590050fe33f2153c8fe9344dc37c844ffa1c337b94480a8ac54aed3"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs.meta",
+      "sha256": "e1d4394c533aa2131dd8662a5c9e936be164281e4ea5f725244cc78de0455d3f"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariableReference.cs",
+      "sha256": "2467eedffd1a9e1339640b9af4cda7c4af6d9e636a6a59cf1a2ba810dd359417"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariableReference.cs.meta",
+      "sha256": "b4bb2ad4804d8149cc62517b560dafb0db6b8d734a717f6ed11fab37df487bee"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariablesState.cs",
+      "sha256": "3c3c15a62d4ff76286525ac42176defe44ddfe87cae03e7569a3e632c22314cc"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/VariablesState.cs.meta",
+      "sha256": "e0ac43818e11e0a6ad4af79bd29d9bf82898695af7b3f5f092994c84193ce01b"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Void.cs",
+      "sha256": "65e80fcb94271170a2a77902a6e126931d69b94b2c3166950b7547aa4ee53d7a"
+    },
+    {
+      "path": "Assets/Ink/InkLibs/InkRuntime/Void.cs.meta",
+      "sha256": "6480c3e83671342a321e73da8f9f58efc8b509fa86b0f01c57589a309228a8be"
+    },
+    {
+      "path": "Assets/Ink/LICENCE.md",
+      "sha256": "eb48137423b656b4b9b08967a3c64e38942d93c13df31279aa257b0924736551"
+    },
+    {
+      "path": "Assets/Ink/LICENCE.md.meta",
+      "sha256": "7bc0d2eecbd1ffe17a4c0b64ee5f8ee415536216ab6888da8d70881220f0b341"
+    },
+    {
+      "path": "Assets/Scenes/Experiments.meta",
+      "sha256": "611eb55dbf0005810d3fd6897db42bdbaabb45964439444c8f7c79f20c589bcc"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0017.meta",
+      "sha256": "3d0ecd389acac5e3f0833a3998911b53ad1fa5bcc6b07c073a54c6def98a0259"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0017/EXP0017_NightFerry.unity",
+      "sha256": "6390fc736760424b2b198951f90130cabc1c0f82814262d4495d2525d1055fa2"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0017/EXP0017_NightFerry.unity.meta",
+      "sha256": "a0a2058433305d45cc5a4109d9bade9263dedd4c4e33100ebc23d89edcf8853f"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0019.meta",
+      "sha256": "59fc1152ca7f635bafe24df641ab71e2e77524918df8fe1206f22104fea47fb5"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0019/EXP0019_SignalDeparture.unity",
+      "sha256": "a65306ea5dcefd7a8e12fe8c1ef7f7d1f3847680475f1a28df012adb63a94e67"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0019/EXP0019_SignalDeparture.unity.meta",
+      "sha256": "05bdceb6601bb64a3150421a04ad2167690a7a646846295862debe7ee307ca04"
+    },
+    {
+      "path": "Assets/TextMesh Pro.meta",
+      "sha256": "01c98712be33191460d4eba7720f3b157d163deba149053aade1400d8197d8f9"
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources.meta",
+      "sha256": "4bc87da5a85b45fb3252482a603b56e3d34b2174973c527940b225e0b6d9f062"
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials.meta",
+      "sha256": "124f26d6401f350502d4ea38e1b27353dfbd9905ebf50a1b813cd695c2c4eefe"
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/NotoSansTC-Regular.ttf",
+      "sha256": "add35d53f70727657b4509531677c4e3712b67df3d54661efdee5d3a0c16d954"
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/NotoSansTC-Regular.ttf.meta",
+      "sha256": "d9189d68ae87da304ca76137e041831983236ab41a6a8f8493e02185fe0e4d4f"
+    }
+  ]
+}

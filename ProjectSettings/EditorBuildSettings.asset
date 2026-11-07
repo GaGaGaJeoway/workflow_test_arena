@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Experiments/EXP0019/EXP0019_SignalDeparture.unity
+    guid: df0483aa5d52772499032ca7e9b04c6c
+  - enabled: 1
+    path: Assets/Scenes/Experiments/EXP0017/EXP0017_NightFerry.unity
+    guid: 425a77e39fbde2d49b591a97c285da70
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

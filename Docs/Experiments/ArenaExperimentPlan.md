@@ -1,6 +1,6 @@
 # Arena 實驗計畫與審查紀錄
 
-更新日期 2026-11-06。執行環境是隔離的 UnityTest2DProject 工作樹，使用 Unity `6000.0.31f1`。證據層級為 **Codex 本地回報**。GitHub 可獨立核對文件與此 PR 的變更範圍，執行資產和原始日誌仍在本地。從 `workflow_test_arena/main` 的乾淨 checkout 獨立重跑，尚未驗證。
+更新日期 2026-11-07。EXP-0015～0034 的主要玩法證據來自隔離 UnityTest2DProject 工作樹的 CLI／Probe（Unity6000.0.31f1）；EXP-0035 交付兩場景原始資產並另列 cold／warm CLI 證據；EXP-0036 回到指定既有原專案，以 MCP 實跑一個暖 PlayMode 案例。各輪證據均為 Codex 本機回報，不是 GitHub CI；GitHub 可核對原始碼／紀錄，尚未聲稱 main 已合併 Runtime 資產或目前 MCP 狀態已全面恢復。具體環境、限制與結果以各節為準。
 
 ## 實驗與審查原則
 

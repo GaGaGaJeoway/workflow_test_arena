@@ -1,6 +1,6 @@
 # EXP-0036 — focused-idle snapshot freshness diagnosis
 
-Status: read-only diagnosis complete enough for a repair proposal; **no installed plugin/server files modified**, no permanent fix verified. The latest passive observation is fresh while Unity is unfocused; the focused-idle defect remains unrepaired. This does not change formal design policy.
+Status: the reviewed single-file temporary plugin repair has now been applied after user continuation of the specific repair request; verification is in progress. No upgrade/reinstall, server change or permanent fix is claimed. The latest passive observation is fresh while Unity is unfocused; the focused-idle defect remains unrepaired. This does not change formal design policy.
 
 ## Reproduction and evidence
 
@@ -45,3 +45,21 @@ The reported instance/session ID stayed the same, but instances.connected_at adv
 This is consistent with the installed GetSnapshot background branch, which can restamp an old clone on read. Freshness while unfocused is therefore not evidence of a permanent fix or of every cached field being resampled. external_changes_dirty remained true, and no refresh was requested. Full-snapshot/readiness correctness and the patch's GC cost remain unverified.
 
 Local evidence: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/focus-observation.json`. Current sampled readiness is READY while unfocused; do not treat the focused-idle problem as repaired. Installed-plugin repair still requires an explicit user choice under Issue23; generic continuation has not been treated as patch approval.
+
+## Temporary repair application — verification pending
+
+Following the concrete single-file repair request, the user replied to continue. The work proceeded only within that stated scope. The original source hash matched its pin; a byte-exact backup was saved before modifying the single no-change branch. Server thresholds, package manifest/lock, gameplay sources and Editor instance were not changed.
+
+- Original SHA256:135e5cdced56fe66abffa0a7f926f346bc39c40a6469c511e6ff725752e7932d.
+- Patched SHA256:f06af60c7bed9a2273f6f27fe48cb173ad3c6845860623addd16f88a766a692f.
+- Backup: `K:/Game/Unity/Dave/Arena/Logs/EXP0036/repair-1/EditorStateCache.cs.original`.
+- Application metadata and pre-change Git status: same repair-1 directory.
+- Environment label: **MCP10.3.0 + temporary local heartbeat patch**, not unmodified10.3.0. PackageCache resolution may overwrite the edit.
+
+The MCP verification will confirm actual compiled code, no C# errors, a single existing save-isolated PlayMode case, and post-Play freshness checkpoints. The earlier unapplied-proposal/passive-observation sections describe their historical checkpoints; they are not the current installation status. Source application alone is not a test pass. If the change introduces compile/tool failures, rollback is limited to this source file's verified backup; no Library purge or unrelated file reset.
+
+### Repair verification checkpoint (still in progress)
+
+Source hash alone initially matched the patch but the live OnUpdate IL lacked heartbeat; the old DLL was still loaded. One MCP refresh/compile request produced a new compilation interval1794072084633–1794072103898, and the compilation probe returned ready with no C# errors. Reflection then found heartbeat in the actual loaded method. Idle snapshots advanced sequence81→94 and observed time1794072205485→1794072219221; they were fresh/ready, while unfocused.
+
+The single integration job `82745f3250dd46ab94b74ce81c9de18b` is still under observation. At its latest checkpoint the job had0/null completed/total, while direct TestRunnerApi.IsRunActive and Play were true in an InitTestScene. The heartbeat state was fresh and correctly reported running_tests, not idle. This is not a test pass or evidence that the whole workflow is repaired. No duplicate job or cache purge was launched; the same run is being diagnosed and will be normally cancelled if it cannot complete within its bound.

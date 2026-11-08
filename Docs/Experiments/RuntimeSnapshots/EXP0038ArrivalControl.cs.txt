@@ -1,0 +1,84 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+[RequireComponent(typeof(Rigidbody2D))]
+public sealed class EXP0037ArrivalControl : MonoBehaviour
+{
+    [SerializeField] private Animator arrival;
+    [SerializeField] private float moveSpeed = 2.5f;
+    private Rigidbody2D body;
+
+    public bool IsPlaying { get; private set; }
+    public int CompletedCount { get; private set; }
+
+    private void Awake()
+    {
+        body = GetComponent<Rigidbody2D>();
+        if (arrival == null)
+        {
+            Debug.LogError("EXP0037 requires the visitor Animator.", this);
+            enabled = false;
+        }
+    }
+
+    public void BeginArrival()
+    {
+        if (IsPlaying || !enabled) return;
+        IsPlaying = true;
+        arrival.enabled = true;
+        arrival.speed = 1f;
+        arrival.Play("Arrival", 0, 0f);
+        arrival.Update(0f);
+    }
+
+    public void SkipArrival()
+    {
+        if (!IsPlaying) return;
+        arrival.Play("Arrival", 0, 1f);
+        arrival.Update(0f);
+        FinishArrival();
+    }
+
+    private void FinishArrival()
+    {
+        IsPlaying = false;
+        arrival.speed = 0f;
+        CompletedCount++;
+    }
+
+    private void Update()
+    {
+        if (IsPlaying && arrival.GetCurrentAnimatorStateInfo(0).IsName("Arrival") &&
+            arrival.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f)
+        {
+            FinishArrival();
+        }
+        var keyboard = Keyboard.current;
+        if (keyboard != null && keyboard.spaceKey.wasPressedThisFrame) BeginArrival();
+        if (keyboard != null && keyboard.escapeKey.wasPressedThisFrame) SkipArrival();
+    }
+
+    private void FixedUpdate()
+    {
+        var direction = Vector2.zero;
+        var keyboard = Keyboard.current;
+        if (!IsPlaying && keyboard != null)
+        {
+            if (keyboard.dKey.isPressed) direction.x++;
+            if (keyboard.aKey.isPressed) direction.x--;
+            if (keyboard.wKey.isPressed) direction.y++;
+            if (keyboard.sKey.isPressed) direction.y--;
+        }
+        body.MovePosition(body.position + Vector2.ClampMagnitude(direction, 1f) * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnGUI()
+    {
+        GUILayout.BeginArea(new Rect(12, 12, 340, 100), GUI.skin.box);
+        GUILayout.Label("WASD: move | Space: play | Esc: skip");
+        GUILayout.Label(IsPlaying ? "Arrival playing: movement locked" : "Movement ready");
+        if (GUILayout.Button("Play arrival")) BeginArrival();
+        if (IsPlaying && GUILayout.Button("Skip arrival")) SkipArrival();
+        GUILayout.EndArea();
+    }
+}

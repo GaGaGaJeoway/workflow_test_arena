@@ -350,6 +350,14 @@ MCP單次Play＋記憶體observer以暫時合成鍵盤持續按D，直接呼叫B
 
 12個新增資產以獨立Git index推送private codex/arena-exp0037／3b67b575，保留原工作分支、HEAD與staged entries。公開PR提供結果、C#快照與雜湊manifest，實際測試仍是本機dirty專案；未做GitHub乾淨重建、實體Space／按鈕、Player或主流程整合。詳見 [EXP0037-ArrivalControl.md](EXP0037-ArrivalControl.md)。
 
+## EXP-0038　略過演出後安全繼續（BLOCKED_MCP）
+
+重用EXP37場景與原專案暖快取，只改既有實驗元件：Escape／Skip入口將Animator取樣到終點並共用完成處理；idle時略過不做事。新問題是主動略過後交還控制與避免重複完成，非焦點／失焦重測。環境仍為 K:/Game/Unity/Dave/UnityTest2DProject、Unity6000.0.31f1、HEAD96f4520＋既有dirty與實驗資產，MCP10.3.0＋已記錄heartbeat修補。
+
+單次scripts編譯請求後資源記錄約23.609秒編譯與domain reload；但測試前主機移除了Unity MCP工具。最後snapshot fresh/idle、原04場景clean、Console error0；載入後方法／CompilationProbe未驗證，未進Play、無callback或合成鍵盤。因此0通過／0失敗／3未執行，實驗未完成，不是編譯失敗或玩法失敗。未CLI替代、新增專案、清快取或換環境。曾有WebSocket非正常關閉與instance查詢不一致，根因未確認；不把它等同舊heartbeat問題。
+
+單檔增量已保存在private codex/arena-exp0038／c0053106（parent3b67b575），原branch/HEAD/index bytes未變。公開紀錄提供快照、manifest與preflight結果。恢復同一Codex unityMCP工具後，先核對實際載入方法再繼續原定單次Play；詳見 [EXP0038-SkipArrival.md](EXP0038-SkipArrival.md)。
+
 ## 請審查
 
 - 請在建議開頭說明採用的審查原則，並區分核心阻擋、非阻擋建議與超出實驗範圍的細節。

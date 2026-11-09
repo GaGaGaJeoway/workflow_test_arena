@@ -1,0 +1,49 @@
+{
+  "status": "BLOCKED_MCP",
+  "project": "K:/Game/Unity/Dave/UnityTest2DProject",
+  "branch": "codex/scene-entry-safety",
+  "head": "96f4520d672394e57bcee5532dca7cbed29f6258",
+  "unity": "6000.0.31f1",
+  "mcp": "10.3.0 + local heartbeat patch",
+  "source": {
+    "path": "Assets/Experiments/EXP0037/EXP0037ArrivalControl.cs",
+    "sha256": "b78c63a3d1d85488ac9cfeef1e6b79f125f5858f73bd192b5b62a7c058238809"
+  },
+  "lastEditorSnapshot": {
+    "sequence": 49,
+    "ageMs": 212,
+    "readyForTools": true,
+    "phase": "idle",
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testsRunning": false,
+    "activeScene": "Assets/Scenes/04_WoodsPursuit.unity",
+    "externalChangesDirty": false,
+    "compileStartedUnixMs": 1794115562009,
+    "compileFinishedUnixMs": 1794115585618,
+    "domainReloadAfterUnixMs": 1794115602066,
+    "consoleErrors": 0
+  },
+  "connectionRecovery": {
+    "firstSelect": "No Unity instances are currently connected",
+    "instancesRead": "exact target listed once as connected",
+    "secondSelect": "success",
+    "telemetryPing": "queued",
+    "subsequentStateFresh": true
+  },
+  "probe": {
+    "UnityCompilationProbeExecuted": false,
+    "postRefreshSkipArrivalReflectionExecuted": false,
+    "postRefreshDllMethodState": "unverified",
+    "reason": "Unity MCP namespace removed by host tool update before execute_code call"
+  },
+  "play": {
+    "entered": false,
+    "observerInstalled": false,
+    "syntheticKeyboardCreated": false
+  },
+  "gameplayChecks": {"passed": 0, "failed": 0, "unrun": 3},
+  "fallback": "none; no CLI or editor substitute",
+  "editorOwnershipReturned": true
+}

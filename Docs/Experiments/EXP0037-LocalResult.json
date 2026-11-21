@@ -1,0 +1,28 @@
+{
+  "project": "K:/Game/Unity/Dave/UnityTest2DProject",
+  "branch": "codex/scene-entry-safety",
+  "head": "96f4520d672394e57bcee5532dca7cbed29f6258",
+  "unity": "6000.0.31f1",
+  "mcpInstance": "UnityTest2DProject@745a8f02fda8e2d8",
+  "mcpVersion": "10.3.0 + local heartbeat patch",
+  "testRunner": "not used",
+  "checks": {
+    "movementLockedWhileArrivalMovesVisitor": {"passed": true, "elapsedSeconds": 0.3515839, "isPlaying": true, "playerDeltaX": 0.0, "visitorX": 1.71807075},
+    "movementResumesAfterArrival": {"passed": true, "completedCount": 1, "visitorX": 0.0, "playerStartX": -2.0, "playerEndX": -1.85000014, "playerDeltaX": 0.14999986, "elapsedSeconds": 1.2394405},
+    "arrivalCanReplay": {"passed": true, "resetPlaying": true, "resetVisitorX": 3.0, "completedCount": 2, "finalPlaying": false, "finalVisitorX": 0.0}
+  },
+  "clipLengthSeconds": 1.5,
+  "beginWasDirectCall": true,
+  "physicalSpaceOrUiClick": false,
+  "syntheticKeyboard": {"added": true, "dHeld": true, "releasedAndRemovedInCleanup": true, "oldCurrentKeyboardRestoredWhenAvailable": true},
+  "observerCallbackRemoved": true,
+  "observerDraftCompilationFailedBeforeExecution": true,
+  "final": {"play": false, "compile": false, "updating": false, "testsRunning": false, "consoleErrors": 0, "originalScene": "Assets/Scenes/04_WoodsPursuit.unity", "originalSceneDirty": false, "externalChangesDirty": false, "mvpGameControllerInstancesInExperimentScene": 0},
+  "newAssetSha256": {
+    "Assets/Experiments/EXP0037/EXP0037ArrivalControl.cs": "768776d69745ca8cee2a9d66b677026e04ba628e634cd3ef7ac58a06b844bef5",
+    "Assets/Experiments/EXP0037/Arrival.anim": "7e3b35ceec9f0418578d1977ce7c5d84a04a279dc33fc71f29014a4d997416e2",
+    "Assets/Experiments/EXP0037/Arrival.controller": "3de23d9824e9d52634c63bc61a45965d54cef00bca1729bacdada16df5e55372",
+    "Assets/Scenes/Experiments/EXP0037/EXP0037_Arrival.unity": "ad22a44fce7bd935189d588fd087c17780d825f7fe391a9ad4c168e1864a4453"
+  },
+  "limits": ["No physical Space/UI click check", "No build/resolution/integration test", "No screenshots", "No focus or microbenchmark tests"]
+}

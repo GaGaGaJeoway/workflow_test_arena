@@ -1,0 +1,83 @@
+{
+  "project": "K:\\Game\\Unity\\Dave\\UnityTest2DProject",
+  "testedHead": "96f4520d672394e57bcee5532dca7cbed29f6258",
+  "publishedCommit": "3b67b575b1bb38b5b49cae31bb0ebe9a6f4d238a",
+  "researchBranch": "codex/arena-exp0037",
+  "originalBranch": "codex/scene-entry-safety",
+  "originalIndexEntriesUnchanged": true,
+  "normalization": "Publication blobs only: LF and trailing-whitespace cleanup; original working files untouched",
+  "files": [
+    {
+      "path": "Assets/Experiments.meta",
+      "workingSha256": "f0919fdfb893d04f0ea45b73a2e2c63826fac25fe1b663f9da864483cce963f7",
+      "gitBlobSha1": "7970fefdcc6bbc74d3411055d3fb011d82fee379",
+      "publicationSha256": "4e382ac771b5fd4c4f2b022893fc4a17ef3c308a77987d628c751bbae9b7108e"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037.meta",
+      "workingSha256": "46dc7cd85acbfd19a2000302c693e70f97489f58d92297d66bc202b2a40fe7d1",
+      "gitBlobSha1": "09d10b7a4e4431e8e91557afa15e4df387815df6",
+      "publicationSha256": "10cae8ff4e0c709cc3a036a7744ed12a9ec071d55e8bffff036586009de67fed"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/Arrival.anim",
+      "workingSha256": "7e3b35ceec9f0418578d1977ce7c5d84a04a279dc33fc71f29014a4d997416e2",
+      "gitBlobSha1": "c87e6aa543c0b63188e5acb579564d0e6e4fa86c",
+      "publicationSha256": "0b7ae593d4d02cccf52ed7b4ddfb7388474cf7d1a40b0ee569492b7ad22a06e6"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/Arrival.anim.meta",
+      "workingSha256": "441a548cd1b7838384aac0d70cf6b238c342f3ea52cdb6cf50cee181b60afe8e",
+      "gitBlobSha1": "04fe7928935d45de6f3fac7a62a5e3c2166ba8f1",
+      "publicationSha256": "efc1d420359c5d7996e8a464dcc8cae77abd7dbab6909d4139fe4b6c01e07741"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/Arrival.controller",
+      "workingSha256": "3de23d9824e9d52634c63bc61a45965d54cef00bca1729bacdada16df5e55372",
+      "gitBlobSha1": "2f04f5d3922309d5eb96217d1f068ae397ac6073",
+      "publicationSha256": "38644ec85378d7e825eaa1bb949fa1e5b6bb1163a97b8f9d08f3894ef7bd60c5"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/Arrival.controller.meta",
+      "workingSha256": "e97a6425ef8df2986b7da66991dd361c19cd4ed24e017be4a2126cf98f19624e",
+      "gitBlobSha1": "d6370d4bf9ec1085c1044963b4935c8f307bc1ac",
+      "publicationSha256": "e3e97a754be34ceca957e2f627b878148b11bf5148d970c43c87c01b546e723e"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/EXP0037ArrivalControl.cs",
+      "workingSha256": "768776d69745ca8cee2a9d66b677026e04ba628e634cd3ef7ac58a06b844bef5",
+      "gitBlobSha1": "2c7062c3ea8f46a5002c481b317ff3e9738bbade",
+      "publicationSha256": "768776d69745ca8cee2a9d66b677026e04ba628e634cd3ef7ac58a06b844bef5"
+    },
+    {
+      "path": "Assets/Experiments/EXP0037/EXP0037ArrivalControl.cs.meta",
+      "workingSha256": "5af1a8abeae29647ff5d20ecbe323c0379ec33c7668c7e0e2cf6ad1b7bb6a2d5",
+      "gitBlobSha1": "59e188cd115dd6cdcb9dcfa383f2cb53d1fe97ea",
+      "publicationSha256": "5e231aed6a0bf980119aa5a8bcb697df31369062459824004b3e6faf2b9b7e04"
+    },
+    {
+      "path": "Assets/Scenes/Experiments.meta",
+      "workingSha256": "062acf282ddbd9f59eb7134b9551396553bfbfc30882e5b5d75ade7dafb68c5d",
+      "gitBlobSha1": "92bef0906a255e5d5e9923eb076e236a69eee269",
+      "publicationSha256": "bf3186ecb7268c4d4f7a86c071b132c5a4e1068802daa1eb8fce71bf291481ab"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0037.meta",
+      "workingSha256": "c61b7975a4cf6d3f361df8fca4418009add18a33e7dbc415b52c3d52095bac6a",
+      "gitBlobSha1": "dc22874922a887a76d21571358857ee92f683bce",
+      "publicationSha256": "536f1c4ee95bec2ca285ff0127ceec6e39a28fe51a38fae461e9cb5c9305fcd7"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0037/EXP0037_Arrival.unity",
+      "workingSha256": "ad22a44fce7bd935189d588fd087c17780d825f7fe391a9ad4c168e1864a4453",
+      "gitBlobSha1": "901047f242e9978b33125da83d02e2b533301162",
+      "publicationSha256": "f40ed459c913246f54be0929813620586485753327d669ddea2869884e7ac928"
+    },
+    {
+      "path": "Assets/Scenes/Experiments/EXP0037/EXP0037_Arrival.unity.meta",
+      "workingSha256": "2224adb862662276f10763032d062d32565dbba590c8269b53fd036bd794d314",
+      "gitBlobSha1": "8ec0f2533227043e0a06421d2ec8c6a986a87796",
+      "publicationSha256": "80ea8eae2a2f0624cf29c5be6b0404273a4c19dd4a870af8dc2652b1358a542f"
+    }
+  ]
+}

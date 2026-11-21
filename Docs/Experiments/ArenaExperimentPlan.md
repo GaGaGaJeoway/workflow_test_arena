@@ -1,6 +1,6 @@
 # Arena 實驗計畫與審查紀錄
 
-更新日期 2026-11-06。執行環境是隔離的 UnityTest2DProject 工作樹，使用 Unity `6000.0.31f1`。證據層級為 **Codex 本地回報**。GitHub 可獨立核對文件與此 PR 的變更範圍，執行資產和原始日誌仍在本地。從 `workflow_test_arena/main` 的乾淨 checkout 獨立重跑，尚未驗證。
+更新日期 2026-11-07。EXP-0015～0034 的主要玩法證據來自隔離 UnityTest2DProject 工作樹的 CLI／Probe（Unity6000.0.31f1）；EXP-0035 交付兩場景原始資產並另列 cold／warm CLI 證據；EXP-0036 回到指定既有原專案，以 MCP 實跑一個暖 PlayMode 案例。各輪證據均為 Codex 本機回報，不是 GitHub CI；GitHub 可核對原始碼／紀錄，尚未聲稱 main 已合併 Runtime 資產或目前 MCP 狀態已全面恢復。具體環境、限制與結果以各節為準。
 
 ## 實驗與審查原則
 
@@ -323,6 +323,40 @@ Unity 6000.0.31f1 的隔離 Editor 成功輪約 45.64 秒，退出碼 0，1 個�
 Unity 6000.0.31f1 的隔離 Editor 重新載入同一場景，取得兩個不同場景實例。每次起點均為空 outcome 與中立白色指示，選擇後的終點沒有待續內容或選項。額外世界互動不改變結尾。兩條檢查通過、0 失敗，退出碼 0，約 51 秒，Unity Test Runner 執行零項。
 
 結果回應設計 Issue #21 候選 09。探針直接呼叫既有互動與選項處理器，實體點擊、畫面布局、持久化結局及獨立 Player 未驗證。
+
+## EXP-0035　最小 Runtime GitHub 交付
+
+**問題與決策**　採納設計 Issue #21 候選 16。前階段已回答局部玩法可行性，本輪改問「GitHub 原始資產能否在沒有原專案 Library／未提交資產的隔離專案重建」。選擇訊號亭 → 夜渡船 → 登船結尾／重玩；不搬入森林素材、泵站等其餘歷史實驗。原實驗環境保留。
+
+公開主線 `2706cfa` 仍只有 Unity 範本與研究紀錄。交付分支 `runtime/arena-exp0035`／Draft PR #6 首次加入這段實際 Runtime：兩場景、三支既有 Runtime C#、兩份 Ink 原始碼與編譯 JSON、GUID meta、方塊圖、中文字型、既有 Ink 編譯器與 Runtime。保留公開主線的套件鎖定與 URP／Input System 設定，補明確 Editor 版本 6000.6.2f1，Build Settings 僅啟用這兩場景。沒有新玩法邏輯。套件／素材／來源追溯與重建步驟見 [ArenaRuntimeDelivery.md](ArenaRuntimeDelivery.md)。
+
+**驗證與證據界線**　GitHub 可核對來源、引用、套件與來源 blob；隔離 clone 的 import／Play 為 Codex 本機測試，不是 CI。固定提交 `2706cfa...8b7bb56` 的 Standards 審查 0 項；Spec 審查要求的耗時、快取、編譯及返工表已補入交付文件。首輪冷匯入因舊Ink Editor API編譯失敗；修正後冷輪4個玩法PASS，但還原InputSettings失敗。局部修正2335692經增量Standards/Spec審查各0finding；使用者核准一次既有clone暖CLI重測，約201秒、C#編譯47.489秒，4個玩法PASS、無FAIL，COMPLETE晚於設定還原，兩故事GUID不變。原專案未動、未新增clone／Library。
+
+**收尾界線**　最低原始資產重建與短流程執行具有本機可行性證據；暖輪啟動器未保留Process handle，OS退出碼Unknown，因此不列符合exit0+COMPLETE門檻的整輪PASS。研究階段以這項限制收尾，PR6保持Draft，未合併。日常後續回到原專案MCP；不為補這項退出碼自行重啟CLI。
+
+## EXP-0036　指定原專案的 MCP 暖 Play 流程
+
+**問題**　在既有2D專案、同一Editor／暖快取內，是否能真正透過MCP執行一個有存檔隔離的玩法檢查並恢復環境。不是替前輪CLI補成MCP通過，也不搬入歷史Arena資產。
+
+目標為 `K:/Game/Unity/Dave/UnityTest2DProject`、Unity6000.0.31f1、MCP10.3.0、HEAD `96f4520d672394e57bcee5532dca7cbed29f6258`／codex/scene-entry-safety＋既有dirty。只執行原有 `SceneUiIntegrationTests.NewGameLoadsClinicAndPresentsInkDialogue`；job `31a3c491912e4108ad91881373796fd8` 實跑1項通過、0失敗／跳過，case7.82秒、job wall19.655秒，Console error0。原場景04_WoodsPursuit仍active且clean，SaveService override回null，Git status26列前後相同；沒有逐檔byte比對或清理既有資料。
+
+**測後狀態與恢復**　測後editor/state在重選instance及一次telemetry ping後仍過期（age93s、ready=false），曾按指引標BLOCKED_MCP並停止後續Unity指令。使用者確認在同一原Editor重連後，3次唯讀快照的觀測時間持續前進、均fresh且ready=true，原場景clean、Git26列仍相同，該次重連核對為MCP_CONNECTED_READY。未重跑測試；過期根因及再次Play後穩定性仍未驗證。完整隔離、證據與未驗證範圍見 [EXP0036-McpWarmPlay.md](EXP0036-McpWarmPlay.md)。 再次單一Play追蹤1/1通過（case3.923秒／job19.003秒），但聚焦閒置快照再度過期；已回到BLOCKED_MCP。唯讀源碼核對顯示「無狀態變更不更新時間」與server兩秒過期門檻衝突，已提供未套用的單檔修補及焦點驗證選項，待使用者選擇。 後續被動觀察讀到失焦時fresh／ready，原插件與Git未變；視窗切換授權逾時，且connected_at也前進，故不宣稱受控焦點A/B或永久修復。 其後依單檔修補續行範圍實際套用並保留原檔備份；新編譯碼已驗證。首次編譯後job初始化逾時並正常取消，單次暖重試1/1通過（case5.114秒／job9.913秒），測後自然快照超過181秒持續fresh，插件同getter與snapshot焦點值均true。當前為MCP_CONNECTED_READY＋本機暫存修補；GC配置計數未通過正控制，配置量Unknown。完整失敗、恢復、微量測與PackageCache覆寫風險見診斷文件，不代表正式套件修復或整體QA。沒有新專案、CLI替代、正式規範修改或重要PR合併。
+
+## EXP-0037　短演出與玩家控制交接
+
+依使用者指示結束焦點／失焦反覆測試，改問短2D演出能否暫停移動、結束後交還控制並重播。重用原專案 K:/Game/Unity/Dave/UnityTest2DProject、Unity6000.0.31f1、MCP10.3.0＋已記錄本機heartbeat修補、HEAD96f4520＋既有dirty，新增獨立場景、69行Runtime元件及Animator/clip，重用Ruby圖像；未加入正式場景表或Build Settings。
+
+MCP單次Play＋記憶體observer以暫時合成鍵盤持續按D，直接呼叫BeginArrival：演出中Player位移0且Visitor前進、完成後同一輸入帶動Player、重播重設並再次完成，3項通過、0失敗。首版observer動態編譯失敗後修正，沒有執行玩法；成功observer區間約2.745 editor秒，不作精準演出時間證據。清除observer與合成裝置、正常停Play，原04_WoodsPursuit場景還原clean，MCP fresh-ready／Console error0。沒有CLI、新專案或焦點實驗。
+
+12個新增資產以獨立Git index推送private codex/arena-exp0037／3b67b575，保留原工作分支、HEAD與staged entries。公開PR提供結果、C#快照與雜湊manifest，實際測試仍是本機dirty專案；未做GitHub乾淨重建、實體Space／按鈕、Player或主流程整合。詳見 [EXP0037-ArrivalControl.md](EXP0037-ArrivalControl.md)。
+
+## EXP-0038　略過演出後安全繼續（BLOCKED_MCP）
+
+重用EXP37場景與原專案暖快取，只改既有實驗元件：Escape／Skip入口將Animator取樣到終點並共用完成處理；idle時略過不做事。新問題是主動略過後交還控制與避免重複完成，非焦點／失焦重測。環境仍為 K:/Game/Unity/Dave/UnityTest2DProject、Unity6000.0.31f1、HEAD96f4520＋既有dirty與實驗資產，MCP10.3.0＋已記錄heartbeat修補。
+
+單次scripts編譯請求後資源記錄約23.609秒編譯與domain reload；但測試前主機移除了Unity MCP工具。最後snapshot fresh/idle、原04場景clean、Console error0；載入後方法／CompilationProbe未驗證，未進Play、無callback或合成鍵盤。因此0通過／0失敗／3未執行，實驗未完成，不是編譯失敗或玩法失敗。未CLI替代、新增專案、清快取或換環境。曾有WebSocket非正常關閉與instance查詢不一致，根因未確認；不把它等同舊heartbeat問題。
+
+單檔增量已保存在private codex/arena-exp0038／c0053106（parent3b67b575），原branch/HEAD/index bytes未變。公開紀錄提供快照、manifest與preflight結果。恢復同一Codex unityMCP工具後，先核對實際載入方法再繼續原定單次Play；詳見 [EXP0038-SkipArrival.md](EXP0038-SkipArrival.md)。
 
 ## 請審查
 
